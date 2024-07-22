@@ -1,0 +1,28 @@
+---
+import BaseHead from '../components/BaseHead.astro';
+import Header from '../components/Header.astro';
+import Footer from '../components/Footer.astro';
+import { SITE_TITLE, SITE_DESCRIPTION } from '../consts';
+
+import WhyPublishWithUs from '../components/home/WhyPublishWithUs.astro';
+import OurLatestPublications from '../components/home/LatestPublications.astro';
+import WhereWeAre from '../components/home/WhereWeAre.astro';
+import Hero from '../components/home/Hero.astro';
+---
+
+<!doctype html>
+<html lang="en">
+	<head>
+		<BaseHead title={SITE_TITLE} description={SITE_DESCRIPTION} />
+	</head>
+	<body>
+		<Header />
+		<main class="w-full">
+			<Hero />
+			<WhyPublishWithUs />
+			<OurLatestPublications />
+			<WhereWeAre />
+		</main>
+		<Footer />
+	</body>
+</html>
