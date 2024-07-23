@@ -1,0 +1,46 @@
+---
+import { Image } from 'astro:assets';
+import ImagePublication1 from '../../assets/images/pages/home/unlock-the-power-of-generative-ai-in-seo.jpg';
+
+import { contentfulClient } from "../../lib/contentful";
+import type { BlogPost } from "../../lib/contentful.ts";
+
+const entries = await contentfulClient.getEntries<BlogPost>({
+  content_type: "blogPost",
+});
+
+const posts = entries.items.map((item) => {
+  const { title, date, description, content, slug, hero } = item.fields;
+  return {
+    title,
+    slug,
+    description,
+    date: new Date(date).toLocaleDateString(),
+    hero: hero.fields.file.url
+  };
+});
+---
+ <section class="bg-white ">
+        <div class="py-8 px-4 mx-auto max-w-screen-xl lg:py-16 lg:px-6">
+            <div class="mx-auto max-w-screen-sm text-center mb-8 lg:mb-16">
+                <h2 class="mb-4 text-4xl tracking-tight font-extrabold text-teal-900 ">Our Latest Reviews</h2>
+                <p class="font-light text-teal-800 sm:text-xl ">Check out our book reviews and share your thoughts with us!</p>
+            </div> 
+            <div class="grid gap-8 sm:grid-cols-2 lg:grid-cols-3">
+
+          {posts.map((post) => (
+                <article class="p-4 bg-white rounded-lg border border-gray-200 shadow-md ">
+                    <a href={`/book-reviews/${post.slug}/`}>
+                      <img class="mb-5 rounded-lg" src={ post.hero} alt="{post.description}">
+                    </a>
+                    <span class="bg-teal-800 text-teal-100 text-xs font-semibold mr-2 px-2.5 py-0.5 rounded ">{post.date}</span>
+                    <h2 class="my-2 text-2xl font-bold tracking-tight text-teal-900 ">
+                        <a href={`/book-reviews/${post.slug}/`}>{post.title}</a>
+                    </h2>
+                      <p class="mb-4 font-light text-teal-900 ">{post.description} </p>
+                </article>
+              ))}
+                
+            </div>  
+        </div>
+      </section>
