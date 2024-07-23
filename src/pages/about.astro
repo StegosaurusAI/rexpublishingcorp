@@ -1,17 +1,26 @@
 ---
-import Layout from '../layouts/BlogPost.astro';
-
-
+import BaseLayout from '../layouts/BaseLayout.astro';
 import { Image } from 'astro:assets';
-import ImagePublication1 from '../assets/images/pages/about/rex-publishing-about.png';
+import HeroImage from '../assets/images/pages/about/rex-publishing-about.png';
 ---
 
-<Layout
+<BaseLayout
 	title="About Rex Publishing Corp"
 	description="Whe are Your Trusted Publishing Partner"
-	pubDate={new Date('July 15 2024')}
-	heroImage={"/rex-publishing-about.png"}
+	image={"/rex-publishing-about.png"}
+	className="max-w-screen-lg mx-auto"
 >
+  <Image 
+      class="w-full h-auto object-cover " 
+      src={HeroImage} 
+      loading="eager" 
+      alt="Rex Publishing - Your Trusted Publishing Partner"
+      widths={[320, 480, 768, 1024, 1440, 1920, HeroImage.width]}
+      sizes={`100vw`}
+  />
+
+	<h1 class="text-teal-800 text-2xl py-4">About Rex Publishing Corp.</h1>
+
 	<p class="py-2">Welcome to our publishing house, where every story finds its perfect audience. As a new venture in the literary world, we are founded on the profound expertise of our founder, who brings over several decades of experience in the publishing and educational sectors. Our mission is to transform your written words into globally recognized works.</p>
 	<p class="py-2">
 At our core, we specialize in adapting manuscripts for modern readers, offering a wide range of publishing formats including eBooks for popular platforms like Kindle and other e-readers, as well as immersive audiobooks and convenient print-on-demand options. This flexibility ensures that your work is accessible to every reader, in whatever format they prefer.

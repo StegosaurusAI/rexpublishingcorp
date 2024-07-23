@@ -1,9 +1,8 @@
 ---
 import { contentfulClient } from "../../lib/contentful";
+import { Image } from 'astro:assets';
 import type { BlogPost } from "../../lib/contentful.ts";
-import BaseHead from '../../components/BaseHead.astro';
-import Header from '../../components/Header.astro';
-import Footer from '../../components/Footer.astro';
+import BaseLayout from '../../layouts/BaseLayout.astro';
 
 const entries = await contentfulClient.getEntries<BlogPost>({
   content_type: "blogPost",
@@ -16,54 +15,44 @@ const posts = entries.items.map((item) => {
     slug,
     description,
     date: new Date(date).toLocaleDateString(),
-    hero: hero.fields.file.url
+    hero: hero.fields.file.url,
+    heroWidth: hero.fields.file.details.image.width,
+    heroHeight: hero.fields.file.details.image.height,
   };
 });
 ---
 
-<!doctype html>
-<html lang="en">
-	<head>
-		<BaseHead title="our book reviews" description="we review other books" />
-	</head>
-	<body>
-		<Header />
-		<main>
-      <section class="bg-white ">
-        <div class="py-8 px-4 mx-auto max-w-screen-xl lg:py-16 lg:px-6">
-            <div class="mx-auto max-w-screen-sm text-center mb-8 lg:mb-16">
-                <h2 class="mb-4 text-4xl tracking-tight font-extrabold text-gray-900 ">Our Reviews</h2>
-                <p class="font-light text-gray-500 sm:text-xl ">Check out our book reviews and share your thoughts with us!</p>
-            </div> 
-            <div class="grid gap-8 sm:grid-cols-2 lg:grid-cols-3">
+<BaseLayout title="our book reviews" description="we review other books" >
+  <section class="bg-white ">
+    <div class="py-8 px-4 mx-auto max-w-screen-xl lg:py-16 lg:px-6">
+        <div class="mx-auto max-w-screen-sm text-center mb-8 lg:mb-16">
+            <h2 class="mb-4 text-4xl tracking-tight font-extrabold text-gray-900 ">Our Reviews</h2>
+            <p class="font-light text-gray-500 sm:text-xl ">Check out our book reviews and share your thoughts with us!</p>
+        </div> 
+        <div class="grid gap-8 sm:grid-cols-2 lg:grid-cols-3">
 
-          {posts.map((post) => (
-                <article class="p-4 bg-white rounded-lg border border-gray-200 shadow-md ">
-                    <a href={`/book-reviews/${post.slug}/`}>
-                      <img class="mb-5 rounded-lg" src={ post.hero} alt="{post.description}">
-                    </a>
-                    <span class="bg-purple-100 text-purple-800 text-xs font-semibold mr-2 px-2.5 py-0.5 rounded ">{post.date}</span>
-                    <h2 class="my-2 text-2xl font-bold tracking-tight text-gray-900 ">
-                        <a href={`/book-reviews/${post.slug}/`}>{post.title}</a>
-                    </h2>
-              <p class="mb-4 font-light text-gray-500 ">{post.description}
-
-              </p>
-                    <!-- <div class="flex items-center space-x-4"> -->
-                    <!--     <img class="w-10 h-10 rounded-full" src="https://flowbite.s3.amazonaws.com/blocks/marketing-ui/avatars/jese-leos.png" alt="Jese Leos avatar"> -->
-                    <!--     <div class="font-medium "> -->
-                    <!--         <div>Jese Leos</div> -->
-                    <!--         <div class="text-sm font-normal text-gray-500 ">Aug 15, 2021 · 16 min read</div> -->
-                    <!--     </div> -->
-                    <!-- </div> -->
-                </article>
-                
-              ))}
-                
-            </div>  
-        </div>
-      </section>
-		</main>
-		<Footer />
-	</body>
-</html>
+      {posts.map((post) => (
+          <article class="p-4 bg-white rounded-lg border border-gray-200 shadow-md ">
+            <a href={`/book-reviews/${post.slug}/`}>
+            <Image class="mb-5 rounded-lg mx-auto" src={post.hero} width={post.heroWidth} height={post.heroHeight} alt="{post.description}">
+            </a>
+            <span class="bg-purple-100 text-purple-800 text-xs font-semibold mr-2 px-2.5 py-0.5 rounded ">{post.date}</span>
+            <h2 class="my-2 text-2xl font-bold tracking-tight text-gray-900 ">
+                <a href={`/book-reviews/${post.slug}/`}>{post.title}</a>
+            </h2>
+            <p class="mb-4 font-light text-gray-500 ">{post.description} </p>
+                <!-- <div class="flex items-center space-x-4"> -->
+                <!--     <img class="w-10 h-10 rounded-full" src="https://flowbite.s3.amazonaws.com/blocks/marketing-ui/avatars/jese-leos.png" alt="Jese Leos avatar"> -->
+                <!--     <div class="font-medium "> -->
+                <!--         <div>Jese Leos</div> -->
+                <!--         <div class="text-sm font-normal text-gray-500 ">Aug 15, 2021 · 16 min read</div> -->
+                <!--     </div> -->
+                <!-- </div> -->
+            </article>
+            
+          ))}
+            
+        </div>  
+    </div>
+  </section>
+</BaseLayout>
