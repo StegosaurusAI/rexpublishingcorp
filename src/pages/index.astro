@@ -4,13 +4,14 @@ import Header from '../components/Header.astro';
 import Footer from '../components/Footer.astro';
 import { SITE_TITLE, SITE_DESCRIPTION } from '../consts';
 
+import BaseLayout from '../layouts/BaseLayout.astro';
 import WhyPublishWithUs from '../components/home/WhyPublishWithUs.astro';
 import OurLatestPublications from '../components/home/LatestPublications.astro';
 import OurLatestReviews from '../components/home/LatestReviews.astro';
 import WhereWeAre from '../components/home/WhereWeAre.astro';
 import Hero from '../components/home/Hero.astro';
 import Newsletter from '../components/home/Newsletter.astro';
-import BaseLayout from '../layouts/BaseLayout.astro';
+import Quote from '../components/home/Quote.astro'
 ---
 
 <BaseLayout title={SITE_TITLE} description={SITE_DESCRIPTION} >
@@ -18,6 +19,7 @@ import BaseLayout from '../layouts/BaseLayout.astro';
 			<WhyPublishWithUs />
 			<OurLatestPublications />
 			<OurLatestReviews />
-			<Newsletter />
+			<Quote />
+			<!-- <Newsletter /> -->
 			<WhereWeAre />
 </BaseLayout>
