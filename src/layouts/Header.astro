@@ -1,114 +1,100 @@
 ---
-import HeaderLink from './HeaderLink.astro';
-import { SITE_TITLE } from '../consts';
+import { Image } from 'astro:assets'
+import logo from '../assets/svg/logo.svg'
+import ChevronDown from '../assets/icons/ChevronDown.astro'
+
+const links = [
+  {
+    href: "/",
+    text: "Home",
+  },
+  {
+    href: "/book-reviews/",
+    text: "Book Reviews",
+    title: "Here’s our blog where you can find our book reviews"
+  },
+  {
+    href: "/about/",
+    text: "About",
+    title: "About Us"
+  },
+  {
+    href: "/contact/",
+    text: "Contact",
+    title: "Contact Us"
+  },
+];
 ---
-
-<header>
-	<nav class="shadow-lg px-3">
-		<h2 class="text-teal-900 flex items-center">
-			<svg class="h-10"  version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" 
-	 	 	 	 viewBox="0 0 512 512" xml:space="preserve">
-			<path style="fill:#333333;" d="M256.001,0C397.385,0,512,114.615,512,255.999C512,397.385,397.385,512,256.001,512
-				C114.615,512,0,397.385,0,255.999C0,114.615,114.615,0,256.001,0z"/>
-			<path style="fill:#FAD24D;" d="M255.865,100.588l-34.062,183.801l-77.696-172.479l9.251,188.133l-83.3-141.052l49.757,236.426
-				c17.094,0,94.58-13.547,136.099-13.287c71.361,0.44,134.859,6.725,136.059,13.287l49.799-236.426l-83.3,141.053l9.251-188.133
-				l-77.761,172.663L255.865,100.588L255.865,100.588z"/>
-			<g>
-				<path style="fill:#EDB937;" d="M378.285,386.145c6.615,1.349,13.68,4.452,14.099,7.313l42.488-201.719L378.285,386.145z"/>
-				<ellipse style="fill:#EDB937;" cx="255.91" cy="395.258" rx="136.084" ry="18.361"/>
-			</g>
-			<circle style="fill:#FAD24D;" cx="70.053" cy="158.989" r="12.205"/>
-			<path style="fill:#FFD95E;" d="M78.072,149.784c0.93,1.724,1.459,3.696,1.459,5.792c0,6.74-5.464,12.205-12.205,12.205
-				c-3.068,0-5.872-1.132-8.015-3.001c-0.93-1.724-1.458-3.696-1.458-5.79c0-6.741,5.463-12.205,12.205-12.205
-				C73.125,146.784,75.928,147.916,78.072,149.784L78.072,149.784z"/>
-			<circle style="fill:#FAD24D;" cx="144.109" cy="111.911" r="13.13"/>
-			<path style="fill:#FFD95E;" d="M152.73,102.007c1.001,1.854,1.569,3.975,1.569,6.23c0,7.253-5.879,13.131-13.13,13.131
-				c-3.301,0-6.316-1.218-8.622-3.229c-1.001-1.854-1.57-3.975-1.57-6.23c0-7.253,5.879-13.131,13.131-13.131
-				C147.408,98.778,150.423,99.996,152.73,102.007z"/>
-			<circle style="fill:#FAD24D;" cx="255.87" cy="100.584" r="16.344"/>
-			<path style="fill:#FFD95E;" d="M266.597,88.262c1.246,2.308,1.953,4.947,1.953,7.754c0,9.027-7.317,16.345-16.343,16.345
-				c-4.109,0-7.863-1.516-10.734-4.018c-1.245-2.308-1.953-4.948-1.953-7.754c0-9.028,7.318-16.345,16.345-16.345
-				C259.973,84.243,263.726,85.759,266.597,88.262L266.597,88.262z"/>
-			<circle style="fill:#FAD24D;" cx="367.722" cy="111.911" r="13.13"/>
-			<path style="fill:#FFD95E;" d="M376.344,102.007c1.001,1.854,1.57,3.975,1.57,6.23c0,7.253-5.879,13.131-13.131,13.131
-				c-3.301,0-6.316-1.218-8.622-3.229c-1.001-1.854-1.569-3.975-1.569-6.23c0-7.253,5.879-13.131,13.13-13.131
-				C371.022,98.778,374.037,99.996,376.344,102.007z"/>
-			<circle style="fill:#FAD24D;" cx="441.488" cy="160.317" r="12.205"/>
-			<path style="fill:#FFD95E;" d="M449.506,151.112c0.93,1.724,1.459,3.694,1.459,5.79c0,6.741-5.464,12.205-12.205,12.205
-				c-3.068,0-5.872-1.132-8.015-3.001c-0.93-1.723-1.458-3.694-1.458-5.79c0-6.74,5.463-12.205,12.205-12.205
-				C444.56,148.111,447.362,149.242,449.506,151.112L449.506,151.112z"/>
-			</svg>
-			<a href="/" class="font-bold text-teal-900">{SITE_TITLE}</a>
-		</h2>
-		<div class="internal-links">
-			<HeaderLink href="/">Home</HeaderLink>
-			<HeaderLink href="/book-reviews">Our Reviews</HeaderLink>
-			<HeaderLink href="/about">About</HeaderLink>
-			<HeaderLink href="/contact">Contact</HeaderLink>
-		</div>
-		<!-- <div class="social-links"> -->
-		<!-- 	<a href="https://m.webtoo.ls/@astro" target="_blank"> -->
-		<!-- 		<span class="sr-only">Follow Astro on Mastodon</span> -->
-		<!-- 		<svg viewBox="0 0 16 16" aria-hidden="true" width="32" height="32" -->
-		<!-- 			><path -->
-		<!-- 				fill="currentColor" -->
-		<!-- 				d="M11.19 12.195c2.016-.24 3.77-1.475 3.99-2.603.348-1.778.32-4.339.32-4.339 0-3.47-2.286-4.488-2.286-4.488C12.062.238 10.083.017 8.027 0h-.05C5.92.017 3.942.238 2.79.765c0 0-2.285 1.017-2.285 4.488l-.002.662c-.004.64-.007 1.35.011 2.091.083 3.394.626 6.74 3.78 7.57 1.454.383 2.703.463 3.709.408 1.823-.1 2.847-.647 2.847-.647l-.06-1.317s-1.303.41-2.767.36c-1.45-.05-2.98-.156-3.215-1.928a3.614 3.614 0 0 1-.033-.496s1.424.346 3.228.428c1.103.05 2.137-.064 3.188-.189zm1.613-2.47H11.13v-4.08c0-.859-.364-1.295-1.091-1.295-.804 0-1.207.517-1.207 1.541v2.233H7.168V5.89c0-1.024-.403-1.541-1.207-1.541-.727 0-1.091.436-1.091 1.296v4.079H3.197V5.522c0-.859.22-1.541.66-2.046.456-.505 1.052-.764 1.793-.764.856 0 1.504.328 1.933.983L8 4.39l.417-.695c.429-.655 1.077-.983 1.934-.983.74 0 1.336.259 1.791.764.442.505.661 1.187.661 2.046v4.203z" -->
-		<!-- 			></path></svg -->
-		<!-- 		> -->
-		<!-- 	</a> -->
-		<!-- 	<a href="https://twitter.com/astrodotbuild" target="_blank"> -->
-		<!-- 		<span class="sr-only">Follow Astro on Twitter</span> -->
-		<!-- 		<svg viewBox="0 0 16 16" aria-hidden="true" width="32" height="32" -->
-		<!-- 			><path -->
-		<!-- 				fill="currentColor" -->
-		<!-- 				d="M5.026 15c6.038 0 9.341-5.003 9.341-9.334 0-.14 0-.282-.006-.422A6.685 6.685 0 0 0 16 3.542a6.658 6.658 0 0 1-1.889.518 3.301 3.301 0 0 0 1.447-1.817 6.533 6.533 0 0 1-2.087.793A3.286 3.286 0 0 0 7.875 6.03a9.325 9.325 0 0 1-6.767-3.429 3.289 3.289 0 0 0 1.018 4.382A3.323 3.323 0 0 1 .64 6.575v.045a3.288 3.288 0 0 0 2.632 3.218 3.203 3.203 0 0 1-.865.115 3.23 3.23 0 0 1-.614-.057 3.283 3.283 0 0 0 3.067 2.277A6.588 6.588 0 0 1 .78 13.58a6.32 6.32 0 0 1-.78-.045A9.344 9.344 0 0 0 5.026 15z" -->
-		<!-- 			></path></svg -->
-		<!-- 		> -->
-		<!-- 	</a> -->
-		<!-- 	<a href="https://github.com/withastro/astro" target="_blank"> -->
-		<!-- 		<span class="sr-only">Go to Astro's GitHub repo</span> -->
-		<!-- 		<svg viewBox="0 0 16 16" aria-hidden="true" width="32" height="32" -->
-		<!-- 			><path -->
-		<!-- 				fill="currentColor" -->
-		<!-- 				d="M8 0C3.58 0 0 3.58 0 8c0 3.54 2.29 6.53 5.47 7.59.4.07.55-.17.55-.38 0-.19-.01-.82-.01-1.49-2.01.37-2.53-.49-2.69-.94-.09-.23-.48-.94-.82-1.13-.28-.15-.68-.52-.01-.53.63-.01 1.08.58 1.23.82.72 1.21 1.87.87 2.33.66.07-.52.28-.87.51-1.07-1.78-.2-3.64-.89-3.64-3.95 0-.87.31-1.59.82-2.15-.08-.2-.36-1.02.08-2.12 0 0 .67-.21 2.2.82.64-.18 1.32-.27 2-.27.68 0 1.36.09 2 .27 1.53-1.04 2.2-.82 2.2-.82.44 1.1.16 1.92.08 2.12.51.56.82 1.27.82 2.15 0 3.07-1.87 3.75-3.65 3.95.29.25.54.73.54 1.48 0 1.07-.01 1.93-.01 2.2 0 .21.15.46.55.38A8.012 8.012 0 0 0 16 8c0-4.42-3.58-8-8-8z" -->
-		<!-- 			></path></svg -->
-		<!-- 		> -->
-		<!-- 	</a> -->
-		<!-- </div> -->
-	</nav>
+<header class="bg-teal-950 fixed w-full z-50 drop-shadow-md shadow-sm shadow-teal-950">
+<nav class="max-w-screen-xl mx-auto text-slate-100 flex gap-8 px-4 md:py-6 py-3 items-center font-normal relative">
+    <a href="/" class="flex items-center font-bold">
+      <Image src={logo} alt="whitecube.ai" class="w-auto h-8 pr-4" />
+      Rex Publishing
+    </a>
+    <span class="flex-grow"></span>
+    <button id="mobile-menu" data-collapse-toggle="navbar-default" type="button" class="inline-flex items-center p-2 w-10 h-10 justify-center text-sm text-dibby-gray-200 rounded-lg md:hidden hover:bg-dibby-gray-5 focus:outline-none focus:ring-2 focus:ring-dibby-gray-5" aria-controls="navbar-default" aria-expanded="false">
+        <span class="sr-only">Open main menu</span>
+        <svg class="w-5 h-5" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 17 14">
+            <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M1 1h15M1 7h15M1 13h15"/>
+        </svg>
+    </button>
+    <ul id="navbar-default" class="md:static hidden mx-auto md:flex gap-8 absolute bg-teal-950 md:w-auto w-full top-16 md:pt-0 md:pb-0 pb-32 pt-4 left-0 text-4xl md:text-lg md:h-auto h-screen">
+    {links.map(link => (
+      <li class="group relative">
+        <a class="md:mb-2 mb-4 flex justify-center items-center" href={link.href} data-has-sublinks={link.sublinks ? 'true' : 'false'}>
+                {link.text} {link.sublinks && (<ChevronDown />)}
+         </a> 
+            {link.sublinks && (
+              <ul class="pt-4 px-8 hidden md:absolute md:bg-white bg-zinc-800 border-t-4 md:border-t-8 drop-shadow md:border-t-pink-700 border-t-orange-500 font-semibold text-white md:text-gray-900 md:text-lg text-xl md:w-auto w-full transition-all duration-300 ease-in-out text-center md:text-left">
+                {link.sublinks.map(sublink => (
+                  <li class="md:pb-4 pb-5 whitespace-nowrap"><a href={sublink.href}>{sublink.text}</a></li>
+                ))}
+              </ul>
+            )}
+      </li>
+    ))}
+  </ul>
+</nav>
 </header>
-<style>
-	h2 {
-		margin: 0;
-		font-size: 1em;
-	}
+<script defer>
+document.addEventListener('DOMContentLoaded', function () {
+  const mobileMenuButton = document.getElementById('mobile-menu');
+  const navbar = document.getElementById('navbar-default');
+  const body = document.getElementsByTagName('body')[0];
+  const linksWithSublinks = document.querySelectorAll('a[data-has-sublinks="true"]');
+  currentlyOpenSubMenu = null;
 
-	h2 a,
-	h2 a.active {
-		text-decoration: none;
-	}
-	nav {
-		display: flex;
-		align-items: center;
-		justify-content: space-between;
-	}
-	nav a {
-		padding: 1em 0.5em;
-		color: var(--black);
-		border-bottom: 4px solid transparent;
-		text-decoration: none;
-	}
-	nav a.active {
-		text-decoration: none;
-		border-bottom-color: var(--accent);
-	}
-	.social-links,
-	.social-links a {
-		display: flex;
-	}
-	@media (max-width: 720px) {
-		.social-links {
-			display: none;
-		}
-	}
-</style>
+  mobileMenuButton.addEventListener('click', function () {
+    if (navbar) {
+      navbar.classList.toggle('hidden');
+      navbar.classList.toggle('overflow-y-auto');
+      body.classList.toggle('overflow-hidden');
+
+    }
+  });
+
+  linksWithSublinks.forEach(link => {
+    link.addEventListener('click', function (event) {
+      event.preventDefault();
+      const subMenu = link.nextElementSibling;
+      if (subMenu) {
+        if (currentlyOpenSubMenu && currentlyOpenSubMenu !== subMenu) {
+          currentlyOpenSubMenu.classList.add('hidden');
+        }
+        subMenu.classList.toggle('hidden');
+        currentlyOpenSubMenu = subMenu.classList.contains('hidden') ? null : subMenu;
+        event.stopPropagation(); // Stop propagation to prevent document click handler
+      }
+    });
+  });
+
+  document.addEventListener('click', function (event) {
+    if (currentlyOpenSubMenu) {
+      currentlyOpenSubMenu.classList.add('hidden');
+      currentlyOpenSubMenu = null;
+    }
+  });
+});
+</script>
+
+
