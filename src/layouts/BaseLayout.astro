@@ -24,8 +24,17 @@ const mainClases = className || "w-full";
       canonical={canonical}
       image={image}
     />
+		<link rel="preconnect" href="https://www.googletagmanager.com/">
 	</head>
 	<body>
+		<script type="text/partytown" src="https://www.googletagmanager.com/gtag/js?id=G-F7ND7BMD1L"></script>
+		<script type="text/partytown">
+		window.dataLayer = window.dataLayer || [];
+		function gtag() { dataLayer.push(arguments); }
+		gtag('js', new Date());
+		gtag('config', 'G-F7ND7BMD1L');
+		</script>
+
 		<Header />
     <main class={mainClases}>
       <slot />
