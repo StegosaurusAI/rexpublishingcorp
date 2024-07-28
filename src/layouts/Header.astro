@@ -1,6 +1,7 @@
 ---
 import { Image } from 'astro:assets'
-import logo from '../assets/svg/logo.svg'
+// import logo from '../assets/svg/logo.svg'
+import logo from '../assets/images/rex-logo-white.svg'
 import ChevronDown from '../assets/icons/ChevronDown.astro'
 
 const links = [
@@ -28,8 +29,7 @@ const links = [
 <header class="bg-teal-950 fixed w-full z-50 drop-shadow-md shadow-sm shadow-teal-950">
 <nav class="max-w-screen-xl mx-auto text-slate-100 flex gap-8 px-4 md:py-6 py-3 items-center font-normal relative">
     <a href="/" class="flex items-center font-bold">
-      <Image src={logo} alt="whitecube.ai" class="w-auto h-8 pr-4" />
-      Rex Publishing
+      <Image src={logo} alt="whitecube.ai" class="w-auto h-10 pr-4" />
     </a>
     <span class="flex-grow"></span>
     <button id="mobile-menu" data-collapse-toggle="navbar-default" type="button" class="inline-flex items-center p-2 w-10 h-10 justify-center text-sm text-dibby-gray-200 rounded-lg md:hidden hover:bg-dibby-gray-5 focus:outline-none focus:ring-2 focus:ring-dibby-gray-5" aria-controls="navbar-default" aria-expanded="false">
@@ -41,11 +41,11 @@ const links = [
     <ul id="navbar-default" class="md:static hidden mx-auto md:flex gap-8 absolute bg-teal-950 md:w-auto w-full top-16 md:pt-0 md:pb-0 pb-32 pt-4 left-0 text-4xl md:text-lg md:h-auto h-screen">
     {links.map(link => (
       <li class="group relative">
-        <a class="md:mb-2 mb-4 flex justify-center items-center" href={link.href} data-has-sublinks={link.sublinks ? 'true' : 'false'}>
+        <a class="md:mb-0 mb-4 flex justify-center items-center" href={link.href} data-has-sublinks={link.sublinks ? 'true' : 'false'}>
                 {link.text} {link.sublinks && (<ChevronDown />)}
          </a> 
             {link.sublinks && (
-              <ul class="pt-4 px-8 hidden md:absolute md:bg-white bg-zinc-800 border-t-4 md:border-t-8 drop-shadow md:border-t-pink-700 border-t-orange-500 font-semibold text-white md:text-gray-900 md:text-lg text-xl md:w-auto w-full transition-all duration-300 ease-in-out text-center md:text-left">
+              <ul class="pt-4 px-8 hidden md:absolute md:bg-white bg-zinc-800 border-t-4 md:border-t-8 drop-shadow md:border-t-pink-700 border-t-orange-500 font-semibold text-gray-200 md:text-gray-900 md:text-lg text-xl md:w-auto w-full transition-all duration-300 ease-in-out text-center md:text-left">
                 {link.sublinks.map(sublink => (
                   <li class="md:pb-4 pb-5 whitespace-nowrap"><a href={sublink.href}>{sublink.text}</a></li>
                 ))}

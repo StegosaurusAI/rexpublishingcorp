@@ -10,6 +10,7 @@ interface Props {
 
 import SEOHead from  './SEOHead.astro'; 
 import Header from './Header.astro'
+// import Header from './Header-new.astro'
 import Footer from './Footer.astro'
 
 const { title, description, type, image, canonical, className } = Astro.props;
@@ -36,7 +37,8 @@ const mainClases = className || "w-full";
 		</script>
 
 		<Header />
-    <main class={mainClases + " pt-16 md:pt-20"}>
+    <main class={mainClases + ""}>
+    <!-- <main class={mainClases + " pt-16 md:pt-20"}> -->
       <slot />
     </main>
 		<Footer />
