@@ -31,7 +31,7 @@ const posts = entries.items.map((item) => {
       {posts.map((post) => (
         <article class="p-4 bg-white rounded-lg border border-gray-200 shadow-md">
           <a href={`/book-reviews/${post.slug}/`}>
-            <Image class="mb-5 rounded-lg mx-auto" src={ post.hero} alt="{post.description}" width={post.heroWidth} height={post.heroHeight} />
+            <Image class="mb-5 rounded-lg mx-auto h-[400px] object-contain" src={ post.hero} alt="{post.description}" width={post.heroWidth} height={post.heroHeight} />
           </a>
           <span class="bg-teal-800 text-teal-100 text-xs font-semibold mr-2 px-2.5 py-0.5 rounded ">{post.date}</span>
           <h2 class="my-2 text-2xl font-bold tracking-tight text-teal-900 ">
