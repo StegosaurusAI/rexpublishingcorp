@@ -14,7 +14,7 @@ import Header from './Header.astro'
 import Footer from './Footer.astro'
 
 const { title, description, type, image, canonical, className } = Astro.props;
-const mainClases = className || "w-full";
+const mainClases = className || "w-full  pt-16 md:pt-20";
 
 ---
 <html lang="en">
@@ -37,8 +37,8 @@ const mainClases = className || "w-full";
 		</script>
 
 		<Header />
-    <main class={mainClases + ""}>
-    <!-- <main class={mainClases + " pt-16 md:pt-20"}> -->
+    <!-- <main class={mainClases + ""}> -->
+    <main class={mainClases}>
       <slot />
     </main>
 		<Footer />

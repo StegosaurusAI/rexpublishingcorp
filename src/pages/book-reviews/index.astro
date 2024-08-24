@@ -22,11 +22,11 @@ const posts = entries.items.map((item) => {
 });
 ---
 
-<BaseLayout title="our book reviews" description="we review other books" >
+<BaseLayout title="our latest news" description="we review other books" >
   <section class="bg-white ">
     <div class="py-8 px-4 mx-auto max-w-screen-xl lg:py-16 lg:px-6">
         <div class="mx-auto max-w-screen-sm text-center mb-8 lg:mb-16">
-            <h2 class="mb-4 text-4xl tracking-tight font-extrabold text-gray-900 ">Our Reviews</h2>
+            <h2 class="mb-4 text-4xl tracking-tight font-extrabold text-gray-900 ">Our News</h2>
             <p class="font-light text-gray-500 sm:text-xl ">Check out our book reviews and share your thoughts with us!</p>
         </div> 
         <div class="grid gap-8 sm:grid-cols-2 lg:grid-cols-3">
@@ -34,7 +34,7 @@ const posts = entries.items.map((item) => {
       {posts.map((post) => (
           <article class="p-4 bg-white rounded-lg border border-gray-200 shadow-md ">
             <a href={`/book-reviews/${post.slug}/`}>
-            <Image class="mb-5 rounded-lg mx-auto" src={post.hero} width={post.heroWidth} height={post.heroHeight} alt="{post.description}">
+            <Image class="mb-5 rounded-lg mx-auto h-[400px] object-contain" src={post.hero} width={post.heroWidth} height={post.heroHeight} alt="{post.description}">
             </a>
             <span class="bg-purple-100 text-purple-800 text-xs font-semibold mr-2 px-2.5 py-0.5 rounded ">{post.date}</span>
             <h2 class="my-2 text-2xl font-bold tracking-tight text-gray-900 ">
