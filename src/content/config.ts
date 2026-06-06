@@ -10,6 +10,10 @@ const blog = defineCollection({
 		pubDate: z.coerce.date(),
 		updatedDate: z.coerce.date().optional(),
 		heroImage: z.string().optional(),
+		author: z.string().default('Rex Publishing'),
+		draft: z.boolean().default(false),
+		legacyContentfulId: z.string().optional(),
+		source: z.enum(['repo', 'contentful-migration', 'sample']).default('repo'),
 	}),
 });
 

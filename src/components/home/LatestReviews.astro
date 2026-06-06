@@ -1,45 +1,47 @@
 ---
-import { Image } from 'astro:assets';
+import { getPublishedReviews } from '../../lib/reviews';
 
-import { contentfulClient } from "../../lib/contentful";
-import type { BlogPost } from "../../lib/contentful.ts";
-
-const entries = await contentfulClient.getEntries<BlogPost>({
-  content_type: "blogPost",
-});
-
-const posts = entries.items.map((item) => {
-  const { title, date, description, content, slug, hero } = item.fields;
-  return {
-    title,
-    slug,
-    description,
-    date: new Date(date).toLocaleDateString(),
-    hero: hero.fields.file.url,
-    heroWidth: hero.fields.file.details.image.width,
-    heroHeight: hero.fields.file.details.image.height,
-  };
-});
+const posts = (await getPublishedReviews()).slice(0, 3);
 ---
 <section class="bg-white ">
   <div class="py-8 px-4 mx-auto max-w-screen-xl lg:py-16 lg:px-6">
     <div class="mx-auto max-w-screen-sm text-center mb-8 lg:mb-16">
       <h2 class="mb-4 text-4xl tracking-tight font-extrabold text-teal-900 ">Our Latest Updates</h2>
-      <p class="font-light text-teal-800 sm:text-xl ">Check out our book reviews and share your thoughts with us!</p>
-    </div> 
-    <div class="grid gap-8 sm:grid-cols-2 lg:grid-cols-3">
-      {posts.map((post) => (
-        <article class="p-4 bg-white rounded-lg border border-gray-200 shadow-md">
-          <a href={`/book-reviews/${post.slug}/`}>
-            <Image class="mb-5 rounded-lg mx-auto h-[400px] object-contain" src={ post.hero} alt="{post.description}" width={post.heroWidth} height={post.heroHeight} />
-          </a>
-          <span class="bg-teal-800 text-teal-100 text-xs font-semibold mr-2 px-2.5 py-0.5 rounded ">{post.date}</span>
-          <h2 class="my-2 text-2xl font-bold tracking-tight text-teal-900 ">
-              <a href={`/book-reviews/${post.slug}/`}>{post.title}</a>
-          </h2>
-          <p class="mb-4 font-light text-teal-900 ">{post.description} </p>
-        </article>
-      ))}
-    </div>  
+      <p class="font-light text-teal-800 sm:text-xl ">Publishing news, reviews, and practical guidance from Rex Publishing.</p>
+    </div>
+
+    {posts.length ? (
+      <div class="grid gap-8 sm:grid-cols-2 lg:grid-cols-3">
+        {posts.map((post) => (
+          <article class="p-4 bg-white rounded-lg border border-gray-200 shadow-md">
+            {post.data.heroImage && (
+              <a href={`/book-reviews/${post.slug}/`}>
+                <img
+                  class="mb-5 rounded-lg mx-auto h-[400px] w-full object-cover"
+                  src={post.data.heroImage}
+                  alt={post.data.description}
+                  loading="lazy"
+                />
+              </a>
+            )}
+            <span class="bg-teal-800 text-teal-100 text-xs font-semibold mr-2 px-2.5 py-0.5 rounded ">
+              {post.data.pubDate.toLocaleDateString()}
+            </span>
+            <h2 class="my-2 text-2xl font-bold tracking-tight text-teal-900 ">
+              <a href={`/book-reviews/${post.slug}/`}>{post.data.title}</a>
+            </h2>
+            <p class="mb-4 font-light text-teal-900 ">{post.data.description}</p>
+          </article>
+        ))}
+      </div>
+    ) : (
+      <div class="mx-auto max-w-2xl rounded-2xl border border-teal-100 bg-teal-50 p-8 text-center">
+        <h3 class="mb-3 text-2xl font-bold text-teal-900">Archive migration in progress</h3>
+        <p class="text-teal-800">
+          We are moving existing reviews out of Contentful and into the repo-managed publishing flow.
+          Fresh posts will appear here once that import lands.
+        </p>
+      </div>
+    )}
   </div>
 </section>
