@@ -1,0 +1,63 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1600" height="900" viewBox="0 0 1600 900" role="img" aria-labelledby="title desc">
+  <title id="title">AAP 2025 publishing revenue summary chart</title>
+  <desc id="desc">A Rex Publishing summary chart showing AAP's 2025 U.S. publishing revenue baseline with total revenue, trade revenue, print share, digital share, digital audio, ebooks, online retail, and physical retail compared with 2024 context.</desc>
+  <defs>
+    <linearGradient id="bg" x1="0" x2="1" y1="0" y2="1">
+      <stop offset="0%" stop-color="#f5efe6"/>
+      <stop offset="100%" stop-color="#dce7ef"/>
+    </linearGradient>
+    <filter id="shadow" x="-10%" y="-10%" width="120%" height="120%">
+      <feDropShadow dx="0" dy="10" stdDeviation="16" flood-color="#1f2937" flood-opacity="0.14"/>
+    </filter>
+  </defs>
+  <rect width="1600" height="900" fill="url(#bg)"/>
+  <rect x="96" y="84" width="1408" height="732" rx="36" fill="#fffdfa" stroke="#d6d3d1" stroke-width="2"/>
+
+  <text x="156" y="156" font-family="Georgia, 'Times New Roman', serif" font-size="50" fill="#1f2937">AAP's 2025 annual report is strongest as a market baseline, not a forecast</text>
+  <text x="156" y="206" font-family="'Helvetica Neue', Arial, sans-serif" font-size="28" fill="#475569">Calendar year 2025, reported August 10, 2026</text>
+
+  <g filter="url(#shadow)">
+    <rect x="150" y="282" width="402" height="172" rx="28" fill="#17324d"/>
+    <text x="188" y="344" font-family="Georgia, 'Times New Roman', serif" font-size="38" fill="#f8fafc">$33.4B total</text>
+    <text x="188" y="388" font-family="'Helvetica Neue', Arial, sans-serif" font-size="26" fill="#dbeafe">U.S. publishing revenue in 2025</text>
+    <text x="188" y="426" font-family="'Helvetica Neue', Arial, sans-serif" font-size="22" fill="#dbeafe">Up 2.5% from $32.5B in 2024</text>
+  </g>
+
+  <g filter="url(#shadow)">
+    <rect x="598" y="282" width="402" height="172" rx="28" fill="#164e63"/>
+    <text x="636" y="344" font-family="Georgia, 'Times New Roman', serif" font-size="38" fill="#ecfeff">$21.7B trade</text>
+    <text x="636" y="388" font-family="'Helvetica Neue', Arial, sans-serif" font-size="26" fill="#cffafe">Consumer-book revenue in 2025</text>
+    <text x="636" y="426" font-family="'Helvetica Neue', Arial, sans-serif" font-size="22" fill="#cffafe">Up 2.7% year over year</text>
+  </g>
+
+  <g filter="url(#shadow)">
+    <rect x="1046" y="282" width="402" height="172" rx="28" fill="#365314"/>
+    <text x="1084" y="344" font-family="Georgia, 'Times New Roman', serif" font-size="38" fill="#f7fee7">50.6% print</text>
+    <text x="1084" y="388" font-family="'Helvetica Neue', Arial, sans-serif" font-size="26" fill="#dcfce7">14.2% digital formats</text>
+    <text x="1084" y="426" font-family="'Helvetica Neue', Arial, sans-serif" font-size="22" fill="#dcfce7">Print still holds the majority share</text>
+  </g>
+
+  <g filter="url(#shadow)">
+    <rect x="150" y="508" width="402" height="172" rx="28" fill="#7c2d12"/>
+    <text x="188" y="570" font-family="Georgia, 'Times New Roman', serif" font-size="38" fill="#fff7ed">$2.5B audio</text>
+    <text x="188" y="614" font-family="'Helvetica Neue', Arial, sans-serif" font-size="26" fill="#ffedd5">Up 5.3% in 2025</text>
+    <text x="188" y="652" font-family="'Helvetica Neue', Arial, sans-serif" font-size="22" fill="#ffedd5">Ebooks also rose to $2.2B, up 3.2%</text>
+  </g>
+
+  <g filter="url(#shadow)">
+    <rect x="598" y="508" width="402" height="172" rx="28" fill="#4c1d95"/>
+    <text x="636" y="570" font-family="Georgia, 'Times New Roman', serif" font-size="38" fill="#f5f3ff">$12.3B online retail</text>
+    <text x="636" y="614" font-family="'Helvetica Neue', Arial, sans-serif" font-size="26" fill="#ede9fe">Largest sales channel</text>
+    <text x="636" y="652" font-family="'Helvetica Neue', Arial, sans-serif" font-size="22" fill="#ede9fe">Up 3.1% year over year</text>
+  </g>
+
+  <g filter="url(#shadow)">
+    <rect x="1046" y="508" width="402" height="172" rx="28" fill="#9a3412"/>
+    <text x="1084" y="570" font-family="Georgia, 'Times New Roman', serif" font-size="38" fill="#fff7ed">$6.7B physical retail</text>
+    <text x="1084" y="614" font-family="'Helvetica Neue', Arial, sans-serif" font-size="26" fill="#ffedd5">Up 7.2% in 2025</text>
+    <text x="1084" y="652" font-family="'Helvetica Neue', Arial, sans-serif" font-size="22" fill="#ffedd5">Intermediary revenue fell to $4.4B</text>
+  </g>
+
+  <rect x="150" y="730" width="1298" height="46" rx="23" fill="#1f2937"/>
+  <text x="190" y="760" font-family="'Helvetica Neue', Arial, sans-serif" font-size="22" fill="#f8fafc">AAP says StatShot is a 50-year program supported by 1,300+ participants and adjusted for participation changes and restatements.</text>
+</svg>
