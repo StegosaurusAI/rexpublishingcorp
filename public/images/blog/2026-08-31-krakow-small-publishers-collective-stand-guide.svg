@@ -1,0 +1,46 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1600" height="900" viewBox="0 0 1600 900" role="img" aria-labelledby="title desc">
+  <title id="title">Krakow small publishers collective stand guide</title>
+  <desc id="desc">A Rex Publishing checklist graphic showing the September 7, 2026 application deadline, the September 10 result date, the October 22 to 25 Krakow fair dates, and the core eligibility tests for the small-publisher collective stand.</desc>
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#f8fafc"/>
+      <stop offset="100%" stop-color="#e0f2fe"/>
+    </linearGradient>
+  </defs>
+  <rect width="1600" height="900" fill="url(#bg)"/>
+  <rect x="56" y="56" width="1488" height="788" rx="36" fill="#ffffff" stroke="#cbd5e1" stroke-width="4"/>
+  <text x="112" y="150" fill="#0f172a" font-family="Arial, sans-serif" font-size="48" font-weight="700">
+    Krakow small-publisher stand
+  </text>
+  <text x="112" y="204" fill="#475569" font-family="Arial, sans-serif" font-size="28">
+    Useful only if the press fits the brief, can file by September 7, and can staff the fair
+  </text>
+
+  <g font-family="Arial, sans-serif">
+    <rect x="112" y="266" width="404" height="190" rx="28" fill="#dbeafe" stroke="#2563eb" stroke-width="4"/>
+    <text x="144" y="334" fill="#1d4ed8" font-size="30" font-weight="700">Deadline</text>
+    <text x="144" y="384" fill="#1e3a8a" font-size="40" font-weight="700">7 Sept 2026</text>
+    <text x="144" y="424" fill="#1e40af" font-size="24">Apply by end of day</text>
+
+    <rect x="548" y="266" width="404" height="190" rx="28" fill="#dcfce7" stroke="#16a34a" stroke-width="4"/>
+    <text x="580" y="334" fill="#166534" font-size="30" font-weight="700">Results</text>
+    <text x="580" y="384" fill="#166534" font-size="40" font-weight="700">10 Sept 2026</text>
+    <text x="580" y="424" fill="#166534" font-size="24">Ten publishers selected</text>
+
+    <rect x="984" y="266" width="448" height="190" rx="28" fill="#fef3c7" stroke="#d97706" stroke-width="4"/>
+    <text x="1016" y="334" fill="#92400e" font-size="30" font-weight="700">Fair dates</text>
+    <text x="1016" y="384" fill="#92400e" font-size="40" font-weight="700">22 to 25 Oct 2026</text>
+    <text x="1016" y="424" fill="#92400e" font-size="24">EXPO Krakow, 9 Galicyjska Street</text>
+  </g>
+
+  <g font-family="Arial, sans-serif">
+    <rect x="112" y="506" width="1320" height="266" rx="28" fill="#f8fafc" stroke="#cbd5e1" stroke-width="4"/>
+    <text x="146" y="566" fill="#0f172a" font-size="34" font-weight="700">Eligibility and workload checklist</text>
+    <text x="146" y="622" fill="#334155" font-size="28">Up to 15 titles a year or 50 across three years</text>
+    <text x="146" y="666" fill="#334155" font-size="28">At least two years on the market</text>
+    <text x="146" y="710" fill="#334155" font-size="28">Independent press publishing literature and or art books</text>
+    <text x="820" y="622" fill="#334155" font-size="28">No duplicate fair presence elsewhere in Krakow</text>
+    <text x="820" y="666" fill="#334155" font-size="28">Representative on site for the full fair</text>
+    <text x="820" y="710" fill="#334155" font-size="28">Own sales plus PLN 150 net registration fee</text>
+  </g>
+</svg>

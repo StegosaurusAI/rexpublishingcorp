@@ -1,0 +1,46 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1600" height="900" viewBox="0 0 1600 900" role="img" aria-labelledby="title desc">
+  <title id="title">ALTA 2027 mentorship applications guide</title>
+  <desc id="desc">A Rex Publishing timeline graphic showing ALTA mentorship applications open on September 1, 2026, closing on November 30, 2026, followed by a February 2027 start and a later conference reading plus First Look opportunity.</desc>
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#f8fafc"/>
+      <stop offset="100%" stop-color="#ecfccb"/>
+    </linearGradient>
+  </defs>
+  <rect width="1600" height="900" fill="url(#bg)"/>
+  <rect x="56" y="56" width="1488" height="788" rx="36" fill="#ffffff" stroke="#d9f99d" stroke-width="4"/>
+  <text x="112" y="150" fill="#1f2937" font-family="Arial, sans-serif" font-size="48" font-weight="700">
+    ALTA 2027 mentorship window
+  </text>
+  <text x="112" y="204" fill="#475569" font-family="Arial, sans-serif" font-size="28">
+    Useful only if the project is ready for a year of guided translation work
+  </text>
+
+  <g font-family="Arial, sans-serif">
+    <rect x="112" y="266" width="392" height="200" rx="28" fill="#dbeafe" stroke="#2563eb" stroke-width="4"/>
+    <text x="144" y="334" fill="#1d4ed8" font-size="30" font-weight="700">Applications open</text>
+    <text x="144" y="386" fill="#1e3a8a" font-size="40" font-weight="700">1 Sept 2026</text>
+    <text x="144" y="428" fill="#1e40af" font-size="24">14 mentorships in the 2027 cycle</text>
+
+    <rect x="536" y="266" width="392" height="200" rx="28" fill="#fef3c7" stroke="#d97706" stroke-width="4"/>
+    <text x="568" y="334" fill="#92400e" font-size="30" font-weight="700">Deadline</text>
+    <text x="568" y="386" fill="#92400e" font-size="40" font-weight="700">30 Nov 2026</text>
+    <text x="568" y="428" fill="#b45309" font-size="24">11:59 p.m. PT</text>
+
+    <rect x="960" y="266" width="472" height="200" rx="28" fill="#dcfce7" stroke="#16a34a" stroke-width="4"/>
+    <text x="992" y="334" fill="#166534" font-size="30" font-weight="700">Mentorship start</text>
+    <text x="992" y="386" fill="#166534" font-size="40" font-weight="700">February 2027</text>
+    <text x="992" y="428" fill="#166534" font-size="24">Video kickoff, then six meetings minimum</text>
+  </g>
+
+  <g font-family="Arial, sans-serif">
+    <rect x="112" y="516" width="1320" height="254" rx="28" fill="#f8fafc" stroke="#cbd5e1" stroke-width="4"/>
+    <text x="146" y="578" fill="#0f172a" font-size="34" font-weight="700">What the program actually asks for</text>
+    <text x="146" y="634" fill="#334155" font-size="28">One selected project that can hold a full year of revision</text>
+    <text x="146" y="678" fill="#334155" font-size="28">At least six mentor meetings during the first nine months</text>
+    <text x="146" y="722" fill="#334155" font-size="28">Conference reading plus a possible First Look submission</text>
+    <text x="860" y="634" fill="#334155" font-size="28">Complimentary conference registration for mentees</text>
+    <text x="860" y="678" fill="#334155" font-size="28">$1,500 for travel and on-site accommodations</text>
+    <text x="860" y="722" fill="#334155" font-size="28">A professional-development path, not a guaranteed publication deal</text>
+  </g>
+</svg>

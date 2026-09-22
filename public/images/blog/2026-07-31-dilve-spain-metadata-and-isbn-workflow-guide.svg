@@ -1,0 +1,60 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1600" height="900" viewBox="0 0 1600 900" role="img" aria-labelledby="title desc">
+  <title id="title">DILVE metadata and ISBN workflow card</title>
+  <desc id="desc">Workflow diagram showing publisher metadata flowing through standards and quality checks into ISBN registration and downstream trade distribution.</desc>
+  <defs>
+    <linearGradient id="bg" x1="0" x2="1" y1="0" y2="1">
+      <stop offset="0%" stop-color="#f4efe7"/>
+      <stop offset="100%" stop-color="#d8e7ea"/>
+    </linearGradient>
+    <filter id="shadow" x="-10%" y="-10%" width="120%" height="120%">
+      <feDropShadow dx="0" dy="10" stdDeviation="16" flood-color="#1f2937" flood-opacity="0.16"/>
+    </filter>
+  </defs>
+  <rect width="1600" height="900" fill="url(#bg)"/>
+  <rect x="110" y="88" width="1380" height="724" rx="34" fill="#fffaf2" stroke="#cbd5e1" stroke-width="2"/>
+
+  <text x="180" y="170" font-family="Georgia, 'Times New Roman', serif" font-size="56" fill="#17324d">DILVE Workflow</text>
+  <text x="180" y="220" font-family="'Helvetica Neue', Arial, sans-serif" font-size="28" fill="#475569">One metadata source, several downstream jobs.</text>
+
+  <g filter="url(#shadow)">
+    <rect x="170" y="320" width="280" height="210" rx="28" fill="#17324d"/>
+    <text x="210" y="390" font-family="Georgia, 'Times New Roman', serif" font-size="38" fill="#f8fafc">Source</text>
+    <text x="210" y="438" font-family="'Helvetica Neue', Arial, sans-serif" font-size="28" fill="#dbeafe">Publisher metadata</text>
+    <text x="210" y="475" font-family="'Helvetica Neue', Arial, sans-serif" font-size="22" fill="#dbeafe">300+ fields, commercial</text>
+    <text x="210" y="505" font-family="'Helvetica Neue', Arial, sans-serif" font-size="22" fill="#dbeafe">and rich data together</text>
+  </g>
+
+  <g filter="url(#shadow)">
+    <rect x="520" y="320" width="280" height="210" rx="28" fill="#164e63"/>
+    <text x="560" y="390" font-family="Georgia, 'Times New Roman', serif" font-size="38" fill="#ecfeff">Discipline</text>
+    <text x="560" y="438" font-family="'Helvetica Neue', Arial, sans-serif" font-size="28" fill="#cffafe">ONIX, Thema, ISNI</text>
+    <text x="560" y="475" font-family="'Helvetica Neue', Arial, sans-serif" font-size="22" fill="#cffafe">Quality checks before</text>
+    <text x="560" y="505" font-family="'Helvetica Neue', Arial, sans-serif" font-size="22" fill="#cffafe">the data moves outward</text>
+  </g>
+
+  <g filter="url(#shadow)">
+    <rect x="870" y="320" width="280" height="210" rx="28" fill="#365314"/>
+    <text x="910" y="390" font-family="Georgia, 'Times New Roman', serif" font-size="38" fill="#f7fee7">Gateway</text>
+    <text x="910" y="438" font-family="'Helvetica Neue', Arial, sans-serif" font-size="28" fill="#dcfce7">ISBN registration</text>
+    <text x="910" y="475" font-family="'Helvetica Neue', Arial, sans-serif" font-size="22" fill="#dcfce7">Prior validation and</text>
+    <text x="910" y="505" font-family="'Helvetica Neue', Arial, sans-serif" font-size="22" fill="#dcfce7">less repeat entry</text>
+  </g>
+
+  <g filter="url(#shadow)">
+    <rect x="1220" y="320" width="210" height="210" rx="28" fill="#7c2d12"/>
+    <text x="1255" y="390" font-family="Georgia, 'Times New Roman', serif" font-size="38" fill="#fff7ed">Output</text>
+    <text x="1255" y="438" font-family="'Helvetica Neue', Arial, sans-serif" font-size="28" fill="#ffedd5">Trade feeds</text>
+    <text x="1255" y="475" font-family="'Helvetica Neue', Arial, sans-serif" font-size="22" fill="#ffedd5">ONIX, SINLI, CSV</text>
+    <text x="1255" y="505" font-family="'Helvetica Neue', Arial, sans-serif" font-size="22" fill="#ffedd5">plus Libranda</text>
+  </g>
+
+  <path d="M450 425 H520" stroke="#17324d" stroke-width="10" stroke-linecap="round"/>
+  <polygon points="520,425 490,408 490,442" fill="#17324d"/>
+  <path d="M800 425 H870" stroke="#164e63" stroke-width="10" stroke-linecap="round"/>
+  <polygon points="870,425 840,408 840,442" fill="#164e63"/>
+  <path d="M1150 425 H1220" stroke="#365314" stroke-width="10" stroke-linecap="round"/>
+  <polygon points="1220,425 1190,408 1190,442" fill="#365314"/>
+
+  <rect x="180" y="634" width="1240" height="98" rx="24" fill="#17324d"/>
+  <text x="220" y="680" font-family="'Helvetica Neue', Arial, sans-serif" font-size="26" fill="#f8fafc">Practical lesson: metadata quality only helps when one maintained source can feed registration, supply-chain extracts, and digital-book distribution without fresh manual re-entry.</text>
+</svg>

@@ -1,0 +1,39 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1600" height="900" viewBox="0 0 1600 900" role="img" aria-labelledby="title desc">
+  <title id="title">Danish Arts Foundation translation support decision chart</title>
+  <desc id="desc">A Rex Publishing explainer card comparing Danish sample-translation funding with full translation-publication support ahead of the September 3, 2026 deadline.</desc>
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#f8fafc"/>
+      <stop offset="100%" stop-color="#dbeafe"/>
+    </linearGradient>
+  </defs>
+  <rect width="1600" height="900" fill="url(#bg)"/>
+  <rect x="64" y="72" width="1472" height="756" rx="36" fill="#ffffff" stroke="#cbd5e1" stroke-width="4"/>
+  <text x="118" y="156" fill="#0f172a" font-family="Arial, sans-serif" font-size="50" font-weight="700">
+    Danish Arts Foundation 2026
+  </text>
+  <text x="118" y="210" fill="#475569" font-family="Arial, sans-serif" font-size="28">
+    Deadline for both routes: 3 September 2026, 2:00 PM
+  </text>
+  <g font-family="Arial, sans-serif">
+    <rect x="118" y="264" width="610" height="260" rx="26" fill="#eff6ff" stroke="#2563eb" stroke-width="4"/>
+    <text x="154" y="324" fill="#1d4ed8" font-size="34" font-weight="700">Use sample translations when</text>
+    <text x="154" y="370" fill="#1e3a8a" font-size="24">You need to test foreign-language interest first</text>
+    <text x="154" y="404" fill="#1e3a8a" font-size="24">Applicants may be publishers or agencies</text>
+    <text x="154" y="438" fill="#1e3a8a" font-size="24">DKK 8,000 for a 40-page sample from 100+ pages</text>
+    <text x="154" y="472" fill="#1e3a8a" font-size="24">DKK 3,000 for illustrated or shorter works</text>
+
+    <rect x="776" y="264" width="658" height="260" rx="26" fill="#dcfce7" stroke="#16a34a" stroke-width="4"/>
+    <text x="812" y="324" fill="#166534" font-size="34" font-weight="700">Use full-publication support when</text>
+    <text x="812" y="370" fill="#166534" font-size="24">Rights are already acquired</text>
+    <text x="812" y="404" fill="#166534" font-size="24">The translator is already under contract</text>
+    <text x="812" y="438" fill="#166534" font-size="24">Applicants are publishing houses and publishers</text>
+    <text x="812" y="472" fill="#166534" font-size="24">Support bands run from DKK 15,000 to DKK 100,000</text>
+  </g>
+  <g font-family="Arial, sans-serif">
+    <rect x="118" y="576" width="1316" height="172" rx="28" fill="#f8fafc" stroke="#cbd5e1" stroke-width="4"/>
+    <text x="154" y="636" fill="#0f172a" font-size="34" font-weight="700">Important filters</text>
+    <text x="154" y="682" fill="#334155" font-size="26">Non-Nordic publishers use these routes. Nordic-language publishers use a separate Nordic translations fund.</text>
+    <text x="154" y="720" fill="#64748b" font-size="22">Both routes exclude research, education, local history, handbooks, self-help, lifestyle titles, dictionaries, catalogues, and similar works.</text>
+  </g>
+</svg>

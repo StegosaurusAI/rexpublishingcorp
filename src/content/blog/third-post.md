@@ -4,6 +4,7 @@ description: 'Lorem ipsum dolor sit amet'
 pubDate: 'Jul 22 2022'
 heroImage: '/blog-placeholder-2.jpg'
 draft: true
+contentType: article
 source: sample
 ---
 

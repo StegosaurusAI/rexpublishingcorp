@@ -1,0 +1,63 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1600" height="900" viewBox="0 0 1600 900" role="img" aria-labelledby="title desc">
+  <title id="title">Frankfurt Rights Meeting 2026 planning guide</title>
+  <desc id="desc">A Rex Publishing planning graphic showing the four Frankfurt Rights Meeting 2026 September session dates, the October 6 networking reception, and the anniversary ticket options.</desc>
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#eff6ff"/>
+      <stop offset="100%" stop-color="#fef3c7"/>
+    </linearGradient>
+  </defs>
+  <rect width="1600" height="900" fill="url(#bg)"/>
+  <rect x="60" y="68" width="1480" height="764" rx="36" fill="#ffffff" stroke="#cbd5e1" stroke-width="4"/>
+  <text x="116" y="160" fill="#0f172a" font-family="Arial, sans-serif" font-size="50" font-weight="700">
+    Frankfurt Rights Meeting 2026
+  </text>
+  <text x="116" y="214" fill="#475569" font-family="Arial, sans-serif" font-size="28">
+    Useful only if one September session or the October 6 reception solves a real pre-fair problem
+  </text>
+  <g font-family="Arial, sans-serif">
+    <rect x="116" y="286" width="270" height="224" rx="24" fill="#dbeafe" stroke="#2563eb" stroke-width="4"/>
+    <text x="146" y="352" fill="#1d4ed8" font-size="34" font-weight="700">1 Sept</text>
+    <text x="146" y="404" fill="#1e40af" font-size="28">AI in Rights</text>
+    <text x="146" y="444" fill="#1e40af" font-size="24">Workflow, legal,</text>
+    <text x="146" y="476" fill="#1e40af" font-size="24">and market-use</text>
+
+    <rect x="420" y="286" width="270" height="224" rx="24" fill="#dcfce7" stroke="#16a34a" stroke-width="4"/>
+    <text x="450" y="352" fill="#166534" font-size="34" font-weight="700">8 Sept</text>
+    <text x="450" y="404" fill="#166534" font-size="28">French-language</text>
+    <text x="450" y="436" fill="#166534" font-size="28">markets</text>
+    <text x="450" y="476" fill="#166534" font-size="24">Entry logic for</text>
+    <text x="450" y="508" fill="#166534" font-size="24">key territories</text>
+
+    <rect x="724" y="286" width="270" height="224" rx="24" fill="#fef3c7" stroke="#d97706" stroke-width="4"/>
+    <text x="754" y="352" fill="#92400e" font-size="34" font-weight="700">15 Sept</text>
+    <text x="754" y="404" fill="#92400e" font-size="28">Children's and YA</text>
+    <text x="754" y="444" fill="#92400e" font-size="24">Rights-selling and</text>
+    <text x="754" y="476" fill="#92400e" font-size="24">market shifts</text>
+
+    <rect x="1028" y="286" width="270" height="224" rx="24" fill="#fee2e2" stroke="#ef4444" stroke-width="4"/>
+    <text x="1058" y="352" fill="#991b1b" font-size="34" font-weight="700">22 Sept</text>
+    <text x="1058" y="404" fill="#991b1b" font-size="28">English-language</text>
+    <text x="1058" y="436" fill="#991b1b" font-size="28">markets</text>
+    <text x="1058" y="476" fill="#991b1b" font-size="24">U.S. and U.K.</text>
+    <text x="1058" y="508" fill="#991b1b" font-size="24">entry pathways</text>
+
+    <rect x="1332" y="286" width="150" height="224" rx="24" fill="#ede9fe" stroke="#7c3aed" stroke-width="4"/>
+    <text x="1360" y="352" fill="#6d28d9" font-size="34" font-weight="700">6 Oct</text>
+    <text x="1360" y="404" fill="#6d28d9" font-size="24">17:00 to</text>
+    <text x="1360" y="436" fill="#6d28d9" font-size="24">19:00</text>
+    <text x="1360" y="476" fill="#6d28d9" font-size="24">Frankfurt</text>
+    <text x="1360" y="508" fill="#6d28d9" font-size="24">reception</text>
+  </g>
+  <g stroke="#94a3b8" stroke-width="8" fill="none" stroke-linecap="round">
+    <path d="M386 398 H420"/>
+    <path d="M690 398 H724"/>
+    <path d="M994 398 H1028"/>
+    <path d="M1298 398 H1332"/>
+  </g>
+  <g font-family="Arial, sans-serif">
+    <rect x="116" y="574" width="1366" height="176" rx="28" fill="#f8fafc" stroke="#cbd5e1" stroke-width="4"/>
+    <text x="150" y="638" fill="#0f172a" font-size="34" font-weight="700">Anniversary ticket options</text>
+    <text x="150" y="688" fill="#334155" font-size="28">EUR 40 for one online session | EUR 24 for the networking reception | EUR 140 all access</text>
+  </g>
+</svg>

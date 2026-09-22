@@ -1,0 +1,43 @@
+<svg width="1600" height="900" viewBox="0 0 1600 900" fill="none" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="title desc">
+  <title id="title">EPUB Reading Systems 3.4 QA checklist</title>
+  <desc id="desc">Comparison graphic showing the stable EPUB 3.3 baseline and the in-development EPUB Reading Systems 3.4 draft, with testing lanes for layout, legacy processing, network access, and accessibility controls.</desc>
+  <rect width="1600" height="900" fill="#F5F7F2"/>
+  <rect x="56" y="56" width="1488" height="788" rx="32" fill="#FFFDF7" stroke="#D6D3C7" stroke-width="2"/>
+  <rect x="104" y="108" width="556" height="168" rx="24" fill="#134E4A"/>
+  <text x="152" y="174" fill="#F8FAFC" font-family="'Helvetica Neue', Arial, sans-serif" font-size="28" font-weight="700">Stable now</text>
+  <text x="152" y="224" fill="#FFFFFF" font-family="'Helvetica Neue', Arial, sans-serif" font-size="46" font-weight="700">EPUB 3.3 stack</text>
+  <text x="152" y="258" fill="#CCFBF1" font-family="'Helvetica Neue', Arial, sans-serif" font-size="24">Authoring, reading-system, and accessibility baseline for live production</text>
+  <rect x="708" y="108" width="788" height="168" rx="24" fill="#C2410C"/>
+  <text x="756" y="174" fill="#FFEDD5" font-family="'Helvetica Neue', Arial, sans-serif" font-size="28" font-weight="700">In development</text>
+  <text x="756" y="224" fill="#FFFFFF" font-family="'Helvetica Neue', Arial, sans-serif" font-size="46" font-weight="700">Reading Systems 3.4 draft</text>
+  <text x="756" y="258" fill="#FFEDD5" font-family="'Helvetica Neue', Arial, sans-serif" font-size="24">Use for QA questions, vendor conversations, and roadmap pressure testing</text>
+  <rect x="104" y="338" width="312" height="190" rx="24" fill="#E0F2FE"/>
+  <text x="136" y="392" fill="#0F172A" font-family="'Helvetica Neue', Arial, sans-serif" font-size="34" font-weight="700">1. Layout</text>
+  <text x="136" y="438" fill="#1E3A8A" font-family="'Helvetica Neue', Arial, sans-serif" font-size="24">Check roll-layout support</text>
+  <text x="136" y="472" fill="#334155" font-family="'Helvetica Neue', Arial, sans-serif" font-size="22">and fixed-layout behavior</text>
+  <text x="136" y="506" fill="#334155" font-family="'Helvetica Neue', Arial, sans-serif" font-size="22">without treating the draft</text>
+  <text x="136" y="540" fill="#334155" font-family="'Helvetica Neue', Arial, sans-serif" font-size="22">as universal implementation.</text>
+  <rect x="440" y="338" width="312" height="190" rx="24" fill="#ECFCCB"/>
+  <text x="472" y="392" fill="#0F172A" font-family="'Helvetica Neue', Arial, sans-serif" font-size="34" font-weight="700">2. Legacy rules</text>
+  <text x="472" y="438" fill="#365314" font-family="'Helvetica Neue', Arial, sans-serif" font-size="24">Retest old assumptions about</text>
+  <text x="472" y="472" fill="#334155" font-family="'Helvetica Neue', Arial, sans-serif" font-size="22">manifest fallbacks, older</text>
+  <text x="472" y="506" fill="#334155" font-family="'Helvetica Neue', Arial, sans-serif" font-size="22">fixed-layout processing, and</text>
+  <text x="472" y="540" fill="#334155" font-family="'Helvetica Neue', Arial, sans-serif" font-size="22">case-sensitive feature checks.</text>
+  <rect x="776" y="338" width="312" height="190" rx="24" fill="#FCE7F3"/>
+  <text x="808" y="392" fill="#0F172A" font-family="'Helvetica Neue', Arial, sans-serif" font-size="34" font-weight="700">3. Network access</text>
+  <text x="808" y="438" fill="#9D174D" font-family="'Helvetica Neue', Arial, sans-serif" font-size="24">Ask what breaks when a reader</text>
+  <text x="808" y="472" fill="#334155" font-family="'Helvetica Neue', Arial, sans-serif" font-size="22">gets notice, consent prompts,</text>
+  <text x="808" y="506" fill="#334155" font-family="'Helvetica Neue', Arial, sans-serif" font-size="22">or the ability to block remote</text>
+  <text x="808" y="540" fill="#334155" font-family="'Helvetica Neue', Arial, sans-serif" font-size="22">calls entirely.</text>
+  <rect x="1112" y="338" width="384" height="190" rx="24" fill="#FEF3C7"/>
+  <text x="1144" y="392" fill="#0F172A" font-family="'Helvetica Neue', Arial, sans-serif" font-size="34" font-weight="700">4. Accessibility controls</text>
+  <text x="1144" y="438" fill="#92400E" font-family="'Helvetica Neue', Arial, sans-serif" font-size="24">Review bookshelf access, search,</text>
+  <text x="1144" y="472" fill="#334155" font-family="'Helvetica Neue', Arial, sans-serif" font-size="22">display control, and zoom in the</text>
+  <text x="1144" y="506" fill="#334155" font-family="'Helvetica Neue', Arial, sans-serif" font-size="22">real reading environment, not</text>
+  <text x="1144" y="540" fill="#334155" font-family="'Helvetica Neue', Arial, sans-serif" font-size="22">only in file-level validation.</text>
+  <rect x="104" y="596" width="1392" height="172" rx="24" fill="#F1F5F9"/>
+  <text x="144" y="654" fill="#0F172A" font-family="'Helvetica Neue', Arial, sans-serif" font-size="34" font-weight="700">Rex read:</text>
+  <text x="302" y="654" fill="#0F172A" font-family="'Helvetica Neue', Arial, sans-serif" font-size="34">Reading Systems 3.4 is useful now because it makes QA and vendor conversations more precise.</text>
+  <text x="144" y="704" fill="#475569" font-family="'Helvetica Neue', Arial, sans-serif" font-size="26">Keep EPUB 3.3 as the live baseline. Use the draft to sharpen testing, not to invent a migration deadline.</text>
+  <text x="144" y="748" fill="#64748B" font-family="'Helvetica Neue', Arial, sans-serif" font-size="22">rexpublishingcorp.com</text>
+</svg>

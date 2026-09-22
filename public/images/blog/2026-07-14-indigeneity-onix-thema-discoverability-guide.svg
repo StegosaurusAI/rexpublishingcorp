@@ -1,0 +1,54 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1600" height="900" viewBox="0 0 1600 900" role="img" aria-labelledby="title desc">
+  <title id="title">Metadata workflow for Indigenous-book discoverability</title>
+  <desc id="desc">Diagram showing editorial context flowing into ONIX descriptive metadata, then Thema subject metadata, then downstream discovery.</desc>
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#f4efe6" />
+      <stop offset="100%" stop-color="#dce8df" />
+    </linearGradient>
+    <linearGradient id="card" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#ffffff" />
+      <stop offset="100%" stop-color="#f7f7f2" />
+    </linearGradient>
+  </defs>
+  <rect width="1600" height="900" fill="url(#bg)" />
+  <circle cx="180" cy="180" r="120" fill="#d97b3d" opacity="0.16" />
+  <circle cx="1430" cy="720" r="180" fill="#2d6a57" opacity="0.12" />
+  <text x="120" y="120" font-family="Georgia, serif" font-size="54" fill="#17352d">Discoverability works better when metadata jobs stay separate</text>
+  <text x="120" y="175" font-family="Arial, sans-serif" font-size="28" fill="#35554d">Editorial context -> ONIX description -> Thema subjects -> downstream discovery</text>
+  <g transform="translate(110 280)">
+    <rect width="300" height="260" rx="28" fill="url(#card)" stroke="#17352d" stroke-width="3" />
+    <text x="36" y="68" font-family="Georgia, serif" font-size="34" fill="#17352d">Editorial context</text>
+    <text x="36" y="122" font-family="Arial, sans-serif" font-size="24" fill="#35554d">Who is involved?</text>
+    <text x="36" y="160" font-family="Arial, sans-serif" font-size="24" fill="#35554d">What is the work about?</text>
+    <text x="36" y="198" font-family="Arial, sans-serif" font-size="24" fill="#35554d">What should travel downstream?</text>
+  </g>
+  <g transform="translate(470 280)">
+    <rect width="300" height="260" rx="28" fill="url(#card)" stroke="#17352d" stroke-width="3" />
+    <text x="36" y="68" font-family="Georgia, serif" font-size="34" fill="#17352d">ONIX description</text>
+    <text x="36" y="122" font-family="Arial, sans-serif" font-size="24" fill="#35554d">Contributors</text>
+    <text x="36" y="160" font-family="Arial, sans-serif" font-size="24" fill="#35554d">Content signals</text>
+    <text x="36" y="198" font-family="Arial, sans-serif" font-size="24" fill="#35554d">Supply-chain handoff</text>
+  </g>
+  <g transform="translate(830 280)">
+    <rect width="300" height="260" rx="28" fill="url(#card)" stroke="#17352d" stroke-width="3" />
+    <text x="36" y="68" font-family="Georgia, serif" font-size="34" fill="#17352d">Thema subjects</text>
+    <text x="36" y="122" font-family="Arial, sans-serif" font-size="24" fill="#35554d">Classification</text>
+    <text x="36" y="160" font-family="Arial, sans-serif" font-size="24" fill="#35554d">Browsing structures</text>
+    <text x="36" y="198" font-family="Arial, sans-serif" font-size="24" fill="#35554d">Cross-market discovery</text>
+  </g>
+  <g transform="translate(1190 280)">
+    <rect width="300" height="260" rx="28" fill="url(#card)" stroke="#17352d" stroke-width="3" />
+    <text x="36" y="68" font-family="Georgia, serif" font-size="34" fill="#17352d">Discovery outcome</text>
+    <text x="36" y="122" font-family="Arial, sans-serif" font-size="24" fill="#35554d">Cleaner partner records</text>
+    <text x="36" y="160" font-family="Arial, sans-serif" font-size="24" fill="#35554d">Less lost context</text>
+    <text x="36" y="198" font-family="Arial, sans-serif" font-size="24" fill="#35554d">Fewer downstream fixes</text>
+  </g>
+  <path d="M415 410h40" stroke="#17352d" stroke-width="6" stroke-linecap="round" />
+  <path d="M775 410h40" stroke="#17352d" stroke-width="6" stroke-linecap="round" />
+  <path d="M1135 410h40" stroke="#17352d" stroke-width="6" stroke-linecap="round" />
+  <path d="M442 410l-16 -12v24z" fill="#17352d" />
+  <path d="M802 410l-16 -12v24z" fill="#17352d" />
+  <path d="M1162 410l-16 -12v24z" fill="#17352d" />
+  <text x="120" y="690" font-family="Arial, sans-serif" font-size="26" fill="#35554d">Rex takeaway: use metadata to preserve context more accurately, not to collapse identity, content, and classification into one field.</text>
+</svg>

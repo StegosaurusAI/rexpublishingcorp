@@ -1,0 +1,42 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1600" height="900" viewBox="0 0 1600 900" role="img" aria-labelledby="title desc">
+  <title id="title">Publishing Scotland translation fund deadline card</title>
+  <desc id="desc">A Rex Publishing explainer card showing the August 28, 2026 deadline, the outside-UK eligibility rule, the translation-fees-only limit, and the once-per-year application cap.</desc>
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#f8fafc"/>
+      <stop offset="100%" stop-color="#ecfccb"/>
+    </linearGradient>
+  </defs>
+  <rect width="1600" height="900" fill="url(#bg)"/>
+  <rect x="64" y="72" width="1472" height="756" rx="36" fill="#ffffff" stroke="#cbd5e1" stroke-width="4"/>
+  <text x="118" y="162" fill="#0f172a" font-family="Arial, sans-serif" font-size="48" font-weight="700">
+    Publishing Scotland Translation Fund
+  </text>
+  <text x="118" y="214" fill="#475569" font-family="Arial, sans-serif" font-size="28">
+    Round One deadline: Friday 28 August 2026
+  </text>
+  <g font-family="Arial, sans-serif">
+    <rect x="118" y="282" width="404" height="236" rx="26" fill="#dbeafe" stroke="#2563eb" stroke-width="4"/>
+    <text x="150" y="346" fill="#1d4ed8" font-size="34" font-weight="700">Who can apply</text>
+    <text x="150" y="396" fill="#1e3a8a" font-size="24">Publishers based</text>
+    <text x="150" y="428" fill="#1e3a8a" font-size="24">outside the United Kingdom</text>
+    <text x="150" y="476" fill="#1e3a8a" font-size="24">Scottish writers only</text>
+
+    <rect x="598" y="282" width="404" height="236" rx="26" fill="#dcfce7" stroke="#16a34a" stroke-width="4"/>
+    <text x="632" y="346" fill="#166534" font-size="34" font-weight="700">What it covers</text>
+    <text x="632" y="396" fill="#166534" font-size="24">Translation fees only</text>
+    <text x="632" y="428" fill="#166534" font-size="24">Grant paid in GBP</text>
+    <text x="632" y="476" fill="#166534" font-size="24">Not printing or general marketing</text>
+
+    <rect x="1078" y="282" width="356" height="236" rx="26" fill="#fee2e2" stroke="#ef4444" stroke-width="4"/>
+    <text x="1110" y="346" fill="#991b1b" font-size="34" font-weight="700">Hard limit</text>
+    <text x="1110" y="396" fill="#991b1b" font-size="24">One application</text>
+    <text x="1110" y="428" fill="#991b1b" font-size="24">per publisher</text>
+    <text x="1110" y="460" fill="#991b1b" font-size="24">each year</text>
+  </g>
+  <g font-family="Arial, sans-serif">
+    <rect x="118" y="580" width="1316" height="160" rx="28" fill="#f8fafc" stroke="#cbd5e1" stroke-width="4"/>
+    <text x="154" y="638" fill="#0f172a" font-size="34" font-weight="700">Assessment focus</text>
+    <text x="154" y="686" fill="#334155" font-size="28">Merit of the work  |  Financial need  |  Publisher and translator track record  |  Marketing plan</text>
+  </g>
+</svg>

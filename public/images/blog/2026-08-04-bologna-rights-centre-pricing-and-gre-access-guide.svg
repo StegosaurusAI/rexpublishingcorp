@@ -1,0 +1,37 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1600" height="900" viewBox="0 0 1600 900" role="img" aria-labelledby="title desc">
+  <title id="title">Bologna Rights Centre 2027 pricing comparison</title>
+  <desc id="desc">A Rex Publishing comparison graphic for Bologna Children's Book Fair 2027 Rights Centre pricing, showing table and office rates before October 31, 2026 and from November 1, 2026, with notes on GRE access and the co-member fee.</desc>
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#f7efe4"/>
+      <stop offset="100%" stop-color="#f1dcc2"/>
+    </linearGradient>
+  </defs>
+  <rect width="1600" height="900" fill="url(#bg)"/>
+  <rect x="72" y="72" width="1456" height="756" rx="32" fill="#fffaf4" stroke="#d7c1a4" stroke-width="4"/>
+  <text x="120" y="158" fill="#402a18" font-family="Georgia, 'Times New Roman', serif" font-size="58" font-weight="700">Bologna Rights Centre 2027</text>
+  <text x="120" y="210" fill="#6b4a2e" font-family="Arial, Helvetica, sans-serif" font-size="28">Rights Centre pricing and bundled GRE access, rechecked August 14, 2026</text>
+
+  <rect x="120" y="280" width="610" height="330" rx="24" fill="#fff" stroke="#cda977" stroke-width="3"/>
+  <rect x="870" y="280" width="610" height="330" rx="24" fill="#fff" stroke="#cda977" stroke-width="3"/>
+
+  <text x="170" y="355" fill="#402a18" font-family="Arial, Helvetica, sans-serif" font-size="42" font-weight="700">Table</text>
+  <text x="920" y="355" fill="#402a18" font-family="Arial, Helvetica, sans-serif" font-size="42" font-weight="700">Office</text>
+
+  <text x="170" y="430" fill="#8a5a1f" font-family="Arial, Helvetica, sans-serif" font-size="28" font-weight="700">Before Oct. 31, 2026</text>
+  <text x="170" y="485" fill="#1f3b2d" font-family="Arial, Helvetica, sans-serif" font-size="60" font-weight="700">EUR 940</text>
+  <text x="170" y="545" fill="#8a5a1f" font-family="Arial, Helvetica, sans-serif" font-size="28" font-weight="700">From Nov. 1, 2026</text>
+  <text x="170" y="600" fill="#7b1f1f" font-family="Arial, Helvetica, sans-serif" font-size="60" font-weight="700">EUR 985</text>
+
+  <text x="920" y="430" fill="#8a5a1f" font-family="Arial, Helvetica, sans-serif" font-size="28" font-weight="700">Before Oct. 31, 2026</text>
+  <text x="920" y="485" fill="#1f3b2d" font-family="Arial, Helvetica, sans-serif" font-size="60" font-weight="700">EUR 1,250</text>
+  <text x="920" y="545" fill="#8a5a1f" font-family="Arial, Helvetica, sans-serif" font-size="28" font-weight="700">From Nov. 1, 2026</text>
+  <text x="920" y="600" fill="#7b1f1f" font-family="Arial, Helvetica, sans-serif" font-size="60" font-weight="700">EUR 1,320</text>
+
+  <rect x="120" y="660" width="1360" height="108" rx="20" fill="#f5ede1" stroke="#d7c1a4" stroke-width="2"/>
+  <text x="165" y="712" fill="#402a18" font-family="Arial, Helvetica, sans-serif" font-size="28" font-weight="700">Included:</text>
+  <text x="300" y="712" fill="#5c4330" font-family="Arial, Helvetica, sans-serif" font-size="28">GRE registration, exhibitor pass, parking, vouchers, Wi-Fi, insurance, catalogue listing</text>
+  <text x="165" y="752" fill="#5c4330" font-family="Arial, Helvetica, sans-serif" font-size="26">Each option is valid for one person. Additional colleagues require a EUR 490 co-member fee. VAT applies where due.</text>
+
+  <text x="120" y="808" fill="#7a6047" font-family="Arial, Helvetica, sans-serif" font-size="22">Source: Bologna Children's Book Fair organiser pages. Graphic: Rex Publishing.</text>
+</svg>

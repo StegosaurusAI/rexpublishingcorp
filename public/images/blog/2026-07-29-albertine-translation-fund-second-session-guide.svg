@@ -1,0 +1,57 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1600" height="900" viewBox="0 0 1600 900" role="img" aria-labelledby="title desc">
+  <title id="title">Albertine Translation Fund second-session guide card</title>
+  <desc id="desc">Checklist card for the Albertine Translation Fund second 2026 session showing the September 1 deadline, U.S. publisher requirement, and the two rights-status application paths.</desc>
+  <defs>
+    <linearGradient id="bg" x1="0" x2="1" y1="0" y2="1">
+      <stop offset="0%" stop-color="#f7efe5"/>
+      <stop offset="100%" stop-color="#dbe9f4"/>
+    </linearGradient>
+    <filter id="shadow" x="-10%" y="-10%" width="120%" height="120%">
+      <feDropShadow dx="0" dy="10" stdDeviation="16" flood-color="#0f172a" flood-opacity="0.16"/>
+    </filter>
+  </defs>
+  <rect width="1600" height="900" fill="url(#bg)"/>
+  <rect x="92" y="74" width="1416" height="752" rx="34" fill="#fffdf9" stroke="#cbd5e1" stroke-width="2"/>
+
+  <text x="160" y="164" font-family="Georgia, 'Times New Roman', serif" font-size="56" fill="#17324d">Albertine Translation Fund</text>
+  <text x="160" y="212" font-family="'Helvetica Neue', Arial, sans-serif" font-size="29" fill="#475569">A U.S.-market translation workflow, not a general English-language grant.</text>
+
+  <g filter="url(#shadow)">
+    <rect x="160" y="274" width="412" height="206" rx="28" fill="#17324d"/>
+    <text x="202" y="336" font-family="Georgia, 'Times New Roman', serif" font-size="34" fill="#f8fafc">Deadline and scope</text>
+    <text x="202" y="388" font-family="'Helvetica Neue', Arial, sans-serif" font-size="25" fill="#dbeafe">Second 2026 session open now</text>
+    <text x="202" y="424" font-family="'Helvetica Neue', Arial, sans-serif" font-size="25" fill="#dbeafe">Deadline: 1 Sep 2026</text>
+    <text x="202" y="460" font-family="'Helvetica Neue', Arial, sans-serif" font-size="25" fill="#dbeafe">Books published from Apr 2027</text>
+  </g>
+
+  <g filter="url(#shadow)">
+    <rect x="594" y="274" width="412" height="206" rx="28" fill="#0f766e"/>
+    <text x="636" y="336" font-family="Georgia, 'Times New Roman', serif" font-size="34" fill="#ecfeff">Funding shape</text>
+    <text x="636" y="388" font-family="'Helvetica Neue', Arial, sans-serif" font-size="25" fill="#ccfbf1">$2,000 publication support</text>
+    <text x="636" y="424" font-family="'Helvetica Neue', Arial, sans-serif" font-size="25" fill="#ccfbf1">Up to $5,000 for translation</text>
+    <text x="636" y="460" font-family="'Helvetica Neue', Arial, sans-serif" font-size="25" fill="#ccfbf1">Maximum $7,000 total</text>
+  </g>
+
+  <g filter="url(#shadow)">
+    <rect x="1028" y="274" width="412" height="206" rx="28" fill="#7c2d12"/>
+    <text x="1070" y="336" font-family="Georgia, 'Times New Roman', serif" font-size="34" fill="#fff7ed">Key limit</text>
+    <text x="1070" y="388" font-family="'Helvetica Neue', Arial, sans-serif" font-size="25" fill="#ffedd5">U.S. publisher address required</text>
+    <text x="1070" y="424" font-family="'Helvetica Neue', Arial, sans-serif" font-size="25" fill="#ffedd5">No print-on-demand</text>
+    <text x="1070" y="460" font-family="'Helvetica Neue', Arial, sans-serif" font-size="25" fill="#ffedd5">No e-publication projects</text>
+  </g>
+
+  <g filter="url(#shadow)">
+    <rect x="160" y="542" width="612" height="168" rx="30" fill="#eff6ff"/>
+    <text x="206" y="602" font-family="Georgia, 'Times New Roman', serif" font-size="34" fill="#17324d">If rights contract is signed</text>
+    <text x="206" y="646" font-family="'Helvetica Neue', Arial, sans-serif" font-size="26" fill="#1e3a8a">Add translator contract, rights contract, budget sheet, book copies, and full PDF.</text>
+  </g>
+
+  <g filter="url(#shadow)">
+    <rect x="828" y="542" width="612" height="168" rx="30" fill="#fff7ed"/>
+    <text x="874" y="602" font-family="Georgia, 'Times New Roman', serif" font-size="34" fill="#7c2d12">If rights contract is not signed</text>
+    <text x="874" y="646" font-family="'Helvetica Neue', Arial, sans-serif" font-size="26" fill="#9a3412">You still need the sample, translator details, and a letter confirming English rights are available.</text>
+  </g>
+
+  <rect x="160" y="742" width="1280" height="48" rx="24" fill="#17324d"/>
+  <text x="212" y="775" font-family="'Helvetica Neue', Arial, sans-serif" font-size="23" fill="#f8fafc">Best fit: a French title with a real translator, a credible sample, and a believable U.S. publishing path.</text>
+</svg>

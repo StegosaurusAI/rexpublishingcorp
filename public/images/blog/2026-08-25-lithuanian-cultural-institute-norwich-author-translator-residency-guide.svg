@@ -1,0 +1,58 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1600" height="900" viewBox="0 0 1600 900" role="img" aria-labelledby="title desc">
+  <title id="title">Lithuanian Cultural Institute Norwich residency workflow</title>
+  <desc id="desc">A Rex Publishing guide card showing the February 2027 Norwich residency dates, the solo-author and joint author-translator routes, the October 19, 2026 deadline, and the main support package.</desc>
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#ecfeff"/>
+      <stop offset="100%" stop-color="#fef9c3"/>
+    </linearGradient>
+  </defs>
+  <rect width="1600" height="900" fill="url(#bg)"/>
+  <rect x="56" y="64" width="1488" height="772" rx="36" fill="#ffffff" stroke="#cbd5e1" stroke-width="4"/>
+  <text x="112" y="152" fill="#0f172a" font-family="Arial, sans-serif" font-size="50" font-weight="700">
+    Lithuanian Cultural Institute + NCW residency
+  </text>
+  <text x="112" y="206" fill="#475569" font-family="Arial, sans-serif" font-size="28">
+    Useful only when the author or translator packet is already real before October 19, 2026
+  </text>
+  <g font-family="Arial, sans-serif">
+    <rect x="112" y="278" width="300" height="210" rx="24" fill="#dbeafe" stroke="#2563eb" stroke-width="4"/>
+    <text x="144" y="344" fill="#1d4ed8" font-size="34" font-weight="700">1. Deadline</text>
+    <text x="146" y="396" fill="#1e40af" font-size="24">Apply by Monday,</text>
+    <text x="146" y="428" fill="#1e40af" font-size="24">19 October 2026</text>
+    <text x="146" y="460" fill="#1e40af" font-size="24">Email: residencies@</text>
+    <text x="146" y="492" fill="#1e40af" font-size="24">nationalcentreforwriting.org.uk</text>
+
+    <rect x="446" y="278" width="300" height="210" rx="24" fill="#dcfce7" stroke="#16a34a" stroke-width="4"/>
+    <text x="478" y="344" fill="#166534" font-size="34" font-weight="700">2. Routes</text>
+    <text x="480" y="396" fill="#166534" font-size="24">Solo author, or</text>
+    <text x="480" y="428" fill="#166534" font-size="24">joint author-translator</text>
+    <text x="480" y="460" fill="#166534" font-size="24">Authors need a Lithuanian</text>
+    <text x="480" y="492" fill="#166534" font-size="24">book already published</text>
+
+    <rect x="780" y="278" width="300" height="210" rx="24" fill="#fef3c7" stroke="#d97706" stroke-width="4"/>
+    <text x="812" y="344" fill="#92400e" font-size="34" font-weight="700">3. Joint-team filter</text>
+    <text x="814" y="396" fill="#92400e" font-size="24">Translator should already</text>
+    <text x="814" y="428" fill="#92400e" font-size="24">have one book-length</text>
+    <text x="814" y="460" fill="#92400e" font-size="24">translation published</text>
+    <text x="814" y="492" fill="#92400e" font-size="24">in English</text>
+
+    <rect x="1114" y="278" width="300" height="210" rx="24" fill="#fee2e2" stroke="#ef4444" stroke-width="4"/>
+    <text x="1146" y="344" fill="#991b1b" font-size="34" font-weight="700">4. Residency run</text>
+    <text x="1148" y="396" fill="#991b1b" font-size="24">1 to 26 February 2027</text>
+    <text x="1148" y="428" fill="#991b1b" font-size="24">Dragon Hall cottage</text>
+    <text x="1148" y="460" fill="#991b1b" font-size="24">Flights, local travel,</text>
+    <text x="1148" y="492" fill="#991b1b" font-size="24">GBP 350 per week</text>
+  </g>
+  <g stroke="#64748b" stroke-width="8" fill="none" stroke-linecap="round">
+    <path d="M412 382 H438"/>
+    <path d="M746 382 H772"/>
+    <path d="M1080 382 H1106"/>
+  </g>
+  <g font-family="Arial, sans-serif">
+    <rect x="112" y="556" width="1302" height="198" rx="28" fill="#f8fafc" stroke="#cbd5e1" stroke-width="4"/>
+    <text x="146" y="624" fill="#0f172a" font-size="34" font-weight="700">Practical reading</text>
+    <text x="146" y="674" fill="#334155" font-size="28">Publisher interest is not mandatory, but the packet is stronger if the project can show a real English-language path.</text>
+    <text x="146" y="720" fill="#475569" font-size="24">Use the residency where the author, translator, and next-step market plan are already defined enough to benefit from one month in Norwich.</text>
+  </g>
+</svg>

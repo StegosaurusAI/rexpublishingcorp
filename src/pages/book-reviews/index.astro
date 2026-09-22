@@ -5,12 +5,12 @@ import { getPublishedReviews } from '../../lib/reviews';
 const posts = await getPublishedReviews();
 ---
 
-<BaseLayout title="Rex Publishing News" description="Publishing news, reviews, and practical guidance from Rex Publishing.">
+<BaseLayout title="Rex Publishing Reviews" description="Original Rex Publishing reviews and review coverage.">
   <section class="bg-white ">
     <div class="py-8 px-4 mx-auto max-w-screen-xl lg:py-16 lg:px-6">
       <div class="mx-auto max-w-screen-sm text-center mb-8 lg:mb-16">
-        <h1 class="mb-4 text-4xl tracking-tight font-extrabold text-gray-900 ">Rex Publishing News</h1>
-        <p class="font-light text-gray-500 sm:text-xl ">Updates, reviews, and publishing guidance from the Rex Publishing desk.</p>
+        <h1 class="mb-4 text-4xl tracking-tight font-extrabold text-gray-900 ">Rex Publishing Reviews</h1>
+        <p class="font-light text-gray-500 sm:text-xl ">Original review coverage from the Rex Publishing desk.</p>
       </div>
 
       {posts.length ? (
@@ -39,10 +39,10 @@ const posts = await getPublishedReviews();
         </div>
       ) : (
         <div class="mx-auto max-w-2xl rounded-2xl border border-gray-200 bg-gray-50 p-8 text-center">
-          <h2 class="mb-3 text-2xl font-bold text-gray-900">Reviews archive is being migrated</h2>
+          <h2 class="mb-3 text-2xl font-bold text-gray-900">No reviews published yet</h2>
           <p class="text-gray-600">
-            The old Contentful-backed entries are being moved into the repo-managed publishing flow.
-            New and migrated posts will appear here once that import finishes.
+            News and practical articles now live in the blog.
+            Review entries will appear here once Rex publishes original review content.
           </p>
         </div>
       )}

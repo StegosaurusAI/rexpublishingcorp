@@ -4,6 +4,8 @@ description: 'Unlock the Future of SEO with AI for SEO Essentials '
 pubDate: '2024-10-31T00:00-04:00'
 heroImage: '/images/blog/new-release-coming-soon.jpg'
 author: 'Rex Publishing'
+draft: true
+contentType: article
 source: contentful-migration
 legacyContentfulId: '7Jfde8fXgBNnLbkpJO1Aey'
 ---

@@ -1,0 +1,61 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1600" height="900" viewBox="0 0 1600 900" role="img" aria-labelledby="title desc">
+  <title id="title">Canadian contributor metadata and bookseller discovery guide</title>
+  <desc id="desc">Diagram showing how contributor citizenship and residence metadata move from publisher ONIX records into bookseller discovery filters and local search tools.</desc>
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#ecfeff"/>
+      <stop offset="100%" stop-color="#fef3c7"/>
+    </linearGradient>
+  </defs>
+  <rect width="1600" height="900" fill="url(#bg)"/>
+  <rect x="60" y="68" width="1480" height="764" rx="36" fill="#ffffff" stroke="#cbd5e1" stroke-width="4"/>
+  <text x="116" y="158" fill="#0f172a" font-family="Arial, sans-serif" font-size="48" font-weight="700">
+    Canadian contributor metadata
+  </text>
+  <text x="116" y="212" fill="#475569" font-family="Arial, sans-serif" font-size="28">
+    Discovery improves only when citizenship and residence survive from source ONIX into bookseller tools
+  </text>
+
+  <g font-family="Arial, sans-serif">
+    <rect x="116" y="286" width="280" height="280" rx="28" fill="#cffafe" stroke="#0891b2" stroke-width="4"/>
+    <text x="146" y="354" fill="#0f766e" font-size="34" font-weight="700">Publisher source data</text>
+    <text x="146" y="408" fill="#115e59" font-size="26">Contributor record</text>
+    <text x="146" y="446" fill="#115e59" font-size="26">Citizenship rule</text>
+    <text x="146" y="484" fill="#115e59" font-size="26">Residence rule</text>
+    <text x="146" y="522" fill="#115e59" font-size="26">Accuracy check</text>
+
+    <rect x="486" y="286" width="280" height="280" rx="28" fill="#dbeafe" stroke="#2563eb" stroke-width="4"/>
+    <text x="516" y="354" fill="#1d4ed8" font-size="34" font-weight="700">ONIX contributor place</text>
+    <text x="516" y="408" fill="#1e40af" font-size="26">List 151 code 08</text>
+    <text x="516" y="446" fill="#1e40af" font-size="26">Citizen of</text>
+    <text x="516" y="498" fill="#1e40af" font-size="26">List 151 code 04</text>
+    <text x="516" y="536" fill="#1e40af" font-size="26">Currently resides in</text>
+
+    <rect x="856" y="286" width="280" height="280" rx="28" fill="#dcfce7" stroke="#16a34a" stroke-width="4"/>
+    <text x="886" y="354" fill="#166534" font-size="34" font-weight="700">Discovery surfaces</text>
+    <text x="886" y="408" fill="#166534" font-size="26">National marker</text>
+    <text x="886" y="446" fill="#166534" font-size="26">Regional filter</text>
+    <text x="886" y="484" fill="#166534" font-size="26">Local ordering signal</text>
+    <text x="886" y="522" fill="#166534" font-size="26">Title-detail display</text>
+
+    <rect x="1226" y="286" width="220" height="280" rx="28" fill="#fef3c7" stroke="#d97706" stroke-width="4"/>
+    <text x="1256" y="354" fill="#92400e" font-size="34" font-weight="700">Reality check</text>
+    <text x="1256" y="408" fill="#92400e" font-size="26">Market-specific</text>
+    <text x="1256" y="446" fill="#92400e" font-size="26">No guarantee</text>
+    <text x="1256" y="484" fill="#92400e" font-size="26">Verify partner</text>
+    <text x="1256" y="522" fill="#92400e" font-size="26">display</text>
+  </g>
+
+  <g stroke="#94a3b8" stroke-width="8" fill="none" stroke-linecap="round">
+    <path d="M396 426 H486"/>
+    <path d="M766 426 H856"/>
+    <path d="M1136 426 H1226"/>
+  </g>
+
+  <g font-family="Arial, sans-serif">
+    <rect x="116" y="632" width="1330" height="118" rx="28" fill="#f8fafc" stroke="#cbd5e1" stroke-width="4"/>
+    <text x="150" y="698" fill="#334155" font-size="30">
+      BookNet Canada's workflow point: publisher-controlled metadata has to be structured, distributed, and checked before booksellers can use it.
+    </text>
+  </g>
+</svg>

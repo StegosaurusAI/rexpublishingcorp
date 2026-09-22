@@ -1,0 +1,52 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1600" height="900" viewBox="0 0 1600 900" role="img" aria-labelledby="title desc">
+  <title id="title">W3C EPUB Accessibility 1.2 explainer workflow</title>
+  <desc id="desc">Diagram showing how the EPUB Accessibility 1.2 standard, explainer, and techniques note serve different jobs in an EPUB accessibility workflow.</desc>
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#f8fafc"/>
+      <stop offset="100%" stop-color="#dbeafe"/>
+    </linearGradient>
+  </defs>
+  <rect width="1600" height="900" fill="url(#bg)"/>
+  <rect x="64" y="64" width="1472" height="772" rx="36" fill="#ffffff" stroke="#cbd5e1" stroke-width="4"/>
+  <text x="116" y="156" fill="#0f172a" font-family="Arial, sans-serif" font-size="48" font-weight="700">
+    EPUB Accessibility 1.2 workflow
+  </text>
+  <text x="116" y="210" fill="#475569" font-family="Arial, sans-serif" font-size="28">
+    Separate the standard, the explainer, and the techniques note before making a conformance claim
+  </text>
+
+  <g font-family="Arial, sans-serif">
+    <rect x="116" y="286" width="404" height="298" rx="28" fill="#dbeafe" stroke="#2563eb" stroke-width="4"/>
+    <text x="150" y="350" fill="#1d4ed8" font-size="34" font-weight="700">1. Standard</text>
+    <text x="150" y="398" fill="#1e40af" font-size="28">EPUB Accessibility 1.2</text>
+    <text x="150" y="446" fill="#1e40af" font-size="24">Use for conformance rules,</text>
+    <text x="150" y="478" fill="#1e40af" font-size="24">discoverability metadata,</text>
+    <text x="150" y="510" fill="#1e40af" font-size="24">and the exact claim string.</text>
+
+    <rect x="598" y="286" width="404" height="298" rx="28" fill="#dcfce7" stroke="#16a34a" stroke-width="4"/>
+    <text x="632" y="350" fill="#166534" font-size="34" font-weight="700">2. Explainer</text>
+    <text x="632" y="398" fill="#166534" font-size="28">Draft Note, 4 Aug 2026</text>
+    <text x="632" y="446" fill="#166534" font-size="24">Use for WCAG-in-EPUB</text>
+    <text x="632" y="478" fill="#166534" font-size="24">interpretation, EPUB-specific</text>
+    <text x="632" y="510" fill="#166534" font-size="24">objectives, and evaluation issues.</text>
+
+    <rect x="1080" y="286" width="338" height="298" rx="28" fill="#fef3c7" stroke="#d97706" stroke-width="4"/>
+    <text x="1114" y="350" fill="#92400e" font-size="34" font-weight="700">3. Techniques</text>
+    <text x="1114" y="398" fill="#92400e" font-size="28">Note, 18 Aug 2026</text>
+    <text x="1114" y="446" fill="#92400e" font-size="24">Use for implementation help.</text>
+    <text x="1114" y="478" fill="#92400e" font-size="24">Do not treat it as the</text>
+    <text x="1114" y="510" fill="#92400e" font-size="24">whole conformance test.</text>
+  </g>
+
+  <g stroke="#94a3b8" stroke-width="8" fill="none" stroke-linecap="round">
+    <path d="M520 435 H598"/>
+    <path d="M1002 435 H1080"/>
+  </g>
+
+  <g font-family="Arial, sans-serif">
+    <rect x="116" y="642" width="1302" height="124" rx="24" fill="#f8fafc" stroke="#cbd5e1" stroke-width="4"/>
+    <text x="150" y="706" fill="#0f172a" font-size="32" font-weight="700">Current public feedback window</text>
+    <text x="604" y="706" fill="#334155" font-size="28">Comments via GitHub issues by 19 October 2026</text>
+  </g>
+</svg>

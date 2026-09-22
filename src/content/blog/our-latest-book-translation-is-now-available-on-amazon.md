@@ -4,6 +4,8 @@ description: 'The Underdog Expedition by Kornel Makuszyński is now available on
 pubDate: '2024-11-04T12:00-05:00'
 heroImage: '/images/blog/our-latest-book-translation-is-now-available-on-amazon.jpg'
 author: 'Rex Publishing'
+draft: true
+contentType: article
 source: contentful-migration
 legacyContentfulId: '5D77RSVzjWwb5cwqTPNTU2'
 ---

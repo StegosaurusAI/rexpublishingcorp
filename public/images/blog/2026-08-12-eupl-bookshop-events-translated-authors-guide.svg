@@ -1,0 +1,51 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1600" height="900" viewBox="0 0 1600 900" role="img" aria-labelledby="title desc">
+  <title id="title">EUPL bookshop events for translated authors guide card</title>
+  <desc id="desc">Timeline and eligibility card for the EUPL Bookshop Events for Translated Authors call, showing the September 2026 application window and the November 2026 to June 2027 implementation period.</desc>
+  <defs>
+    <linearGradient id="bg" x1="0" x2="1" y1="0" y2="1">
+      <stop offset="0%" stop-color="#f6f1e8"/>
+      <stop offset="100%" stop-color="#d7e6ee"/>
+    </linearGradient>
+    <filter id="shadow" x="-10%" y="-10%" width="120%" height="120%">
+      <feDropShadow dx="0" dy="10" stdDeviation="16" flood-color="#0f172a" flood-opacity="0.16"/>
+    </filter>
+  </defs>
+  <rect width="1600" height="900" fill="url(#bg)"/>
+  <rect x="92" y="74" width="1416" height="752" rx="34" fill="#fffdf8" stroke="#cbd5e1" stroke-width="2"/>
+
+  <text x="160" y="164" font-family="Georgia, 'Times New Roman', serif" font-size="56" fill="#17324d">EUPL Bookshop Events</text>
+  <text x="160" y="212" font-family="'Helvetica Neue', Arial, sans-serif" font-size="29" fill="#475569">A narrow events call for translated EUPL titles, not a general translation subsidy.</text>
+
+  <g filter="url(#shadow)">
+    <rect x="160" y="274" width="412" height="206" rx="28" fill="#17324d"/>
+    <text x="202" y="336" font-family="Georgia, 'Times New Roman', serif" font-size="34" fill="#f8fafc">Eligible applicants</text>
+    <text x="202" y="388" font-family="'Helvetica Neue', Arial, sans-serif" font-size="25" fill="#dbeafe">Bookshops</text>
+    <text x="202" y="424" font-family="'Helvetica Neue', Arial, sans-serif" font-size="25" fill="#dbeafe">Publishers with eligible translations</text>
+    <text x="202" y="460" font-family="'Helvetica Neue', Arial, sans-serif" font-size="25" fill="#dbeafe">Joint publisher-bookshop pairs</text>
+  </g>
+
+  <g filter="url(#shadow)">
+    <rect x="594" y="274" width="412" height="206" rx="28" fill="#0f766e"/>
+    <text x="636" y="336" font-family="Georgia, 'Times New Roman', serif" font-size="34" fill="#ecfeff">Event formats</text>
+    <text x="636" y="388" font-family="'Helvetica Neue', Arial, sans-serif" font-size="25" fill="#ccfbf1">Translated-author tours</text>
+    <text x="636" y="424" font-family="'Helvetica Neue', Arial, sans-serif" font-size="25" fill="#ccfbf1">Book clubs</text>
+    <text x="636" y="460" font-family="'Helvetica Neue', Arial, sans-serif" font-size="25" fill="#ccfbf1">Public author events</text>
+  </g>
+
+  <g filter="url(#shadow)">
+    <rect x="1028" y="274" width="412" height="206" rx="28" fill="#7c2d12"/>
+    <text x="1070" y="336" font-family="Georgia, 'Times New Roman', serif" font-size="34" fill="#fff7ed">Key limit</text>
+    <text x="1070" y="388" font-family="'Helvetica Neue', Arial, sans-serif" font-size="25" fill="#ffedd5">Must feature an EUPL author</text>
+    <text x="1070" y="424" font-family="'Helvetica Neue', Arial, sans-serif" font-size="25" fill="#ffedd5">available in translation</text>
+    <text x="1070" y="460" font-family="'Helvetica Neue', Arial, sans-serif" font-size="25" fill="#ffedd5">or due in the delivery window</text>
+  </g>
+
+  <g filter="url(#shadow)">
+    <rect x="160" y="542" width="1280" height="168" rx="30" fill="#fff7ed"/>
+    <text x="210" y="602" font-family="Georgia, 'Times New Roman', serif" font-size="36" fill="#7c2d12">First call timeline</text>
+    <text x="210" y="648" font-family="'Helvetica Neue', Arial, sans-serif" font-size="28" fill="#9a3412">1 Sep 2026 opens  •  30 Sep 2026 deadline  •  1 Nov 2026 implementation starts  •  30 Jun 2027 ends</text>
+  </g>
+
+  <rect x="160" y="742" width="1280" height="48" rx="24" fill="#17324d"/>
+  <text x="208" y="775" font-family="'Helvetica Neue', Arial, sans-serif" font-size="23" fill="#f8fafc">Best fit: teams with an eligible translated title, a bookseller partner, and an autumn delivery plan.</text>
+</svg>

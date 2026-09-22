@@ -1,0 +1,48 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1600" height="900" viewBox="0 0 1600 900" role="img" aria-labelledby="title desc">
+  <title id="title">EU packaging rules book supply chain guide card</title>
+  <desc id="desc">Supply-chain guide card for EU packaging rules showing book-industry packaging types, supplier documentation, declarations of conformity, and the August 12, 2026 application date.</desc>
+  <defs>
+    <linearGradient id="bg" x1="0" x2="1" y1="0" y2="1">
+      <stop offset="0%" stop-color="#f4efe7"/>
+      <stop offset="100%" stop-color="#dce7ec"/>
+    </linearGradient>
+    <filter id="shadow" x="-10%" y="-10%" width="120%" height="120%">
+      <feDropShadow dx="0" dy="10" stdDeviation="16" flood-color="#0f172a" flood-opacity="0.18"/>
+    </filter>
+  </defs>
+  <rect width="1600" height="900" fill="url(#bg)"/>
+  <rect x="96" y="82" width="1408" height="736" rx="34" fill="#fffaf5" stroke="#cbd5e1" stroke-width="2"/>
+
+  <text x="168" y="168" font-family="Georgia, 'Times New Roman', serif" font-size="54" fill="#17324d">EU Packaging Rules</text>
+  <text x="168" y="216" font-family="'Helvetica Neue', Arial, sans-serif" font-size="28" fill="#475569">For publishers, printers, distributors, and EU-bound ecommerce.</text>
+
+  <g filter="url(#shadow)">
+    <rect x="168" y="280" width="390" height="176" rx="28" fill="#17324d"/>
+    <text x="208" y="340" font-family="Georgia, 'Times New Roman', serif" font-size="34" fill="#f8fafc">Packaging in scope</text>
+    <text x="208" y="390" font-family="'Helvetica Neue', Arial, sans-serif" font-size="25" fill="#dbeafe">Shrink wrap</text>
+    <text x="208" y="425" font-family="'Helvetica Neue', Arial, sans-serif" font-size="25" fill="#dbeafe">Cartons and mailers</text>
+  </g>
+
+  <g filter="url(#shadow)">
+    <rect x="606" y="280" width="390" height="176" rx="28" fill="#0f766e"/>
+    <text x="646" y="340" font-family="Georgia, 'Times New Roman', serif" font-size="34" fill="#ecfeff">Immediate checks</text>
+    <text x="646" y="390" font-family="'Helvetica Neue', Arial, sans-serif" font-size="25" fill="#ccfbf1">Role map the chain</text>
+    <text x="646" y="425" font-family="'Helvetica Neue', Arial, sans-serif" font-size="25" fill="#ccfbf1">Find supplier documentation</text>
+  </g>
+
+  <g filter="url(#shadow)">
+    <rect x="1044" y="280" width="390" height="176" rx="28" fill="#7c2d12"/>
+    <text x="1084" y="340" font-family="Georgia, 'Times New Roman', serif" font-size="34" fill="#fff7ed">Compliance file</text>
+    <text x="1084" y="390" font-family="'Helvetica Neue', Arial, sans-serif" font-size="25" fill="#ffedd5">Technical documentation</text>
+    <text x="1084" y="425" font-family="'Helvetica Neue', Arial, sans-serif" font-size="25" fill="#ffedd5">EU declaration of conformity</text>
+  </g>
+
+  <g filter="url(#shadow)">
+    <rect x="168" y="526" width="1266" height="144" rx="30" fill="#fff7ed"/>
+    <text x="214" y="586" font-family="Georgia, 'Times New Roman', serif" font-size="36" fill="#7c2d12">Online sales count too</text>
+    <text x="214" y="630" font-family="'Helvetica Neue', Arial, sans-serif" font-size="27" fill="#9a3412">Direct offers to an EU end user are treated as making the product available in that Member State.</text>
+  </g>
+
+  <rect x="168" y="718" width="1266" height="46" rx="23" fill="#17324d"/>
+  <text x="216" y="749" font-family="'Helvetica Neue', Arial, sans-serif" font-size="23" fill="#f8fafc">Key date: 12 Aug 2026. Rules begin to apply on a phased basis.</text>
+</svg>

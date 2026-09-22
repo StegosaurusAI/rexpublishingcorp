@@ -1,0 +1,46 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1600" height="900" viewBox="0 0 1600 900" role="img" aria-labelledby="title desc">
+  <title id="title">Frankfurt August exhibitor deadlines checklist</title>
+  <desc id="desc">A Rex Publishing checklist graphic showing the missed August 1, 2026 stand-plan deadline, the live August 31 furniture and stand-equipment cutoff, and the 25 percent express-surcharge risk for late technical orders inside the final 22 days before the fair.</desc>
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#eff6ff"/>
+      <stop offset="100%" stop-color="#ecfccb"/>
+    </linearGradient>
+  </defs>
+  <rect width="1600" height="900" fill="url(#bg)"/>
+  <rect x="64" y="72" width="1472" height="756" rx="36" fill="#ffffff" stroke="#cbd5e1" stroke-width="4"/>
+  <text x="118" y="164" fill="#0f172a" font-family="Arial, sans-serif" font-size="50" font-weight="700">
+    Frankfurt August exhibitor checklist
+  </text>
+  <text x="118" y="218" fill="#475569" font-family="Arial, sans-serif" font-size="28">
+    Read August in two parts: one missed deadline, one live cutoff
+  </text>
+  <g font-family="Arial, sans-serif">
+    <rect x="118" y="286" width="390" height="212" rx="24" fill="#fee2e2" stroke="#ef4444" stroke-width="4"/>
+    <text x="150" y="352" fill="#991b1b" font-size="34" font-weight="700">Already passed</text>
+    <text x="150" y="404" fill="#991b1b" font-size="28">1 August 2026</text>
+    <text x="150" y="442" fill="#7f1d1d" font-size="24">Custom-built stand</text>
+    <text x="150" y="474" fill="#7f1d1d" font-size="24">construction-plan approval</text>
+
+    <rect x="604" y="286" width="390" height="212" rx="24" fill="#dcfce7" stroke="#16a34a" stroke-width="4"/>
+    <text x="638" y="352" fill="#166534" font-size="34" font-weight="700">Still open</text>
+    <text x="638" y="404" fill="#166534" font-size="28">31 August 2026</text>
+    <text x="638" y="442" fill="#166534" font-size="24">Furniture and stand</text>
+    <text x="638" y="474" fill="#166534" font-size="24">equipment orders</text>
+
+    <rect x="1090" y="286" width="344" height="212" rx="24" fill="#fef3c7" stroke="#d97706" stroke-width="4"/>
+    <text x="1124" y="352" fill="#92400e" font-size="34" font-weight="700">Late-order risk</text>
+    <text x="1124" y="404" fill="#92400e" font-size="28">Final 22 days</text>
+    <text x="1124" y="442" fill="#92400e" font-size="24">Ceiling suspensions</text>
+    <text x="1124" y="474" fill="#92400e" font-size="24">and electricity: +25%</text>
+  </g>
+  <g stroke="#94a3b8" stroke-width="8" fill="none" stroke-linecap="round">
+    <path d="M508 392 H572"/>
+    <path d="M994 392 H1058"/>
+  </g>
+  <g font-family="Arial, sans-serif">
+    <rect x="118" y="574" width="1316" height="176" rx="28" fill="#f8fafc" stroke="#cbd5e1" stroke-width="4"/>
+    <text x="154" y="638" fill="#0f172a" font-size="34" font-weight="700">Useful question for exhibitors on August 14, 2026</text>
+    <text x="154" y="688" fill="#334155" font-size="28">Which tasks still belong in August, and which ones are already in late-fee territory?</text>
+  </g>
+</svg>

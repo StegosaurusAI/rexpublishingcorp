@@ -1,0 +1,40 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1600" height="900" viewBox="0 0 1600 900" role="img" aria-labelledby="title desc">
+  <title id="title">ONIX 3.0 to 3.1 upgrade workflow graphic</title>
+  <desc id="desc">A Rex Publishing chart showing the cleanup path from ONIX 3.0 to ONIX 3.1.3: remove deprecated elements, fix placements, update the message header, then adopt optional features later.</desc>
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#f5efe4"/>
+      <stop offset="100%" stop-color="#efe3cc"/>
+    </linearGradient>
+    <linearGradient id="panel" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#123a57"/>
+      <stop offset="100%" stop-color="#1d5a77"/>
+    </linearGradient>
+  </defs>
+  <rect width="1600" height="900" fill="url(#bg)"/>
+  <rect x="72" y="72" width="1456" height="756" rx="34" fill="#fffaf1" stroke="#d7c7a6" stroke-width="4"/>
+  <rect x="112" y="112" width="520" height="676" rx="28" fill="url(#panel)"/>
+  <text x="160" y="205" fill="#f7f1e3" font-family="Georgia, serif" font-size="72" font-weight="700">ONIX 3.0</text>
+  <text x="160" y="282" fill="#f7f1e3" font-family="Georgia, serif" font-size="72" font-weight="700">to 3.1.3</text>
+  <text x="160" y="350" fill="#cde4ee" font-family="Arial, sans-serif" font-size="28">Treat the switch as controlled cleanup</text>
+  <text x="160" y="390" fill="#cde4ee" font-family="Arial, sans-serif" font-size="28">if your feed is already on ONIX 3.0.</text>
+
+  <rect x="720" y="156" width="690" height="136" rx="22" fill="#f4e0b9" stroke="#c38c34" stroke-width="3"/>
+  <text x="760" y="213" fill="#5e3a00" font-family="Arial, sans-serif" font-size="34" font-weight="700">1. Remove deprecated baggage</text>
+  <text x="760" y="257" fill="#5e3a00" font-family="Arial, sans-serif" font-size="26">Clean out removed 3.0 elements before relabeling the message.</text>
+
+  <rect x="720" y="346" width="690" height="136" rx="22" fill="#d8eadc" stroke="#4a8450" stroke-width="3"/>
+  <text x="760" y="403" fill="#1e4d24" font-family="Arial, sans-serif" font-size="34" font-weight="700">2. Fix structural placements</text>
+  <text x="760" y="447" fill="#1e4d24" font-family="Arial, sans-serif" font-size="26">Verify fields like SalesRestriction and UnnamedPersons.</text>
+
+  <rect x="720" y="536" width="690" height="136" rx="22" fill="#dce8f5" stroke="#5278a5" stroke-width="3"/>
+  <text x="760" y="593" fill="#234667" font-family="Arial, sans-serif" font-size="34" font-weight="700">3. Update release and xmlns</text>
+  <text x="760" y="637" fill="#234667" font-family="Arial, sans-serif" font-size="26">Flip the ONIXMessage header only after payload cleanup.</text>
+
+  <rect x="720" y="726" width="690" height="64" rx="18" fill="#efe8dc" stroke="#9d8d72" stroke-width="2"/>
+  <text x="760" y="768" fill="#4c4232" font-family="Arial, sans-serif" font-size="26">Optional 3.1 features can be phased in later.</text>
+
+  <path d="M666 230h34" stroke="#c38c34" stroke-width="8" stroke-linecap="round"/>
+  <path d="M666 420h34" stroke="#4a8450" stroke-width="8" stroke-linecap="round"/>
+  <path d="M666 610h34" stroke="#5278a5" stroke-width="8" stroke-linecap="round"/>
+</svg>

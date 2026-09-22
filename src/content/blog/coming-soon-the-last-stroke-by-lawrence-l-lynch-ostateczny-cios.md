@@ -4,6 +4,8 @@ description: 'Our new book coming soon'
 pubDate: '2024-10-25T00:00-04:00'
 heroImage: '/images/blog/coming-soon-the-last-stroke-by-lawrence-l-lynch-ostateczny-cios.jpg'
 author: 'Rex Publishing'
+draft: true
+contentType: article
 source: contentful-migration
 legacyContentfulId: '5Bg7guXraqL3brbblUw1HV'
 ---

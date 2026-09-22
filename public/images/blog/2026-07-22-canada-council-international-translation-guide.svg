@@ -1,0 +1,54 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1600" height="900" viewBox="0 0 1600 900" role="img" aria-labelledby="title desc">
+  <title id="title">Canada Council international translation workflow diagram</title>
+  <desc id="desc">A workflow diagram showing the September 2, 2026 International Translation deadline, foreign-publisher eligibility, target-language restriction, and the usual four-month decision window.</desc>
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#eff6ff"/>
+      <stop offset="100%" stop-color="#fef3c7"/>
+    </linearGradient>
+  </defs>
+  <rect width="1600" height="900" fill="url(#bg)"/>
+  <rect x="64" y="72" width="1472" height="756" rx="36" fill="#ffffff" stroke="#cbd5e1" stroke-width="4"/>
+  <text x="118" y="164" fill="#0f172a" font-family="Arial, sans-serif" font-size="52" font-weight="700">
+    Canada Council foreign-publisher workflow
+  </text>
+  <text x="118" y="218" fill="#475569" font-family="Arial, sans-serif" font-size="28">
+    Lock the rights path early, file by September 2, and expect a decision cycle measured in months
+  </text>
+  <g font-family="Arial, sans-serif">
+    <rect x="118" y="306" width="260" height="178" rx="24" fill="#dbeafe" stroke="#2563eb" stroke-width="4"/>
+    <text x="154" y="372" fill="#1e3a8a" font-size="34" font-weight="700">1. Fit the profile</text>
+    <text x="154" y="417" fill="#1d4ed8" font-size="24">Non-Canadian publisher</text>
+    <text x="154" y="449" fill="#1d4ed8" font-size="24">2 years active</text>
+    <text x="154" y="481" fill="#1d4ed8" font-size="24">4 literary titles</text>
+
+    <rect x="430" y="306" width="260" height="178" rx="24" fill="#dcfce7" stroke="#16a34a" stroke-width="4"/>
+    <text x="464" y="372" fill="#14532d" font-size="34" font-weight="700">2. Check language</text>
+    <text x="468" y="417" fill="#166534" font-size="24">Canadian work only</text>
+    <text x="468" y="449" fill="#166534" font-size="24">Target language must be</text>
+    <text x="468" y="481" fill="#166534" font-size="24">not English or French</text>
+
+    <rect x="742" y="306" width="260" height="178" rx="24" fill="#fef3c7" stroke="#f59e0b" stroke-width="4"/>
+    <text x="782" y="372" fill="#78350f" font-size="34" font-weight="700">3. File on time</text>
+    <text x="784" y="417" fill="#92400e" font-size="24">2026 deadlines:</text>
+    <text x="784" y="449" fill="#92400e" font-size="24">14 Jan, 22 Apr,</text>
+    <text x="784" y="481" fill="#92400e" font-size="24">2 Sep</text>
+
+    <rect x="1054" y="306" width="260" height="178" rx="24" fill="#fee2e2" stroke="#ef4444" stroke-width="4"/>
+    <text x="1090" y="372" fill="#7f1d1d" font-size="34" font-weight="700">4. Wait realistically</text>
+    <text x="1094" y="417" fill="#991b1b" font-size="24">Notification usually</text>
+    <text x="1098" y="449" fill="#991b1b" font-size="24">within 4 months</text>
+    <text x="1094" y="481" fill="#991b1b" font-size="24">of the deadline</text>
+  </g>
+  <g stroke="#64748b" stroke-width="8" fill="none" stroke-linecap="round">
+    <path d="M378 395 H414"/>
+    <path d="M690 395 H726"/>
+    <path d="M1002 395 H1038"/>
+  </g>
+  <g font-family="Arial, sans-serif">
+    <rect x="118" y="566" width="1196" height="178" rx="28" fill="#f8fafc" stroke="#cbd5e1" stroke-width="4"/>
+    <text x="154" y="628" fill="#0f172a" font-size="34" font-weight="700">What this changes for scheduling</text>
+    <text x="154" y="676" fill="#334155" font-size="28">The only remaining 2026 filing point is September 2, 2026.</text>
+    <text x="154" y="724" fill="#475569" font-size="24">If a team still has to sort out rights, language choice, or release timing after summer, the realistic publication window can slide into late 2026 or early 2027.</text>
+  </g>
+</svg>

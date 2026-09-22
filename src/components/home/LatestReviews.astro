@@ -1,7 +1,7 @@
 ---
-import { getPublishedReviews } from '../../lib/reviews';
+import { getCanonicalPath, getPublishedEntries } from '../../lib/reviews';
 
-const posts = (await getPublishedReviews()).slice(0, 3);
+const posts = (await getPublishedEntries()).slice(0, 3);
 ---
 <section class="bg-white ">
   <div class="py-8 px-4 mx-auto max-w-screen-xl lg:py-16 lg:px-6">
@@ -15,7 +15,7 @@ const posts = (await getPublishedReviews()).slice(0, 3);
         {posts.map((post) => (
           <article class="p-4 bg-white rounded-lg border border-gray-200 shadow-md">
             {post.data.heroImage && (
-              <a href={`/book-reviews/${post.slug}/`}>
+              <a href={getCanonicalPath(post)}>
                 <img
                   class="mb-5 rounded-lg mx-auto h-[400px] w-full object-cover"
                   src={post.data.heroImage}
@@ -28,7 +28,7 @@ const posts = (await getPublishedReviews()).slice(0, 3);
               {post.data.pubDate.toLocaleDateString()}
             </span>
             <h2 class="my-2 text-2xl font-bold tracking-tight text-teal-900 ">
-              <a href={`/book-reviews/${post.slug}/`}>{post.data.title}</a>
+              <a href={getCanonicalPath(post)}>{post.data.title}</a>
             </h2>
             <p class="mb-4 font-light text-teal-900 ">{post.data.description}</p>
           </article>
@@ -36,10 +36,9 @@ const posts = (await getPublishedReviews()).slice(0, 3);
       </div>
     ) : (
       <div class="mx-auto max-w-2xl rounded-2xl border border-teal-100 bg-teal-50 p-8 text-center">
-        <h3 class="mb-3 text-2xl font-bold text-teal-900">Archive migration in progress</h3>
+        <h3 class="mb-3 text-2xl font-bold text-teal-900">No updates published yet</h3>
         <p class="text-teal-800">
-          We are moving existing reviews out of Contentful and into the repo-managed publishing flow.
-          Fresh posts will appear here once that import lands.
+          Fresh articles and reviews will appear here once they are published.
         </p>
       </div>
     )}

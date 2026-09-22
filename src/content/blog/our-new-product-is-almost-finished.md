@@ -4,6 +4,8 @@ description: 'Underdog expedition - one next big title'
 pubDate: '2024-08-23T00:00-04:00'
 heroImage: '/images/blog/our-new-product-is-almost-finished.jpg'
 author: 'Rex Publishing'
+draft: true
+contentType: article
 source: contentful-migration
 legacyContentfulId: '386t5OSqsOrcZgJhnhJLod'
 ---

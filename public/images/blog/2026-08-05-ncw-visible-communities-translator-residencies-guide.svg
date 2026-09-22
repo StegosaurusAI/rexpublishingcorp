@@ -1,0 +1,34 @@
+<svg width="1600" height="900" viewBox="0 0 1600 900" fill="none" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="title desc">
+  <title id="title">NCW Visible Communities residency comparison</title>
+  <desc id="desc">Comparison card for NCW's 2027 Visible Communities residencies showing the virtual and Norwich cottage tracks, their dates, fees, and key application requirements.</desc>
+  <rect width="1600" height="900" fill="#F5F1E8"/>
+  <rect x="64" y="64" width="1472" height="772" rx="36" fill="#FFFDFC" stroke="#D6CFC2" stroke-width="2"/>
+  <text x="112" y="152" fill="#0F172A" font-family="'Helvetica Neue', Arial, sans-serif" font-size="54" font-weight="700">NCW Visible Communities residencies</text>
+  <text x="112" y="206" fill="#475569" font-family="'Helvetica Neue', Arial, sans-serif" font-size="28">Choose the track before you write the application</text>
+
+  <rect x="112" y="258" width="648" height="454" rx="28" fill="#E0F2FE"/>
+  <rect x="840" y="258" width="648" height="454" rx="28" fill="#DCFCE7"/>
+
+  <text x="152" y="330" fill="#0C4A6E" font-family="'Helvetica Neue', Arial, sans-serif" font-size="38" font-weight="700">Virtual residency</text>
+  <text x="152" y="378" fill="#075985" font-family="'Helvetica Neue', Arial, sans-serif" font-size="26">February to May 2027</text>
+  <text x="152" y="422" fill="#075985" font-family="'Helvetica Neue', Arial, sans-serif" font-size="26">GBP 3,000 per residency</text>
+  <text x="152" y="482" fill="#0F172A" font-family="'Helvetica Neue', Arial, sans-serif" font-size="28" font-weight="700">Best fit</text>
+  <text x="152" y="520" fill="#334155" font-family="'Helvetica Neue', Arial, sans-serif" font-size="24">Longer development arc with regular</text>
+  <text x="152" y="552" fill="#334155" font-family="'Helvetica Neue', Arial, sans-serif" font-size="24">online meetings and mentor feedback</text>
+  <text x="152" y="612" fill="#0F172A" font-family="'Helvetica Neue', Arial, sans-serif" font-size="28" font-weight="700">Outputs</text>
+  <text x="152" y="650" fill="#334155" font-family="'Helvetica Neue', Arial, sans-serif" font-size="24">Commissioned website piece</text>
+  <text x="152" y="682" fill="#334155" font-family="'Helvetica Neue', Arial, sans-serif" font-size="24">Translation-related Meet the World event</text>
+
+  <text x="880" y="330" fill="#166534" font-family="'Helvetica Neue', Arial, sans-serif" font-size="38" font-weight="700">Norwich cottage residency</text>
+  <text x="880" y="378" fill="#15803D" font-family="'Helvetica Neue', Arial, sans-serif" font-size="26">January 18 to January 29, 2027</text>
+  <text x="880" y="422" fill="#15803D" font-family="'Helvetica Neue', Arial, sans-serif" font-size="26">UK travel covered plus GBP 350 per week</text>
+  <text x="880" y="482" fill="#0F172A" font-family="'Helvetica Neue', Arial, sans-serif" font-size="28" font-weight="700">Best fit</text>
+  <text x="880" y="520" fill="#334155" font-family="'Helvetica Neue', Arial, sans-serif" font-size="24">Short, concentrated work period for a</text>
+  <text x="880" y="552" fill="#334155" font-family="'Helvetica Neue', Arial, sans-serif" font-size="24">translation already moving forward</text>
+  <text x="880" y="612" fill="#0F172A" font-family="'Helvetica Neue', Arial, sans-serif" font-size="28" font-weight="700">Outputs</text>
+  <text x="880" y="650" fill="#334155" font-family="'Helvetica Neue', Arial, sans-serif" font-size="24">Mentor session and commissioned content</text>
+  <text x="880" y="682" fill="#334155" font-family="'Helvetica Neue', Arial, sans-serif" font-size="24">Shared stay at Dragon Hall cottage</text>
+
+  <rect x="112" y="744" width="1376" height="64" rx="18" fill="#1E293B"/>
+  <text x="144" y="786" fill="#F8FAFC" font-family="'Helvetica Neue', Arial, sans-serif" font-size="28">Deadline: Monday, September 21, 2026. Eligibility: UK-based Black, Asian and Ethnically Diverse literary translators working into English.</text>
+</svg>

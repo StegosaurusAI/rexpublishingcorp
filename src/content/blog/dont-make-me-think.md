@@ -4,6 +4,8 @@ description: 'Since Don’t Make Me Think was first published in 2000, hundreds 
 pubDate: '2024-07-21T00:00-04:00'
 heroImage: '/images/blog/dont-make-me-think.jpg'
 author: 'Rex Publishing'
+draft: true
+contentType: article
 source: contentful-migration
 legacyContentfulId: 'gyAEqjfXnGNX6EW1mlK43'
 ---

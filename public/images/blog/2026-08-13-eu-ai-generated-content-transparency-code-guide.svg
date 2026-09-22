@@ -1,0 +1,38 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1600" height="900" viewBox="0 0 1600 900" role="img" aria-labelledby="title desc">
+  <title id="title">EU AI-generated content transparency code guide</title>
+  <desc id="desc">A Rex Publishing workflow graphic showing the August 2, 2026 applicability date, the provider versus deployer split, and the human review plus editorial responsibility decision path for public-interest text.</desc>
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#edf2e8"/>
+      <stop offset="100%" stop-color="#d9e7f0"/>
+    </linearGradient>
+  </defs>
+  <rect width="1600" height="900" fill="url(#bg)"/>
+  <rect x="72" y="72" width="1456" height="756" rx="36" fill="#fdfcf7" stroke="#20364a" stroke-width="4"/>
+  <text x="120" y="166" fill="#20364a" font-family="Georgia, 'Times New Roman', serif" font-size="34" font-weight="700">Rex Publishing</text>
+  <text x="120" y="242" fill="#20364a" font-family="Georgia, 'Times New Roman', serif" font-size="60" font-weight="700">EU AI transparency code</text>
+  <text x="120" y="304" fill="#7b4f11" font-family="Arial, Helvetica, sans-serif" font-size="34" font-weight="700">Public-interest text workflow after 2 August 2026</text>
+  <rect x="120" y="358" width="430" height="144" rx="24" fill="#20364a"/>
+  <text x="158" y="416" fill="#f7f5ee" font-family="Arial, Helvetica, sans-serif" font-size="28" font-weight="700">Transparency duties live</text>
+  <text x="158" y="472" fill="#f7f5ee" font-family="Arial, Helvetica, sans-serif" font-size="46" font-weight="700">2 August 2026</text>
+  <rect x="680" y="174" width="290" height="170" rx="24" fill="#d8e6d5" stroke="#356047" stroke-width="3"/>
+  <text x="728" y="238" fill="#356047" font-family="Arial, Helvetica, sans-serif" font-size="34" font-weight="700">Providers</text>
+  <text x="728" y="288" fill="#20364a" font-family="Arial, Helvetica, sans-serif" font-size="26">Marking and</text>
+  <text x="728" y="324" fill="#20364a" font-family="Arial, Helvetica, sans-serif" font-size="26">detection</text>
+  <rect x="1018" y="174" width="340" height="170" rx="24" fill="#f1dfc8" stroke="#8a5a1b" stroke-width="3"/>
+  <text x="1068" y="238" fill="#8a5a1b" font-family="Arial, Helvetica, sans-serif" font-size="34" font-weight="700">Deployers</text>
+  <text x="1068" y="288" fill="#20364a" font-family="Arial, Helvetica, sans-serif" font-size="26">Label deepfakes</text>
+  <text x="1068" y="324" fill="#20364a" font-family="Arial, Helvetica, sans-serif" font-size="26">and certain text</text>
+  <path d="M970 258h48" stroke="#20364a" stroke-width="6" stroke-linecap="round"/>
+  <path d="M664 590h680" stroke="#20364a" stroke-width="4" stroke-dasharray="10 14" stroke-linecap="round"/>
+  <rect x="670" y="446" width="680" height="240" rx="28" fill="#eef2f6" stroke="#20364a" stroke-width="3"/>
+  <text x="714" y="510" fill="#20364a" font-family="Arial, Helvetica, sans-serif" font-size="34" font-weight="700">Public-interest text decision path</text>
+  <text x="714" y="564" fill="#20364a" font-family="Arial, Helvetica, sans-serif" font-size="27">AI-generated or materially manipulated text?</text>
+  <text x="714" y="610" fill="#20364a" font-family="Arial, Helvetica, sans-serif" font-size="27">If yes, check human review plus editorial responsibility.</text>
+  <text x="714" y="656" fill="#20364a" font-family="Arial, Helvetica, sans-serif" font-size="27">If that process is weak, labeling risk stays live.</text>
+  <text x="120" y="606" fill="#20364a" font-family="Arial, Helvetica, sans-serif" font-size="30" font-weight="700">Practical checks</text>
+  <text x="120" y="652" fill="#20364a" font-family="Arial, Helvetica, sans-serif" font-size="26">1. Identify public-facing formats.</text>
+  <text x="120" y="694" fill="#20364a" font-family="Arial, Helvetica, sans-serif" font-size="26">2. Map where AI enters the workflow.</text>
+  <text x="120" y="736" fill="#20364a" font-family="Arial, Helvetica, sans-serif" font-size="26">3. Name the accountable editor or entity.</text>
+  <text x="120" y="790" fill="#5d6771" font-family="Arial, Helvetica, sans-serif" font-size="22">Sources: European Commission code page, AI Act page, Regulation (EU) 2024/1689</text>
+</svg>

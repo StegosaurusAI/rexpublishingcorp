@@ -1,0 +1,54 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1600" height="900" viewBox="0 0 1600 900" role="img" aria-labelledby="title desc">
+  <title id="title">Literature Ireland Dutch or Flemish translator residency workflow</title>
+  <desc id="desc">A Rex Publishing explainer showing the August 31, 2026 application deadline, the Dutch or Flemish target-language requirement, the publisher contract or letter-of-intent requirement, and the October to November 2026 residency period.</desc>
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#eff6ff"/>
+      <stop offset="100%" stop-color="#ecfccb"/>
+    </linearGradient>
+  </defs>
+  <rect width="1600" height="900" fill="url(#bg)"/>
+  <rect x="56" y="64" width="1488" height="772" rx="36" fill="#ffffff" stroke="#cbd5e1" stroke-width="4"/>
+  <text x="116" y="156" fill="#0f172a" font-family="Arial, sans-serif" font-size="52" font-weight="700">
+    Literature Ireland residency workflow
+  </text>
+  <text x="116" y="210" fill="#475569" font-family="Arial, sans-serif" font-size="28">
+    Useful only when the translator already has a real Dutch or Flemish publishing path
+  </text>
+  <g font-family="Arial, sans-serif">
+    <rect x="116" y="286" width="292" height="198" rx="24" fill="#dbeafe" stroke="#2563eb" stroke-width="4"/>
+    <text x="146" y="352" fill="#1d4ed8" font-size="34" font-weight="700">1. Deadline</text>
+    <text x="148" y="402" fill="#1e40af" font-size="24">Apply by midday</text>
+    <text x="148" y="434" fill="#1e40af" font-size="24">Monday, 31 August 2026</text>
+    <text x="148" y="466" fill="#1e40af" font-size="24">Notification: 4 September</text>
+
+    <rect x="454" y="286" width="292" height="198" rx="24" fill="#dcfce7" stroke="#16a34a" stroke-width="4"/>
+    <text x="486" y="352" fill="#166534" font-size="34" font-weight="700">2. Language fit</text>
+    <text x="488" y="402" fill="#166534" font-size="24">Source: Irish or English</text>
+    <text x="488" y="434" fill="#166534" font-size="24">Target: Dutch or Flemish</text>
+    <text x="488" y="466" fill="#166534" font-size="24">Contemporary Irish writer</text>
+
+    <rect x="792" y="286" width="292" height="198" rx="24" fill="#fef3c7" stroke="#d97706" stroke-width="4"/>
+    <text x="826" y="352" fill="#92400e" font-size="34" font-weight="700">3. Proof of route</text>
+    <text x="826" y="402" fill="#92400e" font-size="24">Contract preferred, or</text>
+    <text x="826" y="434" fill="#92400e" font-size="24">letter of intent from a</text>
+    <text x="826" y="466" fill="#92400e" font-size="24">Dutch or Flemish house</text>
+
+    <rect x="1130" y="286" width="292" height="198" rx="24" fill="#fee2e2" stroke="#ef4444" stroke-width="4"/>
+    <text x="1164" y="352" fill="#991b1b" font-size="34" font-weight="700">4. Residency run</text>
+    <text x="1168" y="402" fill="#991b1b" font-size="24">1 October to</text>
+    <text x="1168" y="434" fill="#991b1b" font-size="24">30 November 2026</text>
+    <text x="1168" y="466" fill="#991b1b" font-size="24">Travel and living covered</text>
+  </g>
+  <g stroke="#64748b" stroke-width="8" fill="none" stroke-linecap="round">
+    <path d="M408 386 H440"/>
+    <path d="M746 386 H778"/>
+    <path d="M1084 386 H1116"/>
+  </g>
+  <g font-family="Arial, sans-serif">
+    <rect x="116" y="560" width="1306" height="192" rx="28" fill="#f8fafc" stroke="#cbd5e1" stroke-width="4"/>
+    <text x="150" y="626" fill="#0f172a" font-size="34" font-weight="700">Practical filter</text>
+    <text x="150" y="676" fill="#334155" font-size="28">If the translator cannot show a live project and a publisher path, the packet is still too early.</text>
+    <text x="150" y="720" fill="#475569" font-size="24">This residency supports a translation already moving toward publication. It does not replace market proof.</text>
+  </g>
+</svg>

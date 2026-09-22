@@ -1,0 +1,38 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1600" height="900" viewBox="0 0 1600 900" role="img" aria-labelledby="title desc">
+  <title id="title">Liber 2026 rights, translation, and audio agenda card</title>
+  <desc id="desc">A Rex Publishing explainer card showing the key Liber 2026 programme sessions on AI copyright models, translation grants, literary translation standards, and audiobook demand.</desc>
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#fff7ed"/>
+      <stop offset="100%" stop-color="#e0f2fe"/>
+    </linearGradient>
+  </defs>
+  <rect width="1600" height="900" fill="url(#bg)"/>
+  <rect x="64" y="72" width="1472" height="756" rx="36" fill="#ffffff" stroke="#cbd5e1" stroke-width="4"/>
+  <text x="118" y="156" fill="#0f172a" font-family="Arial, sans-serif" font-size="50" font-weight="700">
+    Liber 2026 Programme Check
+  </text>
+  <text x="118" y="210" fill="#475569" font-family="Arial, sans-serif" font-size="28">
+    Barcelona, 29 September to 1 October 2026
+  </text>
+  <g font-family="Arial, sans-serif">
+    <rect x="118" y="264" width="632" height="230" rx="26" fill="#eff6ff" stroke="#2563eb" stroke-width="4"/>
+    <text x="152" y="324" fill="#1d4ed8" font-size="34" font-weight="700">Tuesday 29 September</text>
+    <text x="152" y="370" fill="#1e3a8a" font-size="24">11:00 AI copyright-management models</text>
+    <text x="152" y="404" fill="#1e3a8a" font-size="24">12:00 Ibero-American translation grants</text>
+    <text x="152" y="438" fill="#1e3a8a" font-size="24">17:00 Literary translation standards</text>
+
+    <rect x="790" y="264" width="644" height="230" rx="26" fill="#ecfccb" stroke="#65a30d" stroke-width="4"/>
+    <text x="824" y="324" fill="#3f6212" font-size="34" font-weight="700">Wednesday 30 September</text>
+    <text x="824" y="370" fill="#3f6212" font-size="24">12:00 Audiobook demand session</text>
+    <text x="824" y="404" fill="#3f6212" font-size="24">CC1 - Sala 1.1</text>
+    <text x="824" y="438" fill="#3f6212" font-size="24">Professional Visitor Access</text>
+  </g>
+  <g font-family="Arial, sans-serif">
+    <rect x="118" y="542" width="1316" height="208" rx="28" fill="#f8fafc" stroke="#cbd5e1" stroke-width="4"/>
+    <text x="154" y="602" fill="#0f172a" font-size="34" font-weight="700">Why it matters</text>
+    <text x="154" y="648" fill="#334155" font-size="26">Rights Hall plus buyer programmes make the agenda operational, not just promotional.</text>
+    <text x="154" y="686" fill="#334155" font-size="26">Best fit: teams already juggling rights, translation, and audio decisions for autumn 2026.</text>
+    <text x="154" y="726" fill="#64748b" font-size="22">Source basis: Liber official homepage, Sector track, and individual session pages.</text>
+  </g>
+</svg>

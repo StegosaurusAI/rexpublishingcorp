@@ -1,0 +1,49 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1600" height="900" viewBox="0 0 1600 900" role="img" aria-labelledby="title desc">
+  <title id="title">EPUB 3.3 baseline workflow</title>
+  <desc id="desc">A Rex Publishing diagram showing EPUB 3.3, Reading Systems 3.3, and EPUB Accessibility 1.1 as the core baseline, with companion notes used as supporting guidance.</desc>
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#f6efe5"/>
+      <stop offset="100%" stop-color="#dce8ef"/>
+    </linearGradient>
+    <filter id="shadow" x="-10%" y="-10%" width="120%" height="120%">
+      <feDropShadow dx="0" dy="10" stdDeviation="16" flood-color="#334155" flood-opacity="0.14"/>
+    </filter>
+  </defs>
+  <rect width="1600" height="900" fill="url(#bg)"/>
+  <rect x="96" y="84" width="1408" height="732" rx="36" fill="#fffdfa" stroke="#d6d3d1" stroke-width="2"/>
+  <text x="156" y="156" font-family="Georgia, 'Times New Roman', serif" font-size="52" fill="#1f2937">EPUB workflow gets cleaner when teams separate the baseline from the supporting notes</text>
+  <text x="156" y="206" font-family="'Helvetica Neue', Arial, sans-serif" font-size="28" fill="#475569">As of July 15, 2026, W3C still points teams to the same three-part core stack.</text>
+
+  <g filter="url(#shadow)">
+    <rect x="150" y="306" width="320" height="236" rx="28" fill="#eef7f0" stroke="#2f6f52" stroke-width="3"/>
+    <text x="188" y="382" font-family="Georgia, 'Times New Roman', serif" font-size="38" fill="#1f4f39">EPUB 3.3</text>
+    <text x="188" y="430" font-family="'Helvetica Neue', Arial, sans-serif" font-size="24" fill="#2f6f52">Authoring, packaging, navigation,</text>
+    <text x="188" y="466" font-family="'Helvetica Neue', Arial, sans-serif" font-size="24" fill="#2f6f52">layout, overlays, and container basics.</text>
+  </g>
+
+  <g filter="url(#shadow)">
+    <rect x="540" y="306" width="320" height="236" rx="28" fill="#eef2ff" stroke="#4f46e5" stroke-width="3"/>
+    <text x="578" y="382" font-family="Georgia, 'Times New Roman', serif" font-size="38" fill="#312e81">Reading Systems 3.3</text>
+    <text x="578" y="430" font-family="'Helvetica Neue', Arial, sans-serif" font-size="24" fill="#4338ca">Use when QA questions depend on</text>
+    <text x="578" y="466" font-family="'Helvetica Neue', Arial, sans-serif" font-size="24" fill="#4338ca">what software should support.</text>
+  </g>
+
+  <g filter="url(#shadow)">
+    <rect x="930" y="306" width="320" height="236" rx="28" fill="#fff7ed" stroke="#c2410c" stroke-width="3"/>
+    <text x="968" y="382" font-family="Georgia, 'Times New Roman', serif" font-size="38" fill="#9a3412">Accessibility 1.1</text>
+    <text x="968" y="430" font-family="'Helvetica Neue', Arial, sans-serif" font-size="24" fill="#c2410c">Core conformance anchor for</text>
+    <text x="968" y="466" font-family="'Helvetica Neue', Arial, sans-serif" font-size="24" fill="#c2410c">accessible EPUB publishing.</text>
+  </g>
+
+  <path d="M470 424h50" stroke="#64748b" stroke-width="8" stroke-linecap="round"/>
+  <path d="M860 424h50" stroke="#64748b" stroke-width="8" stroke-linecap="round"/>
+  <path d="M520 424l-18 -12v24z" fill="#64748b"/>
+  <path d="M910 424l-18 -12v24z" fill="#64748b"/>
+
+  <g filter="url(#shadow)">
+    <rect x="264" y="612" width="1072" height="126" rx="28" fill="#f8fafc" stroke="#94a3b8" stroke-width="3"/>
+    <text x="310" y="668" font-family="Georgia, 'Times New Roman', serif" font-size="34" fill="#1f2937">Companion notes: use them for implementation detail, not as a substitute baseline</text>
+    <text x="310" y="710" font-family="'Helvetica Neue', Arial, sans-serif" font-size="24" fill="#475569">Examples: Accessibility Techniques, EAA Mapping, Multiple Renditions, TTS Enhancements, and epub:type-to-ARIA guidance.</text>
+  </g>
+</svg>

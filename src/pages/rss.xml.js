@@ -1,9 +1,9 @@
 import rss from '@astrojs/rss';
 import { SITE_TITLE, SITE_DESCRIPTION } from '../consts';
-import { getPublishedReviews } from '../lib/reviews';
+import { getCanonicalPath, getPublishedEntries } from '../lib/reviews';
 
 export async function GET(context) {
-	const posts = await getPublishedReviews();
+	const posts = await getPublishedEntries();
 	return rss({
 		title: SITE_TITLE,
 		description: SITE_DESCRIPTION,
@@ -12,7 +12,7 @@ export async function GET(context) {
 			title: post.data.title,
 			description: post.data.description,
 			pubDate: post.data.pubDate,
-			link: `/book-reviews/${post.slug}/`,
+			link: getCanonicalPath(post),
 		})),
 	});
 }

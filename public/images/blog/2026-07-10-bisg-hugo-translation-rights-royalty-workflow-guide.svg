@@ -1,0 +1,55 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="630" viewBox="0 0 1200 630" role="img" aria-labelledby="title desc">
+  <title id="title">BISG HUGO workflow diagram</title>
+  <desc id="desc">Diagram showing raw royalty data moving through a field check, live preview, and export workflow.</desc>
+  <defs>
+    <linearGradient id="bg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#f6efe4" />
+      <stop offset="100%" stop-color="#d8e7e0" />
+    </linearGradient>
+    <style>
+      .label { font: 600 28px Arial, sans-serif; fill: #17352f; }
+      .body { font: 400 20px Arial, sans-serif; fill: #30564e; }
+      .small { font: 400 18px Arial, sans-serif; fill: #30564e; }
+      .chip { font: 700 18px Arial, sans-serif; fill: #ffffff; }
+    </style>
+  </defs>
+  <rect width="1200" height="630" fill="url(#bg)" rx="32" />
+  <rect x="56" y="52" width="1088" height="526" rx="28" fill="#fffaf2" stroke="#17352f" stroke-width="3" />
+  <text x="94" y="126" class="label">BISG HUGO workflow signal</text>
+  <text x="94" y="160" class="body">A prototype for clearer translation-rights royalty statements</text>
+
+  <rect x="94" y="220" width="220" height="210" rx="24" fill="#efe4cc" stroke="#17352f" stroke-width="3" />
+  <text x="126" y="276" class="label">1. Raw data</text>
+  <text x="126" y="320" class="small">Contract IDs</text>
+  <text x="126" y="350" class="small">Territory and format</text>
+  <text x="126" y="380" class="small">Sales, reserves, tax</text>
+
+  <rect x="392" y="220" width="220" height="210" rx="24" fill="#dcece3" stroke="#17352f" stroke-width="3" />
+  <text x="424" y="276" class="label">2. Field check</text>
+  <text x="424" y="320" class="small">Contract</text>
+  <text x="424" y="350" class="small">Statement</text>
+  <text x="424" y="380" class="small">Conditional and remittance</text>
+
+  <rect x="690" y="220" width="220" height="210" rx="24" fill="#efe4cc" stroke="#17352f" stroke-width="3" />
+  <text x="722" y="276" class="label">3. Preview</text>
+  <text x="722" y="320" class="small">Readable two-page layout</text>
+  <text x="722" y="350" class="small">Visible formulas</text>
+  <text x="722" y="380" class="small">Traceable field labels</text>
+
+  <rect x="988" y="220" width="120" height="210" rx="24" fill="#dcece3" stroke="#17352f" stroke-width="3" />
+  <text x="1017" y="276" class="label">4.</text>
+  <text x="1014" y="320" class="small">PDF</text>
+  <text x="1014" y="350" class="small">JSON</text>
+  <text x="1014" y="380" class="small">CSV</text>
+
+  <path d="M314 326h58" stroke="#17352f" stroke-width="6" stroke-linecap="round" />
+  <path d="M363 314l26 12-26 12" fill="none" stroke="#17352f" stroke-width="6" stroke-linecap="round" stroke-linejoin="round" />
+  <path d="M612 326h58" stroke="#17352f" stroke-width="6" stroke-linecap="round" />
+  <path d="M661 314l26 12-26 12" fill="none" stroke="#17352f" stroke-width="6" stroke-linecap="round" stroke-linejoin="round" />
+  <path d="M910 326h46" stroke="#17352f" stroke-width="6" stroke-linecap="round" />
+  <path d="M947 314l26 12-26 12" fill="none" stroke="#17352f" stroke-width="6" stroke-linecap="round" stroke-linejoin="round" />
+
+  <rect x="94" y="478" width="184" height="40" rx="20" fill="#17352f" />
+  <text x="126" y="505" class="chip">July 14, 2026 demo</text>
+  <text x="316" y="505" class="body">Prototype, not a market-wide rollout</text>
+</svg>

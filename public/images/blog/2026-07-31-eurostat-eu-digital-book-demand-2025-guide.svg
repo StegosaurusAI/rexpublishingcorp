@@ -1,0 +1,44 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1600" height="900" viewBox="0 0 1600 900" role="img" aria-labelledby="title desc">
+  <title id="title">Eurostat 2025 digital-book demand comparison</title>
+  <desc id="desc">A Rex Publishing chart showing Eurostat's 2025 rise in ebook and audiobook purchasing among recent EU internet users, with top markets Ireland, Denmark, and Croatia, and low-share markets below 5 percent.</desc>
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#f3efe6"/>
+      <stop offset="100%" stop-color="#dfe9ee"/>
+    </linearGradient>
+  </defs>
+  <rect width="1600" height="900" fill="url(#bg)"/>
+  <rect x="64" y="64" width="1472" height="772" rx="34" fill="#fffdfa" stroke="#c8d4d9" stroke-width="4"/>
+
+  <text x="118" y="156" fill="#1f2d35" font-family="Georgia, 'Times New Roman', serif" font-size="58" font-weight="700">EU digital-book buying rose in 2025</text>
+  <text x="118" y="208" fill="#4a5d68" font-family="Arial, Helvetica, sans-serif" font-size="28">Eurostat release published April 23, 2026. Indicator combines ebooks and audiobooks.</text>
+
+  <rect x="118" y="270" width="520" height="220" rx="26" fill="#f7fafb" stroke="#b6c7cf" stroke-width="3"/>
+  <text x="158" y="338" fill="#34505c" font-family="Arial, Helvetica, sans-serif" font-size="30" font-weight="700">Recent EU internet users who bought</text>
+  <text x="158" y="378" fill="#34505c" font-family="Arial, Helvetica, sans-serif" font-size="30" font-weight="700">ebooks or audiobooks in prior 3 months</text>
+  <text x="160" y="450" fill="#8b5e34" font-family="Arial, Helvetica, sans-serif" font-size="28" font-weight="700">2024</text>
+  <text x="292" y="450" fill="#1f2d35" font-family="Arial, Helvetica, sans-serif" font-size="72" font-weight="700">7.3%</text>
+  <text x="160" y="520" fill="#8b5e34" font-family="Arial, Helvetica, sans-serif" font-size="28" font-weight="700">2025</text>
+  <text x="292" y="520" fill="#1f5a63" font-family="Arial, Helvetica, sans-serif" font-size="72" font-weight="700">9.5%</text>
+
+  <rect x="700" y="270" width="360" height="460" rx="26" fill="#f9fbfc" stroke="#b6c7cf" stroke-width="3"/>
+  <text x="740" y="334" fill="#1f2d35" font-family="Arial, Helvetica, sans-serif" font-size="34" font-weight="700">Highest 2025 shares</text>
+  <text x="740" y="414" fill="#355765" font-family="Arial, Helvetica, sans-serif" font-size="32">Ireland</text>
+  <text x="932" y="414" fill="#1f5a63" font-family="Arial, Helvetica, sans-serif" font-size="42" font-weight="700">24.5%</text>
+  <text x="740" y="494" fill="#355765" font-family="Arial, Helvetica, sans-serif" font-size="32">Denmark</text>
+  <text x="932" y="494" fill="#1f5a63" font-family="Arial, Helvetica, sans-serif" font-size="42" font-weight="700">22.5%</text>
+  <text x="740" y="574" fill="#355765" font-family="Arial, Helvetica, sans-serif" font-size="32">Croatia</text>
+  <text x="932" y="574" fill="#1f5a63" font-family="Arial, Helvetica, sans-serif" font-size="42" font-weight="700">21.0%</text>
+  <text x="740" y="666" fill="#6a7c85" font-family="Arial, Helvetica, sans-serif" font-size="24">Largest year-over-year gain:</text>
+  <text x="740" y="704" fill="#8b5e34" font-family="Arial, Helvetica, sans-serif" font-size="30" font-weight="700">Croatia +16.0 pp</text>
+
+  <rect x="1118" y="270" width="300" height="460" rx="26" fill="#f9fbfc" stroke="#b6c7cf" stroke-width="3"/>
+  <text x="1158" y="334" fill="#1f2d35" font-family="Arial, Helvetica, sans-serif" font-size="34" font-weight="700">Below 5%</text>
+  <text x="1158" y="420" fill="#7a4a2b" font-family="Arial, Helvetica, sans-serif" font-size="34">Hungary</text>
+  <text x="1158" y="490" fill="#7a4a2b" font-family="Arial, Helvetica, sans-serif" font-size="34">Italy</text>
+  <text x="1158" y="560" fill="#7a4a2b" font-family="Arial, Helvetica, sans-serif" font-size="34">Slovenia</text>
+  <text x="1158" y="630" fill="#7a4a2b" font-family="Arial, Helvetica, sans-serif" font-size="34">Latvia</text>
+
+  <rect x="118" y="768" width="1300" height="44" rx="12" fill="#eef4f6"/>
+  <text x="140" y="798" fill="#546971" font-family="Arial, Helvetica, sans-serif" font-size="21">Source: Eurostat news release and cited ICT household survey dataset. Graphic: Rex Publishing.</text>
+</svg>

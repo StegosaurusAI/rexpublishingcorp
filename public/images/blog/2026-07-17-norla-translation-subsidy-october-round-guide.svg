@@ -1,0 +1,55 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1600" height="900" viewBox="0 0 1600 900" role="img" aria-labelledby="title desc">
+  <title id="title">NORLA translation subsidy workflow diagram</title>
+  <desc id="desc">A workflow diagram showing the October 1, 2026 NORLA deadline, translator contract and CV requirements, NOK-only grant handling, and the two-books-per-round cap.</desc>
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#ecfeff"/>
+      <stop offset="100%" stop-color="#fef3c7"/>
+    </linearGradient>
+  </defs>
+  <rect width="1600" height="900" fill="url(#bg)"/>
+  <rect x="64" y="72" width="1472" height="756" rx="36" fill="#ffffff" stroke="#cbd5e1" stroke-width="4"/>
+  <text x="118" y="164" fill="#0f172a" font-family="Arial, sans-serif" font-size="52" font-weight="700">
+    NORLA foreign-publisher workflow
+  </text>
+  <text x="118" y="218" fill="#475569" font-family="Arial, sans-serif" font-size="28">
+    File before publication, budget in NOK, and lock the translator packet early
+  </text>
+  <g font-family="Arial, sans-serif">
+    <rect x="118" y="306" width="260" height="178" rx="24" fill="#cffafe" stroke="#0891b2" stroke-width="4"/>
+    <text x="156" y="372" fill="#164e63" font-size="34" font-weight="700">1. Stay unpublished</text>
+    <text x="154" y="417" fill="#155e75" font-size="24">Submit before the</text>
+    <text x="154" y="449" fill="#155e75" font-size="24">translated book is</text>
+    <text x="154" y="481" fill="#155e75" font-size="24">published</text>
+
+    <rect x="430" y="306" width="260" height="178" rx="24" fill="#dcfce7" stroke="#16a34a" stroke-width="4"/>
+    <text x="466" y="372" fill="#14532d" font-size="34" font-weight="700">2. Send proof</text>
+    <text x="468" y="417" fill="#166534" font-size="24">Signed contract</text>
+    <text x="468" y="449" fill="#166534" font-size="24">plus translator CV</text>
+    <text x="468" y="481" fill="#166534" font-size="24">showing Norwegian</text>
+
+    <rect x="742" y="306" width="260" height="178" rx="24" fill="#fef3c7" stroke="#f59e0b" stroke-width="4"/>
+    <text x="792" y="372" fill="#78350f" font-size="34" font-weight="700">3. File by Oct. 1</text>
+    <text x="790" y="417" fill="#92400e" font-size="24">All-genres dates</text>
+    <text x="790" y="449" fill="#92400e" font-size="24">2 Feb, 1 Jun,</text>
+    <text x="790" y="481" fill="#92400e" font-size="24">1 Oct</text>
+
+    <rect x="1054" y="306" width="260" height="178" rx="24" fill="#fee2e2" stroke="#ef4444" stroke-width="4"/>
+    <text x="1098" y="372" fill="#7f1d1d" font-size="34" font-weight="700">4. Budget in NOK</text>
+    <text x="1092" y="417" fill="#991b1b" font-size="24">Requested amount</text>
+    <text x="1102" y="449" fill="#991b1b" font-size="24">and grant payout</text>
+    <text x="1110" y="481" fill="#991b1b" font-size="24">are both in NOK</text>
+  </g>
+  <g stroke="#64748b" stroke-width="8" fill="none" stroke-linecap="round">
+    <path d="M378 395 H414"/>
+    <path d="M690 395 H726"/>
+    <path d="M1002 395 H1038"/>
+  </g>
+  <g font-family="Arial, sans-serif">
+    <rect x="118" y="566" width="1196" height="178" rx="28" fill="#f8fafc" stroke="#cbd5e1" stroke-width="4"/>
+    <text x="154" y="628" fill="#0f172a" font-size="34" font-weight="700">Use the caps to prioritize</text>
+    <text x="154" y="676" fill="#334155" font-size="28">Maximum two books per round</text>
+    <text x="640" y="676" fill="#334155" font-size="28">Maximum four applications per publisher per year</text>
+    <text x="154" y="724" fill="#475569" font-size="24">Certain illustrated books can add a simultaneous production-subsidy request, but the main translation workflow still comes first.</text>
+  </g>
+</svg>

@@ -1,0 +1,54 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1600" height="900" viewBox="0 0 1600 900" role="img" aria-labelledby="title desc">
+  <title id="title">International copyright planning workflow</title>
+  <desc id="desc">A Rex Publishing flowchart showing that copyright starts automatically but cross-border planning still requires checking first publication facts, treaty relationships, and country-specific law.</desc>
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#f7f0e7"/>
+      <stop offset="100%" stop-color="#dde8f0"/>
+    </linearGradient>
+    <filter id="shadow" x="-10%" y="-10%" width="120%" height="120%">
+      <feDropShadow dx="0" dy="10" stdDeviation="16" flood-color="#334155" flood-opacity="0.14"/>
+    </filter>
+  </defs>
+  <rect width="1600" height="900" fill="url(#bg)"/>
+  <rect x="100" y="88" width="1400" height="724" rx="36" fill="#fffdfa" stroke="#d6d3d1" stroke-width="2"/>
+  <text x="160" y="158" font-family="Georgia, 'Times New Roman', serif" font-size="52" fill="#1f2937">International rights planning works best when the checks stay separate</text>
+  <text x="160" y="208" font-family="'Helvetica Neue', Arial, sans-serif" font-size="28" fill="#475569">Automatic protection is the start. Country analysis, first publication, and treaty coverage are separate jobs.</text>
+
+  <g filter="url(#shadow)">
+    <rect x="140" y="320" width="280" height="220" rx="28" fill="#eef7f0" stroke="#2f6f52" stroke-width="3"/>
+    <text x="180" y="390" font-family="Georgia, 'Times New Roman', serif" font-size="36" fill="#1f4f39">1. Work is fixed</text>
+    <text x="180" y="440" font-family="'Helvetica Neue', Arial, sans-serif" font-size="24" fill="#2f6f52">U.S. baseline copyright exists automatically.</text>
+    <text x="180" y="478" font-family="'Helvetica Neue', Arial, sans-serif" font-size="24" fill="#2f6f52">That does not answer every foreign-market question.</text>
+  </g>
+
+  <g filter="url(#shadow)">
+    <rect x="500" y="320" width="280" height="220" rx="28" fill="#f4f3ff" stroke="#4f46e5" stroke-width="3"/>
+    <text x="540" y="390" font-family="Georgia, 'Times New Roman', serif" font-size="36" fill="#312e81">2. Check first publication</text>
+    <text x="540" y="440" font-family="'Helvetica Neue', Arial, sans-serif" font-size="24" fill="#4338ca">Timing and launch facts can affect the later analysis.</text>
+    <text x="540" y="478" font-family="'Helvetica Neue', Arial, sans-serif" font-size="24" fill="#4338ca">Do this before materials start circulating.</text>
+  </g>
+
+  <g filter="url(#shadow)">
+    <rect x="860" y="320" width="280" height="220" rx="28" fill="#fff7ed" stroke="#c2410c" stroke-width="3"/>
+    <text x="900" y="390" font-family="Georgia, 'Times New Roman', serif" font-size="36" fill="#9a3412">3. Check treaty and country</text>
+    <text x="900" y="440" font-family="'Helvetica Neue', Arial, sans-serif" font-size="24" fill="#c2410c">Use Circular 38A to see the relationship in the target market.</text>
+    <text x="900" y="478" font-family="'Helvetica Neue', Arial, sans-serif" font-size="24" fill="#c2410c">No single global switch covers every jurisdiction.</text>
+  </g>
+
+  <g filter="url(#shadow)">
+    <rect x="1220" y="320" width="240" height="220" rx="28" fill="#fef2f2" stroke="#b91c1c" stroke-width="3"/>
+    <text x="1255" y="390" font-family="Georgia, 'Times New Roman', serif" font-size="36" fill="#7f1d1d">4. Escalate narrow questions</text>
+    <text x="1255" y="440" font-family="'Helvetica Neue', Arial, sans-serif" font-size="24" fill="#b91c1c">Term, enforcement, formalities, and contract language still vary.</text>
+    <text x="1255" y="478" font-family="'Helvetica Neue', Arial, sans-serif" font-size="24" fill="#b91c1c">Bring in local counsel when those issues become material.</text>
+  </g>
+
+  <path d="M420 430h56" stroke="#64748b" stroke-width="8" stroke-linecap="round"/>
+  <path d="M780 430h56" stroke="#64748b" stroke-width="8" stroke-linecap="round"/>
+  <path d="M1140 430h48" stroke="#64748b" stroke-width="8" stroke-linecap="round"/>
+  <path d="M466 430l-18 -12v24z" fill="#64748b"/>
+  <path d="M826 430l-18 -12v24z" fill="#64748b"/>
+  <path d="M1186 430l-18 -12v24z" fill="#64748b"/>
+
+  <text x="160" y="678" font-family="'Helvetica Neue', Arial, sans-serif" font-size="27" fill="#475569">Rex takeaway: do not confuse automatic copyright, treaty coverage, and country-specific enforcement into one answer.</text>
+</svg>

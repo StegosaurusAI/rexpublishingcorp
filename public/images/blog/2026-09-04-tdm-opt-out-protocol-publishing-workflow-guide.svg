@@ -1,0 +1,49 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1600" height="900" viewBox="0 0 1600 900" role="img" aria-labelledby="title desc">
+  <title id="title">TDM opt-out protocol publishing workflow diagram</title>
+  <desc id="desc">A Rex Publishing diagram comparing machine-readable TDM rights reservation across a web page, HTTP headers, a policy URL, EPUB metadata, and PDF metadata.</desc>
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#f7f3ea" />
+      <stop offset="100%" stop-color="#d9efe5" />
+    </linearGradient>
+  </defs>
+  <rect width="1600" height="900" fill="url(#bg)" />
+  <rect x="64" y="64" width="1472" height="772" rx="34" fill="#fffdfa" stroke="#0f766e" stroke-width="4" />
+
+  <text x="120" y="148" fill="#0f172a" font-family="'Helvetica Neue', Arial, sans-serif" font-size="54" font-weight="700">TDM opt-out workflow</text>
+  <text x="120" y="198" fill="#115e59" font-family="'Helvetica Neue', Arial, sans-serif" font-size="28">Discoverable content is not the same thing as mining permission.</text>
+
+  <rect x="118" y="270" width="272" height="170" rx="24" fill="#ecfeff" stroke="#0891b2" stroke-width="3" />
+  <text x="156" y="332" fill="#0c4a6e" font-family="'Helvetica Neue', Arial, sans-serif" font-size="34" font-weight="700">Web page</text>
+  <text x="156" y="382" fill="#164e63" font-family="'Helvetica Neue', Arial, sans-serif" font-size="24">HTML metadata</text>
+  <text x="156" y="416" fill="#164e63" font-family="'Helvetica Neue', Arial, sans-serif" font-size="24">or server signal</text>
+
+  <rect x="458" y="270" width="272" height="170" rx="24" fill="#eff6ff" stroke="#2563eb" stroke-width="3" />
+  <text x="500" y="332" fill="#1d4ed8" font-family="'Helvetica Neue', Arial, sans-serif" font-size="34" font-weight="700">HTTP header</text>
+  <text x="500" y="382" fill="#1e40af" font-family="'Helvetica Neue', Arial, sans-serif" font-size="24"><tspan>tdm-reservation: 1</tspan></text>
+  <text x="500" y="416" fill="#1e40af" font-family="'Helvetica Neue', Arial, sans-serif" font-size="24"><tspan>tdm-policy: URL</tspan></text>
+
+  <rect x="798" y="270" width="272" height="170" rx="24" fill="#f0fdf4" stroke="#16a34a" stroke-width="3" />
+  <text x="844" y="332" fill="#166534" font-family="'Helvetica Neue', Arial, sans-serif" font-size="34" font-weight="700">Policy URL</text>
+  <text x="844" y="382" fill="#166534" font-family="'Helvetica Neue', Arial, sans-serif" font-size="24">Contact path</text>
+  <text x="844" y="416" fill="#166534" font-family="'Helvetica Neue', Arial, sans-serif" font-size="24">Licensing terms</text>
+
+  <rect x="1138" y="270" width="272" height="170" rx="24" fill="#fff7ed" stroke="#ea580c" stroke-width="3" />
+  <text x="1190" y="332" fill="#9a3412" font-family="'Helvetica Neue', Arial, sans-serif" font-size="34" font-weight="700">Files too</text>
+  <text x="1190" y="382" fill="#9a3412" font-family="'Helvetica Neue', Arial, sans-serif" font-size="24">EPUB metadata</text>
+  <text x="1190" y="416" fill="#9a3412" font-family="'Helvetica Neue', Arial, sans-serif" font-size="24">PDF metadata</text>
+
+  <path d="M390 355 C420 355 430 355 458 355" fill="none" stroke="#0f766e" stroke-width="7" stroke-linecap="round" />
+  <polygon points="446,341 474,355 446,369" fill="#0f766e" />
+  <path d="M730 355 C760 355 770 355 798 355" fill="none" stroke="#0f766e" stroke-width="7" stroke-linecap="round" />
+  <polygon points="786,341 814,355 786,369" fill="#0f766e" />
+  <path d="M1070 355 C1100 355 1110 355 1138 355" fill="none" stroke="#0f766e" stroke-width="7" stroke-linecap="round" />
+  <polygon points="1126,341 1154,355 1126,369" fill="#0f766e" />
+
+  <rect x="118" y="520" width="1292" height="220" rx="28" fill="#fef2f2" stroke="#dc2626" stroke-width="3" />
+  <text x="160" y="588" fill="#7f1d1d" font-family="'Helvetica Neue', Arial, sans-serif" font-size="38" font-weight="700">What this does not do</text>
+  <text x="160" y="642" fill="#7f1d1d" font-family="'Helvetica Neue', Arial, sans-serif" font-size="28">It does not guarantee crawler compliance.</text>
+  <text x="160" y="688" fill="#7f1d1d" font-family="'Helvetica Neue', Arial, sans-serif" font-size="28">It does not replace contracts, permissions handling, or jurisdiction-specific legal review.</text>
+
+  <text x="120" y="794" fill="#334155" font-family="'Helvetica Neue', Arial, sans-serif" font-size="24">Source context: FEP, W3C Community Group TDMRep report, and EDRLab implementation notes.</text>
+</svg>

@@ -1,0 +1,47 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1600" height="900" viewBox="0 0 1600 900" role="img" aria-labelledby="title desc">
+  <title id="title">Frankfurt LitAg 2026 ticket and access guide</title>
+  <desc id="desc">A Rex Publishing planning graphic showing the Hall 4.2 location, the EUR 1,432 table fee, Tuesday access, and appointment-only entry for the 2026 Literary Agents and Scouts Centre at Frankfurter Buchmesse.</desc>
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#f8fafc"/>
+      <stop offset="100%" stop-color="#dbeafe"/>
+    </linearGradient>
+  </defs>
+  <rect width="1600" height="900" fill="url(#bg)"/>
+  <rect x="56" y="56" width="1488" height="788" rx="36" fill="#ffffff" stroke="#cbd5e1" stroke-width="4"/>
+
+  <text x="112" y="148" fill="#0f172a" font-family="Arial, sans-serif" font-size="48" font-weight="700">
+    Frankfurt LitAg 2026
+  </text>
+  <text x="112" y="202" fill="#475569" font-family="Arial, sans-serif" font-size="28">
+    Pay for it only if your rights schedule needs Tuesday access and a controlled Hall 4.2 base
+  </text>
+
+  <g font-family="Arial, sans-serif">
+    <rect x="112" y="258" width="404" height="194" rx="28" fill="#dbeafe" stroke="#2563eb" stroke-width="4"/>
+    <text x="144" y="326" fill="#1d4ed8" font-size="30" font-weight="700">Table fee</text>
+    <text x="144" y="378" fill="#1e3a8a" font-size="44" font-weight="700">EUR 1,432</text>
+    <text x="144" y="420" fill="#1e40af" font-size="24">Per agency, excl. VAT</text>
+
+    <rect x="548" y="258" width="404" height="194" rx="28" fill="#dcfce7" stroke="#16a34a" stroke-width="4"/>
+    <text x="580" y="326" fill="#166534" font-size="30" font-weight="700">Access starts</text>
+    <text x="580" y="378" fill="#166534" font-size="44" font-weight="700">Tuesday, 6 Oct</text>
+    <text x="580" y="420" fill="#166534" font-size="24">Before the fair opens</text>
+
+    <rect x="984" y="258" width="448" height="194" rx="28" fill="#fef3c7" stroke="#d97706" stroke-width="4"/>
+    <text x="1016" y="326" fill="#92400e" font-size="30" font-weight="700">Location</text>
+    <text x="1016" y="378" fill="#92400e" font-size="44" font-weight="700">Hall 4.2</text>
+    <text x="1016" y="420" fill="#92400e" font-size="24">Central 2026 LitAg position</text>
+  </g>
+
+  <g font-family="Arial, sans-serif">
+    <rect x="112" y="506" width="1320" height="266" rx="28" fill="#f8fafc" stroke="#cbd5e1" stroke-width="4"/>
+    <text x="146" y="566" fill="#0f172a" font-size="34" font-weight="700">What the package actually changes</text>
+    <text x="146" y="622" fill="#334155" font-size="28">Appointment-only entry for guests inside LitAg</text>
+    <text x="146" y="666" fill="#334155" font-size="28">Ticket Portal creates Agent Tickets and free Tuesday Tickets</text>
+    <text x="146" y="710" fill="#334155" font-size="28">One participant, Wi-Fi, furniture, power, and directory listing included</text>
+    <text x="820" y="622" fill="#334155" font-size="28">Built for scheduled rights meetings, not casual fair wandering</text>
+    <text x="820" y="666" fill="#334155" font-size="28">Separate workflow from PRC and from ordinary trade-visitor access</text>
+    <text x="820" y="710" fill="#334155" font-size="28">Best fit when the meeting calendar is dense before Wednesday</text>
+  </g>
+</svg>

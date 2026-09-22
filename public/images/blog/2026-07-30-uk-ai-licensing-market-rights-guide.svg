@@ -1,0 +1,28 @@
+<svg width="1200" height="630" viewBox="0 0 1200 630" fill="none" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="title desc">
+  <title id="title">UK AI licensing market rights guide</title>
+  <desc id="desc">A Rex Publishing workflow graphic showing four publishing AI licensing lanes: text and data mining, AI training, retrieval-augmented generation, and proprietary AI products.</desc>
+  <rect width="1200" height="630" fill="#F4EFE7"/>
+  <rect x="34" y="34" width="1132" height="562" rx="28" fill="#FFFCF7" stroke="#D7C8B2" stroke-width="4"/>
+  <text x="84" y="112" fill="#203A2A" font-family="Georgia, 'Times New Roman', serif" font-size="34" font-weight="700">Rex Publishing</text>
+  <text x="84" y="160" fill="#7A4E2F" font-family="Arial, Helvetica, sans-serif" font-size="22">UK AI licensing market workflow</text>
+  <text x="84" y="230" fill="#1F2937" font-family="Arial, Helvetica, sans-serif" font-size="50" font-weight="700">Do not blur the licence types</text>
+  <text x="84" y="270" fill="#4B5563" font-family="Arial, Helvetica, sans-serif" font-size="24">Publishers Association report dated 3 March 2026; categories remain distinct on 27 August 2026.</text>
+  <rect x="84" y="320" width="228" height="144" rx="20" fill="#E7F1EC"/>
+  <text x="112" y="370" fill="#203A2A" font-family="Arial, Helvetica, sans-serif" font-size="28" font-weight="700">TDM</text>
+  <text x="112" y="410" fill="#345447" font-family="Arial, Helvetica, sans-serif" font-size="22">Older licensing lane</text>
+  <text x="112" y="440" fill="#345447" font-family="Arial, Helvetica, sans-serif" font-size="22">for text and data</text>
+  <rect x="342" y="320" width="228" height="144" rx="20" fill="#F2E7D9"/>
+  <text x="370" y="370" fill="#7A4E2F" font-family="Arial, Helvetica, sans-serif" font-size="28" font-weight="700">AI training</text>
+  <text x="370" y="410" fill="#7A4E2F" font-family="Arial, Helvetica, sans-serif" font-size="22">Model-development</text>
+  <text x="370" y="440" fill="#7A4E2F" font-family="Arial, Helvetica, sans-serif" font-size="22">licensing deals</text>
+  <rect x="600" y="320" width="228" height="144" rx="20" fill="#E6EDF8"/>
+  <text x="628" y="370" fill="#25436B" font-family="Arial, Helvetica, sans-serif" font-size="28" font-weight="700">RAG</text>
+  <text x="628" y="410" fill="#25436B" font-family="Arial, Helvetica, sans-serif" font-size="22">Retrieval use is</text>
+  <text x="628" y="440" fill="#25436B" font-family="Arial, Helvetica, sans-serif" font-size="22">growing and distinct</text>
+  <rect x="858" y="320" width="258" height="144" rx="20" fill="#F6E8EA"/>
+  <text x="886" y="370" fill="#7A2430" font-family="Arial, Helvetica, sans-serif" font-size="28" font-weight="700">Proprietary AI</text>
+  <text x="886" y="410" fill="#7A2430" font-family="Arial, Helvetica, sans-serif" font-size="22">Publishers may license in</text>
+  <text x="886" y="440" fill="#7A2430" font-family="Arial, Helvetica, sans-serif" font-size="22">content for their own tools</text>
+  <path d="M196 484H996" stroke="#C7B79E" stroke-width="4" stroke-linecap="round" stroke-dasharray="10 12"/>
+  <text x="84" y="540" fill="#6B7280" font-family="Arial, Helvetica, sans-serif" font-size="22">Rights clarity, provenance, and scope control matter in every lane.</text>
+</svg>

@@ -1,0 +1,42 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1600" height="900" viewBox="0 0 1600 900" role="img" aria-labelledby="title desc">
+  <title id="title">TRADUKI translation grants September 1 2026 deadline guide</title>
+  <desc id="desc">A Rex Publishing chart showing the September 1 2026 deadline, eligible language routes, the 8000 EUR cap, and the difference between direct payment and German-target reimbursement.</desc>
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#f4efe4"/>
+      <stop offset="100%" stop-color="#e0efe8"/>
+    </linearGradient>
+  </defs>
+  <rect width="1600" height="900" fill="url(#bg)"/>
+  <rect x="70" y="70" width="1460" height="760" rx="36" fill="#fffdf8" stroke="#18342d" stroke-width="4"/>
+  <text x="120" y="165" fill="#18342d" font-family="Georgia, serif" font-size="58" font-weight="700">TRADUKI translation grants</text>
+  <text x="120" y="225" fill="#31584f" font-family="Arial, Helvetica, sans-serif" font-size="30">September 1, 2026 deadline for a narrow German and Southeast Europe route</text>
+
+  <rect x="120" y="285" width="390" height="205" rx="24" fill="#18342d"/>
+  <text x="155" y="345" fill="#f8f3e7" font-family="Arial, Helvetica, sans-serif" font-size="26" font-weight="700">Timing</text>
+  <text x="155" y="400" fill="#f8f3e7" font-family="Arial, Helvetica, sans-serif" font-size="54" font-weight="700">1 Sep 2026</text>
+  <text x="155" y="445" fill="#d8eadf" font-family="Arial, Helvetica, sans-serif" font-size="24">Window shown live as 1 July to 1 September 2026</text>
+
+  <rect x="555" y="285" width="390" height="205" rx="24" fill="#dcebe3" stroke="#18342d" stroke-width="3"/>
+  <text x="590" y="345" fill="#18342d" font-family="Arial, Helvetica, sans-serif" font-size="26" font-weight="700">Scope</text>
+  <text x="590" y="390" fill="#18342d" font-family="Arial, Helvetica, sans-serif" font-size="24">German to supported Southeast European languages</text>
+  <text x="590" y="425" fill="#18342d" font-family="Arial, Helvetica, sans-serif" font-size="24">Those languages into German</text>
+  <text x="590" y="460" fill="#18342d" font-family="Arial, Helvetica, sans-serif" font-size="24">And direct translation only</text>
+
+  <rect x="990" y="285" width="420" height="205" rx="24" fill="#f2e3c8" stroke="#18342d" stroke-width="3"/>
+  <text x="1025" y="345" fill="#18342d" font-family="Arial, Helvetica, sans-serif" font-size="26" font-weight="700">Grant ceiling</text>
+  <text x="1025" y="400" fill="#18342d" font-family="Arial, Helvetica, sans-serif" font-size="56" font-weight="700">EUR 8,000</text>
+  <text x="1025" y="445" fill="#18342d" font-family="Arial, Helvetica, sans-serif" font-size="24">Includes translation fee and license fee</text>
+
+  <rect x="120" y="545" width="625" height="210" rx="24" fill="#edf5f1" stroke="#18342d" stroke-width="3"/>
+  <text x="155" y="605" fill="#18342d" font-family="Arial, Helvetica, sans-serif" font-size="26" font-weight="700">Default payment flow</text>
+  <text x="155" y="655" fill="#18342d" font-family="Arial, Helvetica, sans-serif" font-size="32">TRADUKI pays translator directly</text>
+  <text x="155" y="700" fill="#18342d" font-family="Arial, Helvetica, sans-serif" font-size="32">TRADUKI pays license fee directly to rights holder</text>
+
+  <rect x="790" y="545" width="620" height="210" rx="24" fill="#fff5df" stroke="#18342d" stroke-width="3"/>
+  <text x="825" y="605" fill="#18342d" font-family="Arial, Helvetica, sans-serif" font-size="26" font-weight="700">German-target exception</text>
+  <text x="825" y="655" fill="#18342d" font-family="Arial, Helvetica, sans-serif" font-size="32">Applicant is reimbursed after publication</text>
+  <text x="825" y="700" fill="#18342d" font-family="Arial, Helvetica, sans-serif" font-size="32">Only after translator and rights holder are paid</text>
+
+  <text x="120" y="805" fill="#31584f" font-family="Arial, Helvetica, sans-serif" font-size="24">Rex Publishing guide graphic for workflow planning, not title promotion.</text>
+</svg>

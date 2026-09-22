@@ -1,0 +1,42 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1600" height="900" viewBox="0 0 1600 900" role="img" aria-labelledby="title desc">
+  <title id="title">U.S. Copyright Office proposed fee comparison</title>
+  <desc id="desc">A Rex Publishing comparison chart showing current and proposed U.S. Copyright Office fees for common registration and recordation filings in the July 2026 proposal.</desc>
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#f8f4ec"/>
+      <stop offset="100%" stop-color="#e3edf2"/>
+    </linearGradient>
+    <filter id="shadow" x="-10%" y="-10%" width="120%" height="120%">
+      <feDropShadow dx="0" dy="10" stdDeviation="16" flood-color="#334155" flood-opacity="0.14"/>
+    </filter>
+  </defs>
+  <rect width="1600" height="900" fill="url(#bg)"/>
+  <rect x="90" y="74" width="1420" height="752" rx="34" fill="#fffdfa" stroke="#d6d3d1" stroke-width="2"/>
+  <text x="150" y="152" font-family="Georgia, 'Times New Roman', serif" font-size="50" fill="#1f2937">The July 2026 Copyright Office proposal changes common filing costs unevenly</text>
+  <text x="150" y="198" font-family="'Helvetica Neue', Arial, sans-serif" font-size="28" fill="#475569">Registration increases are modest in some lanes. Recordation jumps are harder to ignore.</text>
+
+  <g filter="url(#shadow)">
+    <rect x="140" y="260" width="620" height="460" rx="28" fill="#f7fbfc" stroke="#8aa0ad" stroke-width="2"/>
+    <text x="180" y="322" font-family="Georgia, 'Times New Roman', serif" font-size="34" fill="#1f2937">Common registration paths</text>
+    <text x="180" y="374" font-family="'Helvetica Neue', Arial, sans-serif" font-size="24" fill="#334155">Single electronic: $45 -> $55</text>
+    <text x="180" y="420" font-family="'Helvetica Neue', Arial, sans-serif" font-size="24" fill="#334155">Other electronic: $65 -> $85</text>
+    <text x="180" y="466" font-family="'Helvetica Neue', Arial, sans-serif" font-size="24" fill="#334155">Paper registration: $125 -> $185</text>
+    <text x="180" y="512" font-family="'Helvetica Neue', Arial, sans-serif" font-size="24" fill="#334155">GRUW: $85 -> $130</text>
+    <text x="180" y="558" font-family="'Helvetica Neue', Arial, sans-serif" font-size="24" fill="#334155">GRTX: $65 -> $130</text>
+    <text x="180" y="618" font-family="'Helvetica Neue', Arial, sans-serif" font-size="22" fill="#0f766e">Supplementary registration moves the other way: $100 -> $85</text>
+    <text x="180" y="668" font-family="'Helvetica Neue', Arial, sans-serif" font-size="22" fill="#475569">Rex takeaway: not every line supports the same urgency.</text>
+  </g>
+
+  <g filter="url(#shadow)">
+    <rect x="820" y="260" width="640" height="460" rx="28" fill="#fff7ed" stroke="#d97706" stroke-width="2"/>
+    <text x="860" y="322" font-family="Georgia, 'Times New Roman', serif" font-size="34" fill="#7c2d12">Recordation and termination pressure points</text>
+    <text x="860" y="374" font-family="'Helvetica Neue', Arial, sans-serif" font-size="24" fill="#9a3412">Electronic recordation: $95 -> $215</text>
+    <text x="860" y="420" font-family="'Helvetica Neue', Arial, sans-serif" font-size="24" fill="#9a3412">Most paper recordations: $125 -> $350</text>
+    <text x="860" y="466" font-family="'Helvetica Neue', Arial, sans-serif" font-size="24" fill="#9a3412">Paper notices of termination: $125 -> $275</text>
+    <text x="860" y="526" font-family="'Helvetica Neue', Arial, sans-serif" font-size="22" fill="#7c2d12">These lanes affect assignments, grants, rights-chain cleanup, and older-contract reversions.</text>
+    <text x="860" y="586" font-family="'Helvetica Neue', Arial, sans-serif" font-size="22" fill="#7c2d12">The proposal was submitted to Congress on July 14, 2026.</text>
+    <text x="860" y="632" font-family="'Helvetica Neue', Arial, sans-serif" font-size="22" fill="#7c2d12">The Office says it seeks implementation in fall 2026 after the statutory review window.</text>
+  </g>
+
+  <text x="150" y="784" font-family="'Helvetica Neue', Arial, sans-serif" font-size="26" fill="#475569">Source: U.S. Copyright Office fee-study page, July 14, 2026 NewsNet notice, and proposed fee schedule.</text>
+</svg>
