@@ -92,6 +92,12 @@ let imported = 0;
 for (const item of items) {
   const fields = item.fields ?? {};
   const slug = slugifyFileName(fields.slug || fields.title || item.sys.id);
+  const outputPath = path.join(contentDir, `${slug}.md`);
+  // Repo edits and editorial decisions take precedence over the legacy import.
+  if (await fs.access(outputPath).then(() => true, () => false)) {
+    console.log(`Preserved existing repo entry: ${slug}`);
+    continue;
+  }
   const heroImage = await downloadAsset(fields.hero, slug).catch((error) => {
     console.warn(`Asset download failed for ${slug}: ${error.message}`);
     return null;
@@ -105,6 +111,8 @@ for (const item of items) {
     `pubDate: '${fields.date || new Date().toISOString()}'`,
     heroImage ? `heroImage: '${heroImage}'` : null,
     `author: 'Rex Publishing'`,
+    'draft: true',
+    'contentType: article',
     'source: contentful-migration',
     `legacyContentfulId: '${item.sys.id}'`,
     '---',
@@ -115,7 +123,7 @@ for (const item of items) {
 
   const markdown = `${frontmatter}\n${bodyHtml}\n`;
 
-  await fs.writeFile(path.join(contentDir, `${slug}.md`), markdown);
+  await fs.writeFile(outputPath, markdown, { flag: 'wx' });
   imported += 1;
 }
 
