@@ -1,6 +1,7 @@
 import assert from 'node:assert/strict';
 import fs from 'node:fs/promises';
 import matter from 'gray-matter';
+import { verifyEmittedLinks, verifyPageLinks } from './verify-emitted-links.mjs';
 
 // Read-only preflight: draft source can be committed without becoming a route.
 const root = new URL('../', import.meta.url);
@@ -27,6 +28,7 @@ if (ledgerArg) {
 }
 
 if (!process.argv.includes('--audit-only')) {
+  await verifyEmittedLinks(new URL('dist/', root));
   const rss = await fs.readFile(new URL('dist/rss.xml', root), 'utf8');
   const sitemap = await fs.readFile(new URL('dist/sitemap-0.xml', root), 'utf8');
   const blog = await fs.readFile(new URL('dist/blog/index.html', root), 'utf8');
@@ -65,6 +67,13 @@ if (process.argv.includes('--live')) {
   assert.deepEqual([...localSlugs].sort(), [...liveSlugs].sort(), 'Live/local article corpus differs');
   const liveRss = await get('/rss.xml');
   assert.equal(liveRss.status, 200);
+  const liveSitemap = await get('/sitemap-0.xml');
+  assert.equal(liveSitemap.status, 200);
+  const localSitemap = await fs.readFile(new URL('dist/sitemap-0.xml', root), 'utf8');
+  const sitemapPaths = (xml) => [...xml.matchAll(/<loc>([^<]+)<\/loc>/g)].map((match) => new URL(match[1]).pathname).sort();
+  assert.deepEqual(sitemapPaths(liveSitemap.body), sitemapPaths(localSitemap), 'Live/local sitemap membership differs');
+  const emittedRoutes = await verifyEmittedLinks(new URL('dist/', root));
+  assert.deepEqual(verifyPageLinks(index.body, '/blog/', emittedRoutes), [], 'Live blog has dead internal links');
   // Bounded batches avoid flooding production while checking the whole corpus.
   for (let i = 0; i < entries.length; i += 5) {
     await Promise.all(entries.slice(i, i + 5).map(async (entry) => {
@@ -72,6 +81,7 @@ if (process.argv.includes('--live')) {
       const page = await get(url);
       assert.equal(page.status, entry.draft ? 404 : 200, `${url}: live HTTP`);
       if (!entry.draft) {
+        assert.deepEqual(verifyPageLinks(page.body, url, emittedRoutes), [], `${url}: live dead internal links`);
         const built = await fs.readFile(new URL(`dist${url}index.html`, root), 'utf8');
         const articleBody = (html) => html.match(/<article\b[^>]*>([\s\S]*?)<\/article>/)?.[1].replace(/\s+/g, ' ').trim();
         assert.ok(articleBody(built), `${url}: built article body missing`);
@@ -84,7 +94,9 @@ if (process.argv.includes('--live')) {
     }));
   }
   for (const url of ['/', '/about/', '/contact/', '/book-reviews/', '/sitemap-index.xml', '/sitemap-0.xml']) {
-    assert.equal((await get(url)).status, 200, `${url}: live HTTP`);
+    const page = await get(url);
+    assert.equal(page.status, 200, `${url}: live HTTP`);
+    if (!url.endsWith('.xml')) assert.deepEqual(verifyPageLinks(page.body, url, emittedRoutes), [], `${url}: live dead internal links`);
   }
   console.log(`Live verification passed: ${published.length} public entries, ${drafts.length} draft 404s, article/review isolation, hero assets, RSS, canonical URLs, and core pages.`);
 }

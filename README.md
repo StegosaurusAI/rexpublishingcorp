@@ -1,5 +1,64 @@
 # Astro Starter Kit: Blog
 
+## Rex publication repair and release
+
+`npm run build` repairs only emitted HTML, at Astro's `build:done` hook. Anchors
+to absent emitted routes under `/blog` and `/book-reviews` on exactly
+`rexpublishingcorp.com` or `www.rexpublishingcorp.com` are unwrapped. Only the
+opening and closing anchor tags are removed; all intervening bytes survive.
+Relative URLs, HTML attribute entities, percent-encoded paths, queries and
+fragments are resolved against the page URL (and any HTML base URL). Fragments
+do not change route membership. External hosts and other namespaces are outside
+this repair. No article sources, draft flags, publication queues or holds are
+modified. Actual emitted HTML, including section indexes, defines the inventory.
+
+- `dist/link-repair-report.json`: deterministic page/href/target/offset report.
+- `npm run preflight`: builds, independently verifies emitted internal links,
+  and checks routes, RSS, sitemap, index membership, draft exclusion and assets.
+- `npm test`: byte-preservation and isolated publisher fixtures; deployment
+  and npm commands in publisher tests are stubs.
+- `npm run verify:live`: compares the current build's article bodies to live
+  bodies, checks live sitemap membership/internal links, and checks draft 404s.
+
+The release operator (main) runs this exact command from a clean committed tree:
+
+```sh
+npm run publish -- <full40HEADSHA>
+```
+
+Replace `<full40HEADSHA>` with the full lowercase 40-character current `HEAD`
+commit SHA. `npm run publish` is the package-script command (bare `npm publish`
+is npm's registry publishing command). Exactly one SHA argument is accepted.
+The ignored, regular, untracked `.vercel/project.json` must identify:
+
+```json
+{"projectId":"prj_h2kdCPNPVxUwY6EDp0cEQz2q4xI4","orgId":"team_E3GGoyWVFdoPzDhyaZRQYzaO","projectName":"rexpublishingcorp"}
+```
+
+The wrapper refuses project/org/team/scope environment overrides and dirty
+checkouts. A site-specific atomic directory lock in the **common Git directory**
+serializes linked worktrees. It archives committed source, excludes ignored
+env/link/build output, rejects committed env/link/build artifacts (except
+`.env.example`), runs `npm ci` and preflight inside the snapshot, and moves the
+validated `dist` outside deployment source. It removes `.astro`, runs exactly
+`vercel deploy --prod --yes`, restores that same `dist`, and runs
+`npm run verify:live` before releasing the lock. It uploads source, not a
+prebuilt deployment. Authentication must already be available to the Vercel CLI.
+
+`rexpublishingcorp-publication-last.json` in the common Git directory records
+SHA, deployment URL and status. `verified` is success; `deployed-verify-failed`
+means deployment succeeded but live verification did not; `deployment-unconfirmed`
+means the deploy command outcome was unsuccessful or interrupted. Pre-deploy
+failures are recorded separately. A CLI success without a deployment URL is a
+verification failure. This command performs a production deployment; release
+authority remains with main.
+
+Catchable signals drain owned process groups with bounded TERM/KILL escalation.
+Leader exit alone is insufficient. Unconfirmed groups retain snapshot and lock;
+cleanup failure also retains the lock. Inspect `owner.json`, the status record
+and any remaining processes before manual orphan recovery. Descendants that
+create a new session/group and uncatchable SIGKILL are outside this guarantee.
+
 ```sh
 npm create astro@latest -- --template blog
 ```
