@@ -1,0 +1,23 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="780" viewBox="0 0 1200 780" role="img" aria-labelledby="title description">
+  <title id="title">Krakow Adaptation Zone: separate access checks</title>
+  <desc id="description">Individual networking confirmation requested by October 10, 2026; October 22 workshops need separate signups and fair admission; October 23 pitches are for selected catalogue books, not open pitching. Networking is separately confirmed. No guaranteed entry.</desc>
+  <rect width="1200" height="780" fill="#f5f2e9"/>
+  <g font-family="Arial, Helvetica, sans-serif" fill="#172b36">
+    <text x="60" y="66" font-size="24" font-weight="700" letter-spacing="2">REX PUBLISHING · ACCESS CHECKLIST · 2026</text>
+    <text x="60" y="125" font-size="44" font-weight="700">Krakow Adaptation Zone</text>
+    <text x="60" y="170" font-size="27">Fair admission and session access are separate.</text>
+    <rect x="60" y="210" width="1080" height="112" rx="12" fill="#172b36"/>
+    <text x="90" y="253" font-size="28" fill="#fff" font-weight="700">BY OCTOBER 10</text>
+    <text x="90" y="294" font-size="28" fill="#fff">Networking: each person confirms separately.</text>
+    <rect x="60" y="340" width="1080" height="112" rx="12" fill="#e0e8e5"/>
+    <text x="90" y="383" font-size="28" font-weight="700">OCTOBER 22 · WORKSHOPS</text>
+    <text x="90" y="424" font-size="28">Separate session signups + fair admission required.</text>
+    <rect x="60" y="470" width="1080" height="112" rx="12" fill="#e0e8e5"/>
+    <text x="90" y="513" font-size="28" font-weight="700">OCTOBER 23 · PITCHING</text>
+    <text x="90" y="554" font-size="28">Selected catalogue books only. Not open author pitching.</text>
+    <rect x="60" y="600" width="1080" height="112" rx="12" fill="#e0e8e5"/>
+    <text x="90" y="643" font-size="28" font-weight="700">OCTOBER 23 · NETWORKING</text>
+    <text x="90" y="684" font-size="28">Use the individual confirmation route above.</text>
+    <text x="60" y="751" font-size="23">Check organizer requirements. No capacity or admission guarantee.</text>
+  </g>
+</svg>
