@@ -1,14 +1,18 @@
 ---
 title: 'Krakow Adaptation Zone: four access checks before October 10'
 description: 'Separate workshop signup, fair admission, selected-catalogue pitching and individual networking confirmation for Krakow’s October 22–23 adaptation programme.'
-pubDate: '2026-10-08'
-updatedDate: '2026-10-08'
+pubDate: '2026-10-09T10:50:05-04:00'
+updatedDate: '2026-10-09T10:50:05-04:00'
 heroImage: '/images/blog/2026-08-31-krakow-adaptation-zone-book-to-screen-guide.svg'
 author: 'Rex Publishing'
 contentType: article
 source: repo
-draft: true
+draft: false
 ---
+
+<p>Rights and adaptation · Last updated <time datetime="2026-10-09T10:50:05-04:00">October 9, 2026</time></p>
+
+<script type="application/ld+json">{"@context": "https://schema.org", "@graph": [{"@type": "Article", "headline": "Krakow Adaptation Zone: four access checks before October 10", "description": "Separate workshop signup, fair admission, selected-catalogue pitching and individual networking confirmation for Krakow’s October 22–23 adaptation programme.", "datePublished": "2026-10-09T10:50:05-04:00", "dateModified": "2026-10-09T10:50:05-04:00", "author": {"@type": "Organization", "name": "Rex Publishing"}, "publisher": {"@type": "Organization", "name": "Rex Publishing"}, "articleSection": "Rights and adaptation", "image": "https://rexpublishingcorp.com/images/blog/2026-08-31-krakow-adaptation-zone-book-to-screen-guide.svg", "mainEntityOfPage": "https://rexpublishingcorp.com/blog/2026-08-31-krakow-adaptation-zone-book-to-screen-guide/"}, {"@type": "BreadcrumbList", "itemListElement": [{"@type": "ListItem", "position": 1, "name": "Home", "item": "https://rexpublishingcorp.com/"}, {"@type": "ListItem", "position": 2, "name": "Blog", "item": "https://rexpublishingcorp.com/blog/"}, {"@type": "ListItem", "position": 3, "name": "Krakow Adaptation Zone", "item": "https://rexpublishingcorp.com/blog/2026-08-31-krakow-adaptation-zone-book-to-screen-guide/"}]}]}</script>
 
 If you are planning screen-adaptation conversations at Krakow Book Fair, check the networking confirmation date before building your schedule. The [organizer-linked form](https://targiksiazki.exposupport.pl/strefaadaptacji) asks **each person to confirm separately by October 10, 2026**. That is a networking RSVP, not a universal deadline for attending the fair or applying to pitch a book.
 
