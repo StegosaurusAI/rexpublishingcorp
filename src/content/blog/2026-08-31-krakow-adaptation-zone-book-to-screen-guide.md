@@ -1,8 +1,8 @@
 ---
-title: 'Krakow Adaptation Zone: four access checks before October 10'
-description: 'Separate workshop signup, fair admission, selected-catalogue pitching and individual networking confirmation for Krakow’s October 22–23 adaptation programme.'
+title: 'Krakow Adaptation Zone: workshop, pitching and networking access checks'
+description: 'Check workshop admission, selected-catalogue pitching and existing networking arrangements for Krakow’s October 22–23 programme after the RSVP date.'
 pubDate: '2026-10-09T10:50:05-04:00'
-updatedDate: '2026-10-09T10:50:05-04:00'
+updatedDate: '2026-10-12T10:32:04-04:00'
 heroImage: '/images/blog/2026-08-31-krakow-adaptation-zone-book-to-screen-guide.svg'
 author: 'Rex Publishing'
 contentType: article
@@ -10,11 +10,11 @@ source: repo
 draft: false
 ---
 
-<p>Rights and adaptation · Last updated <time datetime="2026-10-09T10:50:05-04:00">October 9, 2026</time></p>
+<p>Rights and adaptation · Last updated <time datetime="2026-10-12T10:32:04-04:00">October 12, 2026</time></p>
 
-<script type="application/ld+json">{"@context": "https://schema.org", "@graph": [{"@type": "Article", "headline": "Krakow Adaptation Zone: four access checks before October 10", "description": "Separate workshop signup, fair admission, selected-catalogue pitching and individual networking confirmation for Krakow’s October 22–23 adaptation programme.", "datePublished": "2026-10-09T10:50:05-04:00", "dateModified": "2026-10-09T10:50:05-04:00", "author": {"@type": "Organization", "name": "Rex Publishing"}, "publisher": {"@type": "Organization", "name": "Rex Publishing"}, "articleSection": "Rights and adaptation", "image": "https://rexpublishingcorp.com/images/blog/2026-08-31-krakow-adaptation-zone-book-to-screen-guide.svg", "mainEntityOfPage": "https://rexpublishingcorp.com/blog/2026-08-31-krakow-adaptation-zone-book-to-screen-guide/"}, {"@type": "BreadcrumbList", "itemListElement": [{"@type": "ListItem", "position": 1, "name": "Home", "item": "https://rexpublishingcorp.com/"}, {"@type": "ListItem", "position": 2, "name": "Blog", "item": "https://rexpublishingcorp.com/blog/"}, {"@type": "ListItem", "position": 3, "name": "Krakow Adaptation Zone", "item": "https://rexpublishingcorp.com/blog/2026-08-31-krakow-adaptation-zone-book-to-screen-guide/"}]}]}</script>
+<script type="application/ld+json">{"@context": "https://schema.org", "@graph": [{"@type": "Article", "headline": "Krakow Adaptation Zone: workshop, pitching and networking access checks", "description": "Check workshop admission, selected-catalogue pitching and existing networking arrangements for Krakow’s October 22–23 programme after the RSVP date.", "datePublished": "2026-10-09T10:50:05-04:00", "dateModified": "2026-10-12T10:32:04-04:00", "author": {"@type": "Organization", "name": "Rex Publishing"}, "publisher": {"@type": "Organization", "name": "Rex Publishing"}, "articleSection": "Rights and adaptation", "image": "https://rexpublishingcorp.com/images/blog/2026-08-31-krakow-adaptation-zone-book-to-screen-guide.svg", "mainEntityOfPage": "https://rexpublishingcorp.com/blog/2026-08-31-krakow-adaptation-zone-book-to-screen-guide/"}, {"@type": "BreadcrumbList", "itemListElement": [{"@type": "ListItem", "position": 1, "name": "Home", "item": "https://rexpublishingcorp.com/"}, {"@type": "ListItem", "position": 2, "name": "Blog", "item": "https://rexpublishingcorp.com/blog/"}, {"@type": "ListItem", "position": 3, "name": "Krakow Adaptation Zone", "item": "https://rexpublishingcorp.com/blog/2026-08-31-krakow-adaptation-zone-book-to-screen-guide/"}]}]}</script>
 
-If you are planning screen-adaptation conversations at Krakow Book Fair, check the networking confirmation date before building your schedule. The [organizer-linked form](https://targiksiazki.exposupport.pl/strefaadaptacji) asks **each person to confirm separately by October 10, 2026**. That is a networking RSVP, not a universal deadline for attending the fair or applying to pitch a book.
+If you are preparing for screen-adaptation conversations at Krakow Book Fair on October 22–23, check which sessions your existing arrangements cover. The [organizer-linked networking form](https://targiksiazki.exposupport.pl/strefaadaptacji) requested **separate confirmation from each person by October 10, 2026**. That date has passed. The form remains visible, but this does not establish a deadline extension or acceptance of late responses. If your networking access is unresolved, clarify it with the organizer before making plans.
 
 The fair runs October 22–25 at EXPO Kraków. Within it, the [Adaptation Zone programme](https://ksiazka.krakow.pl/dla-wystawcow/program-towarzyszacy/strefa-adaptacji) lists professional workshops and pitching/networking sessions on October 22–23. For rights holders, the useful distinction is between four things: signing up for a workshop, obtaining fair admission, being selected for catalogue pitching and confirming networking attendance. None should be treated as a substitute for another.
 
@@ -27,7 +27,7 @@ These are the organizer’s announced times in Krakow. This table covers the pro
 | October 22, 11:00–12:50 | Pitching and adaptation-selection workshop; Wiedeń B | Its own workshop signup **plus fair admission** |
 | October 22, 13:00–13:50 | Protecting author, publisher and producer interests; Wiedeń B | Separate workshop signup **plus fair admission** |
 | October 23, 14:00–15:30 | Selected-catalogue pitches; Wiedeń AB | Books selected for the Adaptation Zone Rights Catalogue; **not open author pitching** |
-| October 23, 15:30–16:30 | Filmowcy × Wydawcy networking; Wiedeń AB | Individual attendance confirmation requested by October 10 |
+| October 23, 15:30–16:30 | Filmowcy × Wydawcy networking; Wiedeń AB | October 10 individual confirmation date has passed; check existing arrangements or clarify access |
 
 Keep the registration record beside your calendar entry. A workshop booking, an admission pass and a networking confirmation answer different questions. Keeping them separate makes it easier to spot what you still need to check before arranging travel.
 
@@ -37,7 +37,7 @@ The [pitching workshop form](https://docs.google.com/forms/d/e/1FAIpQLSdzvdMUqyP
 
 The forms ask for publishing-company and role details. An author attending independently should clarify the appropriate participation route with the organizer rather than assume those fields establish eligibility. Check admission requirements for your own category; this guide does not establish a price or free-entry entitlement.
 
-The networking form asks for each person’s confirmation, so do not assume one colleague’s response covers a whole team. It gives an October 10 date but no precise cutoff hour. Plan around the stated date without inventing an end-of-day extension.
+The networking form required each person’s confirmation, so do not assume one colleague’s response covers a whole team. Its October 10 date is now historical; no revised deadline or grace period was established in our October 12 source check. Check your own confirmation record or ask the organizer to clarify unresolved access rather than treating a visible form as an invitation to register late.
 
 ## Networking does not create a pitching slot
 
@@ -60,4 +60,4 @@ For broader ownership and prior-grant preparation, use our [translation-rights c
 
 Before making attendance plans, return to the official programme and relevant forms. A visible form is not proof of remaining capacity, acceptance or a successful booking. Resolve uncertain access with the organizer; resolve uncertain contract authority through appropriate professional review.
 
-The practical next step is small: separate your admission arrangements from session signups, confirm networking individually by the organizer’s stated date, and prepare for the conversation you actually have access to. Attendance alone does not promise producer interest or an adaptation deal.
+The practical next step is small: separate your admission arrangements from session signups, check your existing individual networking arrangements or clarify access with the organizer, and prepare for the conversation you actually have access to. Attendance alone does not promise producer interest or an adaptation deal.
