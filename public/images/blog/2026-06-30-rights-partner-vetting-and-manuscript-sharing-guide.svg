@@ -1,0 +1,25 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="630" viewBox="0 0 1200 630" role="img" aria-labelledby="title description">
+  <title id="title">Before sharing a manuscript: recipient, references, scope and record</title>
+  <desc id="description">Four-step manuscript handoff checklist: independently confirm the recipient, check partner references, agree the material and readers, then record the file version and next step. Rex editorial guidance, not a security guarantee.</desc>
+  <rect width="1200" height="630" fill="#102d3b"/>
+  <text x="64" y="70" fill="#ffffff" font-family="Arial, sans-serif" font-size="20">REX PUBLISHING · RIGHTS WORKFLOW</text>
+  <text x="64" y="142" fill="#ffffff" font-family="Arial, sans-serif" font-size="44" font-weight="700">Before sharing a manuscript</text>
+  <text x="64" y="186" fill="#d9e8ed" font-family="Arial, sans-serif" font-size="24">Make the file handoff a recorded decision.</text>
+  <g font-family="Arial, sans-serif">
+    <rect x="64" y="242" width="520" height="128" rx="12" fill="#f4f7f5"/>
+    <rect x="616" y="242" width="520" height="128" rx="12" fill="#f4f7f5"/>
+    <rect x="64" y="402" width="520" height="128" rx="12" fill="#f4f7f5"/>
+    <rect x="616" y="402" width="520" height="128" rx="12" fill="#f4f7f5"/>
+    <g fill="#102d3b">
+      <text x="88" y="284" font-size="28" font-weight="700">1 · Recipient</text>
+      <text x="88" y="330" font-size="22">Confirm through an independent route.</text>
+      <text x="640" y="284" font-size="28" font-weight="700">2 · References</text>
+      <text x="640" y="330" font-size="22">Check past partner performance.</text>
+      <text x="88" y="444" font-size="28" font-weight="700">3 · Scope</text>
+      <text x="88" y="490" font-size="22">Agree the material and intended readers.</text>
+      <text x="640" y="444" font-size="28" font-weight="700">4 · Record</text>
+      <text x="640" y="490" font-size="22">Save the version, recipient and next step.</text>
+    </g>
+  </g>
+  <text x="64" y="584" fill="#d9e8ed" font-family="Arial, sans-serif" font-size="20">Rex editorial checklist · Precautions do not guarantee security.</text>
+</svg>
