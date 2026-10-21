@@ -1,18 +1,18 @@
 ---
 title: 'Before sharing a manuscript: recipient, references, scope and record'
 description: 'Verify a manuscript recipient, check translation-partner references, agree what to share and keep a handoff record before releasing a digital file.'
-pubDate: '2026-10-13T14:00:00-04:00'
-updatedDate: '2026-10-13T14:00:00-04:00'
+pubDate: '2026-10-21T13:45:00-04:00'
+updatedDate: '2026-10-21T13:45:00-04:00'
 heroImage: '/images/blog/2026-06-30-rights-partner-vetting-and-manuscript-sharing-guide.svg'
 author: 'Rex Publishing'
 contentType: article
 source: repo
-draft: true
+draft: false
 ---
 
-<p>Rights workflow · Prepared <time datetime="2026-10-13T14:00:00-04:00">October 13, 2026</time></p>
+<p>Rights workflow · Published and updated <time datetime="2026-10-21T13:45:00-04:00">October 21, 2026</time></p>
 
-<script type="application/ld+json">{"@context": "https://schema.org", "@graph": [{"@type": "Article", "headline": "Before sharing a manuscript: recipient, references, scope and record", "description": "Verify a manuscript recipient, check translation-partner references, agree what to share and keep a handoff record before releasing a digital file.", "datePublished": "2026-10-13T14:00:00-04:00", "dateModified": "2026-10-13T14:00:00-04:00", "author": {"@type": "Organization", "name": "Rex Publishing"}, "publisher": {"@type": "Organization", "name": "Rex Publishing"}, "articleSection": "Rights workflow", "image": "https://rexpublishingcorp.com/images/blog/2026-06-30-rights-partner-vetting-and-manuscript-sharing-guide.svg", "mainEntityOfPage": "https://rexpublishingcorp.com/blog/2026-06-30-rights-partner-vetting-and-manuscript-sharing-guide/"}, {"@type": "BreadcrumbList", "itemListElement": [{"@type": "ListItem", "position": 1, "name": "Home", "item": "https://rexpublishingcorp.com/"}, {"@type": "ListItem", "position": 2, "name": "Blog", "item": "https://rexpublishingcorp.com/blog/"}, {"@type": "ListItem", "position": 3, "name": "Manuscript handoff checks", "item": "https://rexpublishingcorp.com/blog/2026-06-30-rights-partner-vetting-and-manuscript-sharing-guide/"}]}]}</script>
+<script type="application/ld+json">{"@context": "https://schema.org", "@graph": [{"@type": "Article", "headline": "Before sharing a manuscript: recipient, references, scope and record", "description": "Verify a manuscript recipient, check translation-partner references, agree what to share and keep a handoff record before releasing a digital file.", "datePublished": "2026-10-21T13:45:00-04:00", "dateModified": "2026-10-21T13:45:00-04:00", "author": {"@type": "Organization", "name": "Rex Publishing"}, "publisher": {"@type": "Organization", "name": "Rex Publishing"}, "articleSection": "Rights workflow", "image": "https://rexpublishingcorp.com/images/blog/2026-06-30-rights-partner-vetting-and-manuscript-sharing-guide.svg", "mainEntityOfPage": "https://rexpublishingcorp.com/blog/2026-06-30-rights-partner-vetting-and-manuscript-sharing-guide/"}, {"@type": "BreadcrumbList", "itemListElement": [{"@type": "ListItem", "position": 1, "name": "Home", "item": "https://rexpublishingcorp.com/"}, {"@type": "ListItem", "position": 2, "name": "Blog", "item": "https://rexpublishingcorp.com/blog/"}, {"@type": "ListItem", "position": 3, "name": "Manuscript handoff checks", "item": "https://rexpublishingcorp.com/blog/2026-06-30-rights-partner-vetting-and-manuscript-sharing-guide/"}]}]}</script>
 
 An interested rights buyer asks for your manuscript. Before attaching it, answer four questions: who will receive it, what their previous partners can confirm, what you have agreed to share and how you will record the handoff. Interest in a book is a reason to continue a conversation, not a reason to skip those checks.
 
@@ -63,4 +63,4 @@ If you do send material, record the actual file version and address used. A late
 
 Before sending, complete the recipient check, note the reference evidence, agree the immediate sharing scope and assign the follow-up. If a material question remains open, ask it without attaching the manuscript. That keeps the conversation moving while making the decision to release a file deliberate and traceable.
 
-Sources checked October 13, 2026. This is a preparation workflow, not a tested security service, a legal clearance or a promise that checks eliminate risk.
+Sources checked October 21, 2026. This is a preparation workflow, not a tested security service, a legal clearance or a promise that checks eliminate risk.

@@ -1,57 +1,58 @@
 ---
-title: 'EPUB Reading Systems 3.4 is a QA and vendor-conversation story, not a baseline reset'
-description: 'W3C''s June 26, 2026 Working Draft for EPUB Reading Systems 3.4 adds roll-layout support and removes some older processing requirements, but the practical signal for publishers is still testing and vendor questions while EPUB 3.3 remains the stable baseline.'
-pubDate: '2026-07-20T14:33:02-04:00'
-updatedDate: '2026-07-20T14:33:02-04:00'
+title: 'EPUB Reading Systems 3.4: a practical QA checklist for publishers'
+description: 'Use the EPUB Reading Systems 3.4 draft to plan layout, network and accessibility tests while keeping specification status separate from proven app support.'
+pubDate: '2026-10-21T13:45:00-04:00'
+updatedDate: '2026-10-21T13:45:00-04:00'
 author: 'Rex Publishing'
 heroImage: '/images/blog/2026-07-20-epub-reading-systems-34-conformance-guide.svg'
-draft: true
+draft: false
 contentType: article
 source: repo
 ---
 
-<p>W3C's <a href="https://www.w3.org/TR/epub-rs-34/">EPUB Reading Systems 3.4</a>, published as a <strong>Working Draft on June 26, 2026</strong>, is useful for publishing teams for one reason above the rest: it sharpens the next round of EPUB QA and vendor questions. It is <strong>not</strong> the new stable baseline that ordinary production teams should suddenly switch to.</p>
+<p>Digital publishing · Published and updated <time datetime="2026-10-21T13:45:00-04:00">October 21, 2026</time></p>
 
-<p>That distinction matters because standards chatter gets misread all the time. W3C's own <a href="https://www.w3.org/TR/epub-overview-34/">EPUB 3 Overview</a> says EPUB 3.4 is still in development and based on the stable EPUB 3.3 version. W3C's current <a href="https://www.w3.org/publishing/epub3/">EPUB 3 page</a> still points readers to <strong>EPUB 3.3, EPUB Reading Systems 3.3, and EPUB Accessibility 1.1</strong> as the current stack.</p>
+<script type="application/ld+json">{"@context":"https://schema.org","@graph":[{"@type":"Article","headline":"EPUB Reading Systems 3.4: a practical QA checklist for publishers","datePublished":"2026-10-21T13:45:00-04:00","dateModified":"2026-10-21T13:45:00-04:00","author":{"@type":"Organization","name":"Rex Publishing"},"articleSection":"Digital publishing","mainEntityOfPage":"https://rexpublishingcorp.com/blog/2026-07-20-epub-reading-systems-34-conformance-guide/","image":"https://rexpublishingcorp.com/images/blog/2026-07-20-epub-reading-systems-34-conformance-guide.svg"},{"@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"Blog","item":"https://rexpublishingcorp.com/blog/"},{"@type":"ListItem","position":2,"name":"EPUB reading-system QA","item":"https://rexpublishingcorp.com/blog/2026-07-20-epub-reading-systems-34-conformance-guide/"}]}]}</script>
 
-<p>So the practical read is narrower and more useful. If you ship EPUBs, outsource conversion, or manage accessibility QA, Reading Systems 3.4 should shape what you ask partners to test next. It should not be confused with proof that the ecosystem has already moved.</p>
+A valid EPUB file and a usable reading experience are different things. For publishers commissioning conversion or checking an ebook before distribution, W3C's [EPUB Reading Systems 3.4](https://www.w3.org/TR/epub-rs-34/) offers a useful way to make that distinction concrete: test the software's behavior as well as the publication's structure.
 
-<h2 class="mt-10 mb-4 text-2xl font-bold text-gray-900">What actually changed in the draft</h2>
+At our October 21 source check, the specification identifies itself as a **Candidate Recommendation Draft dated July 21, 2026**. That supersedes the June Working Draft used in the original preparation of this guide. W3C explicitly calls the document a work in progress; its publication does not imply W3C endorsement or prove that a particular reading app implements it.
 
-<p>W3C's change log for the draft highlights the parts most likely to matter in workflow conversations. The biggest visible addition is <strong>support for roll layouts</strong> under fixed layouts. W3C also logs the removal of several older processing requirements, including some fixed-layout property handling and some manifest-fallback processing rules, plus a clarification that <code>hasFeature</code> matching is case sensitive.</p>
+The [EPUB 3.4 overview](https://www.w3.org/TR/epub-overview-34/) also says 3.4 is in development, based on stable EPUB 3.3. W3C's [EPUB 3.3 landing page](https://www.w3.org/publishing/epub3/) remains a reference for the established stack. Our recommendation is to keep a production baseline documented separately from experiments with the draft.
 
-<p>None of that means every reading app has already updated behavior. It does mean teams now have a cleaner standards reference for questions that often get lost in vague bug reports: which layout behavior is being targeted, which legacy fallback expectation is still worth testing, and whether an implementation issue is tied to old assumptions that the draft is trying to retire.</p>
+## Start by assigning the right responsibility
 
-<h2 class="mt-10 mb-4 text-2xl font-bold text-gray-900">Why this is a reading-system story, not an authoring story</h2>
+The reading-systems specification distinguishes authoring requirements from rendering requirements. The core EPUB specification describes the publication; Reading Systems describes the software that presents it. A reading system may be visual, audio-only or distributed across components.
 
-<p>W3C is explicit that the EPUB standard separates <strong>authoring requirements</strong> from <strong>rendering requirements</strong>. The core specification defines the publication format. Reading Systems 3.4 is about the software that renders it.</p>
+That matters when a defect crosses a supplier boundary. Record which file was supplied, which app and version rendered it, and what the reader could not do. A screenshot alone may show a symptom without identifying whether the cause is content, conversion or rendering.
 
-<p>That separation is useful because many production disputes are really handoff disputes. A publisher may deliver a valid file, a distributor may ingest it cleanly, and the reading experience can still break because a downstream reading system handles layout, navigation, scripting, or privacy controls differently. W3C also notes that a reading system might be visual, audio-only, or distributed across components, which is another reason not to reduce conformance to one app screenshot.</p>
+## Four test lanes to discuss with vendors
 
-<h2 class="mt-10 mb-4 text-2xl font-bold text-gray-900">The quiet workflow issue is network access and user control</h2>
+The following is a **Rex-suggested QA record**, not a W3C certification form or a claim that we have tested particular apps.
 
-<p>One of the more practical sections in the draft is not flashy at all. W3C says reading systems <em>may</em> support network access to retrieve remote resources, but warns that doing so raises security and privacy risks. It recommends that developers notify users when network activity occurs and let users block network access.</p>
+| Test lane | Question for the supplier | Evidence to keep |
+| --- | --- | --- |
+| Layout | How does the target system handle the layout used in this book, including roll layout if proposed? | File version, app/device version and observed navigation or display behavior |
+| Processing and fallbacks | What happens when a resource or optional feature is unsupported? | Expected fallback, observed result and responsibility for fixing the gap |
+| Network access | What remains usable when the reader blocks network access? | Required remote resources, user notice and offline result |
+| Accessibility controls | Can the reader reach the book, navigate, search and adjust its presentation? | Checks in the actual reading environment, alongside file-level validation |
 
-<p>For publishers and service vendors, that is a concrete QA prompt. If a workflow depends on remote resources, scripted behavior, or anything that reaches outside the package, the question is no longer only whether it works in a favorable environment. The question is what happens when a reading system takes the security and privacy guidance seriously.</p>
+### Layout support needs implementation evidence
 
-<p>That makes this draft relevant even for teams that do not build reading software themselves. It gives production leads and accessibility reviewers better language for acceptance testing, bug escalation, and vendor sign-off.</p>
+Roll layouts appear in the 3.4 material, but their presence in a specification is not a compatibility statement. The overview specifically warns that availability in major reading systems will take time. Before choosing a layout for a real edition, ask for evidence from the environments your readers use. Keep an unsupported feature separate from a malformed file.
 
-<h2 class="mt-10 mb-4 text-2xl font-bold text-gray-900">Accessibility expectations still reach beyond the file itself</h2>
+The draft's processing rules are also more precise than a blanket instruction to remove fallbacks. For example, its manifest-fallback section still requires traversal of the fallback chain for unsupported foreign content documents. Ask which requirement applies to your resource; do not infer that all fallback handling has disappeared.
 
-<p>W3C's accessibility section is another useful reminder that EPUB quality is not exhausted by file validity. The draft points to accessible bookshelf access, controls, full-text search, display control, and zoom as features that materially affect the reading experience.</p>
+### Network behavior belongs in acceptance testing
 
-<p>That matters because accessibility conversations still get narrowed too quickly to metadata fields or pass-fail content checks. A file can be structurally respectable and still land in a reading environment that makes navigation, discovery, magnification, or interface control harder than it should be. Reading Systems 3.4 does not magically solve that problem, but it does keep the standards conversation pointed at the user-facing layer where a lot of accessibility success or failure actually happens.</p>
+The draft permits network access but describes security and privacy risks. If developers allow it, W3C recommends notifying users when network activity occurs and allowing them to block access. For a publisher, the practical question is what the book does under that condition. Do essential explanations remain available, or does the reading path depend on a remote resource?
 
-<h2 class="mt-10 mb-4 text-2xl font-bold text-gray-900">What Rex readers should do with this now</h2>
+### Accessibility continues beyond validation
 
-<ul class="mb-6 list-disc pl-6 space-y-2">
-  <li>Treat Reading Systems 3.4 as a <strong>testing and roadmap document</strong>, not as proof that the stable baseline has changed.</li>
-  <li>Keep using the current EPUB 3.3 stack as the default reference for ordinary production decisions.</li>
-  <li>Ask vendors and platform partners specifically about <strong>roll-layout behavior, legacy processing assumptions, network-access handling, and accessibility controls</strong>.</li>
-  <li>Keep claims narrow unless you have implementation evidence from the actual reading environments your books depend on.</li>
-  <li>Separate authoring conformance from reading-system behavior when triaging defects, contracts, and QA responsibility.</li>
-</ul>
+W3C's reading-system accessibility discussion includes bookshelf access, controls, search, display adjustment and zoom. Those are user-facing behaviors that a file-validation result cannot fully establish. Keep the [EPUB 3.3 baseline guide](/blog/2026-07-15-epub-33-current-baseline-guide/) for specification context and our [accessibility techniques guide](/blog/2026-06-22-epub-accessibility-techniques-12-workflow-guide/) for adjacent content work.
 
-<p>The useful lesson is procedural. A new draft does not mean panic migration. It means the next round of EPUB QA can get more precise. For teams already working against the current baseline, that is good news: the job is to tighten testing and partner conversations, not to pretend the whole stack reset overnight.</p>
+## Turn the draft into a bounded test plan
 
-<p>For related Rex guidance, see our <a href="/blog/2026-07-15-epub-33-current-baseline-guide/">EPUB 3.3 baseline guide</a>, our <a href="/blog/2026-06-22-epub-accessibility-techniques-12-workflow-guide/">EPUB accessibility techniques workflow guide</a>, and our <a href="/blog/2026-06-16-epub-accessibility-eaa-mapping-workflow-guide/">EAA mapping guide</a>. If you need help tightening EPUB production, accessibility QA, or vendor handoffs before distribution issues multiply, <a href="/contact/">contact Rex Publishing</a>.</p>
+Pick a representative file and the actual reading environments in your distribution plan. Agree expected behavior, record results and assign unresolved defects before sign-off. The useful output is an evidence trail for that edition—not a claim that the whole market has adopted 3.4, or an invented migration deadline.
+
+Sources checked October 21, 2026. This guide reports specification guidance and Rex editorial recommendations; it is not a firsthand app conformance review.
