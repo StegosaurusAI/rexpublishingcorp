@@ -1,0 +1,24 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="600" viewBox="0 0 1200 600" role="img" aria-labelledby="title desc">
+<title id="title">London IRC: credentials and meeting verification</title>
+<desc id="desc">Vetted IRC badge holders enter directly. Visitors with a scheduled meeting but no IRC badge present meeting proof at the information desk. After verification, the organizer describes a temporary pass or escort. This is not a fair-admission guarantee.</desc>
+<rect width="1200" height="600" fill="#102b36"/>
+<g font-family="Arial, Helvetica, sans-serif">
+<text x="60" y="64" font-size="20" fill="#8ee4c0" letter-spacing="2">REX PUBLISHING · RIGHTS-EVENT PREPARATION</text>
+<text x="60" y="120" font-size="40" font-weight="700" fill="#fff">London IRC: which route applies?</text>
+<text x="60" y="159" font-size="22" fill="#c5d7de">Prepare credentials and meeting evidence separately.</text>
+<rect x="60" y="198" width="500" height="278" rx="16" fill="#eaf7f0"/>
+<rect x="590" y="198" width="550" height="278" rx="16" fill="#fff5df"/>
+<g fill="#14333d">
+<text x="86" y="242" font-size="24" font-weight="700">VETTED IRC BADGE HOLDER</text>
+<text x="86" y="292" font-size="28">Direct entry</text>
+<text x="86" y="340" font-size="21">Organizer-controlled access</text>
+<text x="86" y="432" font-size="19">Keep your credentials available.</text>
+<text x="616" y="242" font-size="24" font-weight="700">MEETING, BUT NO IRC BADGE</text>
+<text x="616" y="289" font-size="22">1. Scheduled meeting proof</text>
+<text x="616" y="332" font-size="22">2. Information-desk verification</text>
+<text x="616" y="375" font-size="22">3. Once verified: pass or escort</text>
+<text x="616" y="432" font-size="19">Allow time for the check.</text>
+</g>
+<text x="60" y="523" font-size="22" fill="#fff">A meeting confirmation is not a fair-admission guarantee.</text>
+<text x="60" y="561" font-size="18" fill="#c5d7de">Organizer policy checked 22 October 2026 · Recheck before travel · Not a venue map</text>
+</g></svg>
