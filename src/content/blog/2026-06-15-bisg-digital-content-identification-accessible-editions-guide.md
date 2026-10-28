@@ -1,8 +1,8 @@
 ---
 title: 'BISG’s 2026 identifier update is a practical check on when an accessible ebook becomes a separate product'
-description: 'BISG’s revised digital-content guidance and International ISBN Agency rules both point to the same workflow lesson: treat materially distinct language, format, platform, or usage-constrained ebook versions as separately identified products.'
+description: 'A worked edition register helps teams check ISBN decisions for translations, print, EPUB, unchanged reprints and internal masters without assigning one number per file.'
 pubDate: '2026-06-15T17:35:00-04:00'
-updatedDate: '2026-06-15T17:35:00-04:00'
+updatedDate: '2026-10-28T10:31:54-04:00'
 author: 'Rex Publishing'
 contentType: article
 source: repo
@@ -18,7 +18,7 @@ source: repo
 
 <p>The <a href="https://www.isbn-international.org/content/isbn-assignment">International ISBN Agency</a> is already clear on the broad structure. Each different language edition needs its own ISBN. Different formats need different ISBNs. And for digital publications, each separate publication should be identified separately.</p>
 
-<p>Its <a href="https://www.isbn-international.org/content/guidelines-assignment-e-books/26">ebook-assignment guidance</a> adds the practical test many small teams need: if a version requires specific software or devices, or carries different usage constraints around functions such as copying, printing, or lending, it may be a distinct product even when the editorial text is otherwise the same.</p>
+<p>Its <a href="https://www.isbn-international.org/content/guidelines-assignment-e-books/26">ebook-assignment guidance</a> adds the practical test many small teams need: if a version requires specific software or devices, or carries different usage constraints around functions such as copying, printing, or lending, it may be a distinct product even when the editorial text is otherwise the same. Device limitations alone do not create a new product; interoperable versions with the same format, DRM and substantially identical constraints share an ISBN. For proprietary platform-bound DRM, separate ISBNs apply if ISBNs are assigned.</p>
 
 <p>That is the part publishers often under-manage. A file can look like “the same book” to editorial, while behaving like a different product in distribution, accessibility, or platform terms.</p>
 
@@ -50,6 +50,27 @@ source: repo
 </ol>
 
 <p>This is a better workflow than waiting for a retailer, distributor, or conversion partner to guess what counts as the real product.</p>
+
+<h2 class="mt-10 mb-4 text-2xl font-bold text-gray-900">A worked translation-edition register</h2>
+
+<p>Here is a fictional handoff for a book called <em>River Notebook</em>. The English paperback already has an ISBN; a Polish translation and digital release are in preparation. No numbers below have been assigned. These are Rex’s suggested workflow fields, not agency-required metadata. Reviewer roles and dates illustrate a completed team check, not real work on a real book.</p>
+
+<div class="overflow-x-auto mb-6">
+<table>
+  <caption>Fictional edition register — illustrative review date: October 28, 2026</caption>
+  <thead><tr><th scope="col">Edition label</th><th scope="col">Language</th><th scope="col">Public format / distribution</th><th scope="col">Identifier decision</th><th scope="col">Rationale / source</th><th scope="col">Responsible reviewer / check date</th></tr></thead>
+  <tbody>
+    <tr><th scope="row">Original paperback</th><td>English</td><td>Paperback; public</td><td>Existing ISBN</td><td>Baseline edition record</td><td>Production editor / 2026-10-28</td></tr>
+    <tr><th scope="row">Translation paperback</th><td>Polish</td><td>Paperback; planned public release</td><td>Separate ISBN to be assigned</td><td>Different language; assignment guidance</td><td>Translation editor / 2026-10-28</td></tr>
+    <tr><th scope="row">Translation EPUB</th><td>Polish</td><td>EPUB; planned public release</td><td>Separate from paperback; to be assigned</td><td>Different format; assignment guidance</td><td>Digital production lead / 2026-10-28</td></tr>
+    <tr><th scope="row">Paperback reprint</th><td>English</td><td>Paperback; same publisher, text and binding</td><td>Retain original ISBN</td><td>Unchanged reprint; assignment guidance</td><td>Production editor / 2026-10-28</td></tr>
+    <tr><th scope="row">Conversion master</th><td>Polish</td><td>Internal only; not publicly distributed in this form</td><td>Internal job ID, not a public-product ISBN</td><td>Undistributed master; ebook guidance</td><td>Conversion coordinator / 2026-10-28</td></tr>
+    <tr><th scope="row">Restricted EPUB option</th><td>Polish</td><td>Proposed separate public version; printing disabled</td><td>Hold until constraints confirmed; separate ISBN if materially different from the offered print-enabled EPUB</td><td>Distinct usage constraints; ebook guidance</td><td>Digital production lead / 2026-10-28</td></tr>
+  </tbody>
+</table>
+</div>
+
+<p>The row decisions draw on the Agency’s <a href="https://www.isbn-international.org/content/isbn-assignment">assignment rules</a> and <a href="https://www.isbn-international.org/content/guidelines-assignment-e-books/26">ebook guidance</a>, rechecked October 28, 2026. Keep an unresolved option on hold rather than guessing its identifier. ISBN assignment does not clear translation or distribution rights. Reconcile the finished register with the metadata handoff before release.</p>
 
 <h2 class="mt-10 mb-4 text-2xl font-bold text-gray-900">Why publisher assignment matters</h2>
 
