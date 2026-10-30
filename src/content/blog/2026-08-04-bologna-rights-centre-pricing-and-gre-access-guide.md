@@ -9,6 +9,8 @@ contentType: article
 source: repo
 ---
 
+<p><small>Updated October 30, 2026: pricing-boundary correction and refreshed budgeting guidance. Originally published August 14, 2026.</small></p>
+
 <p>Bologna Rights Centre planning starts with two questions: how much meeting space does your team need, and who will maintain its rights catalogue after the fair? The organiser's <a href="https://www.bolognachildrensbookfair.com/en/exhibitors/interested-in-exhibiting/exhibiting-at-the-rights-centre/15999.html">2027 participation page</a>, checked on October 30, lists tables at <strong>EUR 940 before October 31, 2026, and EUR 985 from November 1</strong>; offices are <strong>EUR 1,250 and EUR 1,320</strong> on the same schedule. VAT is extra where due.</p>
 
 <p><strong>The wording does not settle which rate applies on October 31.</strong> Confirm that boundary and availability with the organiser before relying on a lower-rate booking. This guide previously called October 31 the last day before the increase; that unsupported assertion has been removed.</p>
