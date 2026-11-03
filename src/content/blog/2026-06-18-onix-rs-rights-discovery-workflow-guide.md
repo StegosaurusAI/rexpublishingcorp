@@ -2,7 +2,7 @@
 title: 'ONIX-RS gives rights teams a cleaner workflow for permissions research and reuse requests'
 description: 'EDItEUR’s ONIX-RS standard is a practical model for turning messy rights-discovery work into a structured process for matching, permissions requests, and license responses.'
 pubDate: '2026-06-19T10:30:00-04:00'
-updatedDate: '2026-06-19T10:30:00-04:00'
+updatedDate: '2026-11-03T15:31:59+00:00'
 author: 'Rex Publishing'
 contentType: article
 source: repo
@@ -61,6 +61,14 @@ source: repo
 </ol>
 
 <p>This is the same basic discipline behind our <a href="/blog/2026-06-17-onix-sales-rights-metadata-workflow-guide/">ONIX sales-rights metadata guide</a>: better structure upstream usually means less confusion downstream. The difference is that sales-rights metadata explains where a product can be sold, while ONIX-RS is about how a rights question is researched and resolved.</p>
+
+<h2 class="mt-10 mb-4 text-2xl font-bold text-gray-900">Finding a contact before you send a rights request</h2>
+
+<p>A structured request still needs a destination. BISG's <a href="https://findarightsholder.bisg.org/">Find a Rightsholder</a> is a contact directory for content published by US and UK publishers. Its <a href="https://findarightsholder.bisg.org/search">search page</a> accepts an imprint or publisher name, requires at least three characters, and separates permissions contacts from subrights contacts. Choose a contact category that fits your question; the directory is a human research starting point, not an ONIX-RS integration.</p>
+
+<p>BISG describes the records as incomplete and subject to change. A missing entry or empty contact field leaves an unresolved lead; it does not establish that a right is unavailable. BISG's <a href="https://www.bisg.org/bisg-rights-faq">Rights FAQ</a> recommends starting with the publisher, which may refer you to an author's agent. Before negotiating, confirm who controls the proposed use, language and territory rather than treating a directory match as clearance. If the next step involves sending a manuscript, use our <a href="/blog/2026-06-30-rights-partner-vetting-and-manuscript-sharing-guide/">rights-partner vetting and manuscript-sharing guide</a> to check the recipient and limit what you share.</p>
+
+<p><small>Updated November 3, 2026: added the BISG contact-discovery step; directory scope, search-page instructions and Rights FAQ checked on this date.</small></p>
 
 <h2 class="mt-10 mb-4 text-2xl font-bold text-gray-900">What not to assume</h2>
 
