@@ -1,0 +1,21 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1600" height="900" viewBox="0 0 1600 900" role="img" aria-labelledby="title desc">
+<title id="title">Audiobook handoff: from supplied package to acceptance evidence</title>
+<desc id="desc">Keep master files and consumer-format metadata separate. Confirm recipient requirements, record delivery acknowledgement, then obtain acceptance evidence or assign an unresolved action. Acknowledgement alone is not acceptance.</desc>
+<rect width="1600" height="900" fill="#101e32"/>
+<g font-family="Arial, sans-serif" fill="#f4f7fb">
+<text x="90" y="108" font-size="25" letter-spacing="3" fill="#7edbd1">REX PUBLISHING · AUDIOBOOK WORKFLOWS</text>
+<text x="90" y="205" font-size="56" font-weight="700">A finished master is not</text>
+<text x="90" y="275" font-size="56" font-weight="700">distribution acceptance</text>
+<rect x="90" y="345" width="650" height="210" rx="18" fill="#20334e"/>
+<text x="120" y="395" font-size="28" font-weight="700">SUPPLIED PACKAGE</text>
+<text x="120" y="450" font-size="28">Master files + manifest + version</text>
+<text x="120" y="503" font-size="25" fill="#7edbd1">Consumer-format metadata: separate field</text>
+<rect x="790" y="345" width="720" height="210" rx="18" fill="#20334e"/>
+<text x="820" y="395" font-size="28" font-weight="700">RECIPIENT REQUIREMENTS</text>
+<text x="820" y="450" font-size="28">Confirm the applicable specification</text>
+<text x="820" y="503" font-size="25" fill="#7edbd1">Unknown? Keep the question and owner visible</text>
+<path d="M800 575 V620" stroke="#7edbd1" stroke-width="6"/><path d="m785 605 15 16 15-16" fill="none" stroke="#7edbd1" stroke-width="6"/>
+<text x="90" y="690" font-size="31" font-weight="700">Delivery acknowledgement ≠ acceptance evidence</text>
+<text x="90" y="750" font-size="29">Record the accepted version—or the open action and owner.</text>
+<text x="90" y="830" font-size="24" fill="#a9bbd1">Rex editorial framework · Not an official template or a validation result</text>
+</g></svg>
