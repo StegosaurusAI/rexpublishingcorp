@@ -1,0 +1,55 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="630" viewBox="0 0 1200 630" role="img" aria-labelledby="title desc">
+  <title id="title">Five checks for course-material planning</title>
+  <desc id="desc">A five-part course-material planning grid covering price, format, access duration, choice and transparency, and open or library alternatives.</desc>
+  <rect width="1200" height="630" fill="#102b38"/>
+  <g font-family="Arial, sans-serif">
+    <text x="64" y="72" font-size="22" fill="#8fd5c3">REX PUBLISHING / COURSE-MATERIAL PLANNING</text>
+    <text x="64" y="133" font-size="42" font-weight="700" fill="#ffffff">Test the adoption, not the headline</text>
+    <text x="64" y="174" font-size="23" fill="#c7e5dc">Different samples can support different format and access findings.</text>
+
+    <g transform="translate(64 222)">
+      <rect width="196" height="192" rx="16" fill="#eaf3ee"/>
+      <circle cx="34" cy="38" r="18" fill="#166534"/>
+      <text x="34" y="45" text-anchor="middle" font-size="20" font-weight="700" fill="#ffffff">1</text>
+      <text x="26" y="91" font-size="27" font-weight="700" fill="#102b38">Price</text>
+      <text x="26" y="130" font-size="19" fill="#244a59">Actual charge</text>
+      <text x="26" y="159" font-size="19" fill="#244a59">Bundle contents</text>
+    </g>
+    <g transform="translate(282 222)">
+      <rect width="196" height="192" rx="16" fill="#eaf3ee"/>
+      <circle cx="34" cy="38" r="18" fill="#166534"/>
+      <text x="34" y="45" text-anchor="middle" font-size="20" font-weight="700" fill="#ffffff">2</text>
+      <text x="26" y="91" font-size="27" font-weight="700" fill="#102b38">Format</text>
+      <text x="26" y="130" font-size="19" fill="#244a59">Course tasks</text>
+      <text x="26" y="159" font-size="19" fill="#244a59">Accessibility</text>
+    </g>
+    <g transform="translate(500 222)">
+      <rect width="196" height="192" rx="16" fill="#eaf3ee"/>
+      <circle cx="34" cy="38" r="18" fill="#166534"/>
+      <text x="34" y="45" text-anchor="middle" font-size="20" font-weight="700" fill="#ffffff">3</text>
+      <text x="26" y="91" font-size="27" font-weight="700" fill="#102b38">Duration</text>
+      <text x="26" y="130" font-size="19" fill="#244a59">Start and expiry</text>
+      <text x="26" y="159" font-size="19" fill="#244a59">Post-course use</text>
+    </g>
+    <g transform="translate(718 222)">
+      <rect width="196" height="192" rx="16" fill="#eaf3ee"/>
+      <circle cx="34" cy="38" r="18" fill="#166534"/>
+      <text x="34" y="45" text-anchor="middle" font-size="20" font-weight="700" fill="#ffffff">4</text>
+      <text x="26" y="91" font-size="27" font-weight="700" fill="#102b38">Choice</text>
+      <text x="26" y="130" font-size="19" fill="#244a59">Clear disclosure</text>
+      <text x="26" y="159" font-size="19" fill="#244a59">Opt-out route</text>
+    </g>
+    <g transform="translate(936 222)">
+      <rect width="200" height="192" rx="16" fill="#eaf3ee"/>
+      <circle cx="34" cy="38" r="18" fill="#166534"/>
+      <text x="34" y="45" text-anchor="middle" font-size="20" font-weight="700" fill="#ffffff">5</text>
+      <text x="26" y="91" font-size="27" font-weight="700" fill="#102b38">Alternatives</text>
+      <text x="26" y="130" font-size="19" fill="#244a59">OER and library</text>
+      <text x="26" y="159" font-size="19" fill="#244a59">Licenses and gaps</text>
+    </g>
+
+    <rect x="64" y="462" width="1072" height="104" rx="16" fill="#183f4d" stroke="#8fd5c3" stroke-width="2"/>
+    <text x="94" y="510" font-size="25" font-weight="700" fill="#ffffff">NACS 2026 and VIVA 2025 answer different survey questions.</text>
+    <text x="94" y="548" font-size="21" fill="#8fd5c3">Keep the sample, price and access terms attached to every conclusion.</text>
+  </g>
+</svg>
