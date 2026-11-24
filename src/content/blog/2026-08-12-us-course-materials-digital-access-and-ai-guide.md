@@ -98,4 +98,3 @@ The following is a Rex editorial workflow, not a form issued by NACS or VIVA.
 </div>
 
 These sources were checked on **November 24, 2026**. The public NACS pages summarize paid reports and come from a campus-retailing trade association. The VIVA report supplies an independent, openly available Virginia evidence bucket. Their differences are the point: product planning needs a named audience and a documented access model. “Students prefer digital” or “access programs work” is too broad to make the decision for you.
-
