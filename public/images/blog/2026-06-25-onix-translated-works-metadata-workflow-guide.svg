@@ -1,0 +1,29 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="630" viewBox="0 0 1200 630" role="img" aria-labelledby="title desc">
+  <title id="title">ONIX handoff for a translated edition</title>
+  <desc id="desc">A source work connects to a translated edition record that carries languages, translator credit, work relationships, titles, subjects and dates into downstream metadata.</desc>
+  <rect width="1200" height="630" fill="#102b38"/>
+  <g font-family="Arial, sans-serif">
+    <text x="64" y="74" font-size="22" fill="#8fd5c3">REX PUBLISHING / METADATA OPERATIONS</text>
+    <text x="64" y="137" font-size="42" font-weight="700" fill="#ffffff">Keep the translation chain visible</text>
+    <rect x="64" y="190" width="260" height="220" rx="18" fill="#eaf3ee"/>
+    <text x="94" y="245" font-size="29" font-weight="700" fill="#102b38">Source work</text>
+    <text x="94" y="299" font-size="23" fill="#244a59">Original language</text>
+    <text x="94" y="339" font-size="23" fill="#244a59">Original title</text>
+    <text x="94" y="379" font-size="23" fill="#244a59">Stable work ID</text>
+    <path d="M342 300 H420" stroke="#8fd5c3" stroke-width="10" stroke-linecap="round"/>
+    <path d="M399 280 L426 300 L399 320" fill="none" stroke="#8fd5c3" stroke-width="10" stroke-linecap="round" stroke-linejoin="round"/>
+    <rect x="444" y="174" width="692" height="268" rx="18" fill="#eaf3ee"/>
+    <text x="478" y="229" font-size="29" font-weight="700" fill="#102b38">Translated edition record</text>
+    <g font-size="22" fill="#244a59">
+      <text x="478" y="283">Product + source languages</text>
+      <text x="478" y="325">Translator credit + identifier</text>
+      <text x="478" y="367">Translated + source-work links</text>
+      <text x="808" y="283">Titles + name forms</text>
+      <text x="808" y="325">Subjects + audience</text>
+      <text x="808" y="367">Publication dates</text>
+    </g>
+    <rect x="64" y="478" width="1072" height="92" rx="16" fill="#183f4d" stroke="#8fd5c3" stroke-width="2"/>
+    <text x="94" y="525" font-size="25" font-weight="700" fill="#ffffff">Metadata carries relationships. It does not clear translation rights.</text>
+    <text x="94" y="556" font-size="19" fill="#8fd5c3">Rex editorial workflow aid · Based on EDItEUR translated-text guidance</text>
+  </g>
+</svg>
