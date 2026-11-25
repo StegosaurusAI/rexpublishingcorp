@@ -2,11 +2,13 @@
 title: 'Translation contract checklist for authors and translators before signing a deal'
 description: 'Authors Guild, ATA, and LTAC resources all point to the same operational lesson: translation deals need clear terms on rights, royalties, credit, control, and jurisdiction before work starts.'
 pubDate: '2026-06-15T14:30:00-04:00'
-updatedDate: '2026-06-15T14:30:00-04:00'
+updatedDate: '2026-11-25T17:35:32-05:00'
 author: 'Rex Publishing'
 contentType: article
 source: repo
 ---
+
+<p>Rights workflow · Published <time datetime="2026-06-15T14:30:00-04:00">June 15, 2026</time> · Updated <time datetime="2026-11-25T17:35:32-05:00">November 25, 2026</time></p>
 
 <p>Translation deals go wrong long before a lawsuit. Most trouble starts earlier, when the parties never got specific about rights, royalties, credit, approval, or what happens to the translation after delivery.</p>
 
@@ -41,6 +43,19 @@ source: repo
 <p>The Authors Guild says its publicly available model contract was created to help translators and publishers negotiate better deals. The Guild describes it as an explanation of standard terms for book-length prose translations, with commentary and suggestions for negotiation. It also says the model includes clauses intended to protect translators against generative-AI uses of their works.</p>
 
 <p>That does not make the model contract universal. It does make it a useful baseline for asking better questions. If a draft agreement is missing obvious language on rights ownership, royalties, attribution, warranties, approval, or AI-related reuse, readers should treat that as a signal to slow down and clarify the deal.</p>
+
+<h2 class="mt-10 mb-4 text-2xl font-bold text-gray-900">Separate four translation and AI decisions</h2>
+
+<p>The Authors Guild’s <a href="https://authorsguild.org/advocacy/artificial-intelligence/ai-model-clauses/">public AI model clauses</a> keep several permissions separate. They are optional negotiating language from one advocacy organization, not law or proof of standard industry practice. Used as a review prompt, they raise four questions:</p>
+
+<ol class="mb-6 list-decimal pl-6 space-y-2">
+  <li><strong>What translation rights are granted?</strong> Identify the language, territory, formats, term, and any authority to sublicense before discussing how a translation will be produced.</li>
+  <li><strong>Does a nonhuman translation require separate consent?</strong> The Guild’s proposed translation clause calls for an author’s prior express written consent before a publisher uses an AI or other nonhuman translator.</li>
+  <li><strong>How does the contract treat human-controlled assistance?</strong> The same proposed clause distinguishes nonhuman translation from a human translator’s use of AI as a tool when the translator controls, reviews, and approves the wording and the result remains substantially human-created.</li>
+  <li><strong>May anyone upload the manuscript?</strong> A separate Guild clause addresses permission and safeguards for putting manuscript text or personal information into consumer-facing AI systems. Record who may upload what, for which purpose, and what prevents the material from being used for training.</li>
+</ol>
+
+<p>Do not compress those points into one broad “AI rights” answer. A grant of translation rights does not settle the production method, and approval of a translation method does not automatically authorize a manuscript upload. Put each decision in writing, including any refusal or condition.</p>
 
 <h2 class="mt-10 mb-4 text-2xl font-bold text-gray-900">Why jurisdiction needs to stay visible</h2>
 
@@ -78,3 +93,5 @@ source: repo
 <p>For Rex readers, that means treating translation contracts as workflow infrastructure, not paperwork cleanup. Clear scope, clear pay terms, clear credit, and clear reuse rules are what let authors, translators, and rights teams move without guessing.</p>
 
 <p>If you are preparing rights materials, our <a href="/blog/2026-06-08-translation-rights-checklist-for-authors/">translation rights checklist for authors</a> is a useful companion. If you need help tightening the publishing packet before negotiations start, <a href="/contact/">contact Rex Publishing</a>.</p>
+
+<p>Sources rechecked November 25, 2026.</p>
