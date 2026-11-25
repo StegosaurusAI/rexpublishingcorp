@@ -2,12 +2,14 @@
 title: 'Translation rights checklist for authors before you start pitching abroad'
 description: 'A practical pre-meeting checklist for authors: confirm ownership, prior grants, territories, formats, metadata, and the materials you need before translation-rights conversations.'
 pubDate: '2026-06-08T14:30:00-04:00'
-updatedDate: '2026-06-08T14:58:00-04:00'
-heroImage: '/blog-placeholder-5.jpg'
+updatedDate: '2026-11-25T10:32:37-05:00'
+heroImage: '/images/blog/2026-06-08-translation-rights-checklist-for-authors.svg'
 author: 'Rex Publishing'
 contentType: article
 source: repo
 ---
+
+<p>Rights workflow · Published <time datetime="2026-06-08T14:30:00-04:00">June 8, 2026</time> · Updated <time datetime="2026-11-25T10:32:37-05:00">November 25, 2026</time></p>
 
 <p>If you want to discuss translation rights seriously, the first job is not outreach. It is cleanup.</p>
 
@@ -86,6 +88,26 @@ source: repo
   <li><strong>Sublicensing:</strong> permitted, restricted, or prohibited</li>
   <li><strong>Status:</strong> available, under option, already licensed, reverted</li>
 </ul>
+
+<h2 class="mt-10 mb-4 text-2xl font-bold text-gray-900">Add an evidence index to the rights table</h2>
+
+<p>A status such as “available” or “reverted” is still only a claim until someone can find the document behind it. Add a small evidence index beside the rights table. It should point to the relevant agreement, notice, correspondence, or other record; show what is missing or contradictory; and assign the next check.</p>
+
+<p>WIPO's <a href="https://www.wipo.int/web-publications/development-and-pitching-of-audiovisual-projects-a-guide-for-independent-filmmakers/en/5-development.html">audiovisual development guide</a> stresses contract mapping, retrievable records, and tracked obligations in film production. An author's index is narrower: it organizes the book-side evidence that a qualified reviewer may need. It does not transfer a producer's clearance duties to the author.</p>
+
+<div role="region" aria-label="Fictional translation-rights evidence index" tabindex="0" style="overflow-x:auto;">
+<table>
+<caption>Fictional, untested examples. Replace them with private file references, not contract text.</caption>
+<thead><tr><th scope="col">Claimed rights scope</th><th scope="col">Supporting document, date and private reference</th><th scope="col">Missing or conflicting evidence</th><th scope="col">Next action and owner</th></tr></thead>
+<tbody>
+<tr><td>Polish-language print and ebook rights said to be available</td><td>Agency agreement dated March 12, 2024; private file AG-04</td><td>Territory schedule is not in the indexed file</td><td>Rights manager locates the signed schedule before the claim enters a pitch</td></tr>
+<tr><td>German audio rights said to have reverted</td><td>Publisher notice dated July 8, 2025; private file RV-02</td><td>Notice and original agreement use different title wording</td><td>Qualified counsel reviews the agreement and notice; status stays unresolved</td></tr>
+<tr><td>World Spanish rights under option</td><td>Option memo dated October 2, 2026; private file OP-07</td><td>Signed option and end date are not in the file</td><td>Agent confirms the current document and expiry evidence; no availability claim meanwhile</td></tr>
+</tbody>
+</table>
+</div>
+
+<p>This index is an organization aid, not proof of ownership, chain-of-title certification, clearance, or a legal conclusion about expiry or reversion. Keep uncertain status visible. For the separate questions of circulating a file and maintaining a U.S. public record, use our <a href="/blog/2026-06-30-rights-partner-vetting-and-manuscript-sharing-guide/">manuscript-sharing checks</a> and <a href="/blog/2026-06-18-copyright-recordation-for-rights-transfers-guide/">copyright recordation guide</a>.</p>
 
 <h2 class="mt-10 mb-4 text-2xl font-bold text-gray-900">4) Prepare the metadata packet before anyone asks for it</h2>
 
@@ -193,3 +215,5 @@ source: repo
 <p>Clear ownership, clean scope, usable metadata, and honest caveats do more for translation-rights momentum than a bigger contact list.</p>
 
 <p>If you want help turning a messy rights picture into a usable publishing packet, <a href="/contact/">contact Rex Publishing</a>.</p>
+
+<p><em>Primary references checked November 25, 2026. The evidence-index examples are fictional and untested; no ownership, availability, reversion, or clearance conclusion is implied.</em></p>
