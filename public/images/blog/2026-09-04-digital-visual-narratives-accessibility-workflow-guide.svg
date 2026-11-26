@@ -1,0 +1,56 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="630" viewBox="0 0 1200 630" role="img" aria-labelledby="title desc">
+  <title id="title">Digital visual narratives production workflow</title>
+  <desc id="desc">A Rex Publishing diagram connecting source artwork and script to structure, accessibility, reading-system tests, and portable release files.</desc>
+  <rect width="1200" height="630" fill="#102b38"/>
+  <g font-family="Arial, sans-serif">
+    <text x="64" y="68" font-size="21" fill="#8fd5c3">REX PUBLISHING / DIGITAL PRODUCTION</text>
+    <text x="64" y="124" font-size="42" font-weight="700" fill="#ffffff">Plan the reading experience before export</text>
+    <text x="64" y="164" font-size="22" fill="#c7e5dc">Keep one portable source package, then test each delivery path.</text>
+
+    <g transform="translate(64 218)">
+      <rect width="232" height="164" rx="18" fill="#eaf3ee"/>
+      <text x="24" y="46" font-size="24" font-weight="700" fill="#102b38">1. Source</text>
+      <text x="24" y="86" font-size="18" fill="#244a59">Artwork + script</text>
+      <text x="24" y="116" font-size="18" fill="#244a59">Languages + rights</text>
+      <text x="24" y="146" font-size="18" fill="#244a59">Stable identifiers</text>
+    </g>
+
+    <path d="M314 300 H354" stroke="#8fd5c3" stroke-width="6" stroke-linecap="round"/>
+    <path d="M344 289 L357 300 L344 311" fill="none" stroke="#8fd5c3" stroke-width="6" stroke-linecap="round" stroke-linejoin="round"/>
+
+    <g transform="translate(372 218)">
+      <rect width="232" height="164" rx="18" fill="#eef2f6"/>
+      <text x="24" y="46" font-size="24" font-weight="700" fill="#102b38">2. Structure</text>
+      <text x="24" y="86" font-size="18" fill="#244a59">Reading order</text>
+      <text x="24" y="116" font-size="18" fill="#244a59">Scroll or pages</text>
+      <text x="24" y="146" font-size="18" fill="#244a59">Navigation + series</text>
+    </g>
+
+    <path d="M622 300 H662" stroke="#8fd5c3" stroke-width="6" stroke-linecap="round"/>
+    <path d="M652 289 L665 300 L652 311" fill="none" stroke="#8fd5c3" stroke-width="6" stroke-linecap="round" stroke-linejoin="round"/>
+
+    <g transform="translate(680 218)">
+      <rect width="232" height="164" rx="18" fill="#eaf3ee"/>
+      <text x="24" y="46" font-size="24" font-weight="700" fill="#102b38">3. Access</text>
+      <text x="24" y="86" font-size="18" fill="#244a59">Exposed text</text>
+      <text x="24" y="116" font-size="18" fill="#244a59">Descriptions</text>
+      <text x="24" y="146" font-size="18" fill="#244a59">Controls + metadata</text>
+    </g>
+
+    <path d="M930 300 H970" stroke="#8fd5c3" stroke-width="6" stroke-linecap="round"/>
+    <path d="M960 289 L973 300 L960 311" fill="none" stroke="#8fd5c3" stroke-width="6" stroke-linecap="round" stroke-linejoin="round"/>
+
+    <g transform="translate(988 218)">
+      <rect width="148" height="164" rx="18" fill="#315a74"/>
+      <text x="20" y="46" font-size="24" font-weight="700" fill="#ffffff">4. Test</text>
+      <text x="20" y="86" font-size="17" fill="#d9eaf1">Devices</text>
+      <text x="20" y="116" font-size="17" fill="#d9eaf1">Readers</text>
+      <text x="20" y="146" font-size="17" fill="#d9eaf1">Fallbacks</text>
+    </g>
+
+    <rect x="64" y="438" width="1072" height="128" rx="16" fill="#183f4d" stroke="#8fd5c3" stroke-width="2"/>
+    <text x="92" y="482" font-size="23" font-weight="700" fill="#ffffff">Delivery choices stay separate</text>
+    <text x="92" y="520" font-size="20" fill="#c7e5dc">Paged EPUB · evolving scrolled EPUB support · incubating Divina · channel-specific exports</text>
+    <text x="92" y="552" font-size="18" fill="#8fd5c3">No single format pass proves accessibility, interoperability, or channel acceptance.</text>
+  </g>
+</svg>
